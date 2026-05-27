@@ -20,7 +20,7 @@ const NavbarSlider = ({ openSidebarMenu, services }) => {
             </Link>
           </li>
           <li className='hover:text-green-500'>
-            <Link href='/about-us' style={{ textDecoration: 'none' }}>
+            <Link href='/about' style={{ textDecoration: 'none' }}>
               About
             </Link>
           </li>
@@ -70,7 +70,7 @@ const NavbarSlider = ({ openSidebarMenu, services }) => {
             </div>
           </li>
           <li className='hover:text-green-500'>
-            <Link href='/contact-us' style={{ textDecoration: 'none' }}>
+            <Link href='/contact' style={{ textDecoration: 'none' }}>
               Contact
             </Link>
           </li>

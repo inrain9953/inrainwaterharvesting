@@ -44,7 +44,7 @@ const Navbar = () => {
                   {/* Trigger */}
                   <button
                     onClick={() => setOpen(!open)}
-                    className='flex items-center cursor-pointer gap-1 font-medium hover:text-green-500 transition-colors duration-300'
+                    className='flex items-center font-semibold cursor-pointer gap-1 font-medium hover:text-green-500 transition-colors duration-300'
                   >
                     Services
                     <ArrowDropDownIcon

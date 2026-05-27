@@ -24,7 +24,7 @@ const DynamicMetatag = ({ data }) => {
       <meta property="og:site_name" content="InRain® Construction Pvt. Ltd." />
       <meta
         name="google-site-verification"
-        content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+        content="PbDVyrzTtY0TXIc1bKpuhHLByOKSJEhYPGZ95GZtMyk"
       />
     </Head>
   );

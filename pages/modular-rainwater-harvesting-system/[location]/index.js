@@ -1,0 +1,303 @@
+import { CityData } from '@/components/constant'
+import Image from 'next/image'
+import Link from 'next/link'
+import Certification from '@/components/Certification/Certification'
+import DynamicMetatag from '@/components/Schema/DynamicMetatag'
+import DynamicSchema from '@/components/Schema/DynamicSchema'
+import Navbar from '@/components/Navbar/Navbar'
+import Footer from '@/components/Footer/Footer'
+
+export default function ModularRainwaterHarvestingSystemLocationPage ({
+  city,
+  slug
+}) {
+  const heading = 'Modular Rainwater Harvesting System'
+  const subheading = 'Rainwater Harvesting System'
+  const page = 'modular-rainwater-harvesting-system'
+  const data = {
+    title:
+      `${heading} in ${city.city}` +
+      ' ' +
+      '|' +
+      ' ' +
+      'InRain Construction Pvt. Ltd.',
+    desc: `Get the best ${heading} in ${city.city}. We have high-quality ${heading} for your requirement. Our ${heading} Service Provider in ${city.city} will help you & easy to install. Contact now`,
+    keyword: `${heading} in ${city.city}, ${subheading} in ${city.city}, Rainwater Harvesting Tank in ${city.city}, Polymer Type Rainwater Harvesting System in ${city.city}, Storm water Management in ${city.city}`,
+    canonical: `https://www.inrainwaterharvesting.com/${page}/${slug}`,
+    ogTitle:
+      `${heading} in ${city.city}` +
+      ' ' +
+      '|' +
+      ' ' +
+      'InRain Construction Pvt. Ltd.',
+    ogDescription: `Get the best ${heading} in ${city.city}. We have high-quilt ${heading} for your need & requirement. Our ${heading} Service Provider in ${city.city} will help you & easy to install. Contact now`,
+    ogUrl: `https://www.inrainwaterharvesting.com/${page}/${slug}`,
+    twittertitle:
+      `${heading} in ${city.city}` +
+      ' ' +
+      '|' +
+      ' ' +
+      'InRain Construction Pvt. Ltd.',
+    twitterdescription: `Get the best ${heading} in ${city.city}. We have high-quilt ${heading} for your need & requirement. Our ${heading} Service Provider in ${city.city} will help you & easy to install. Contact now`
+  }
+  return (
+    <>
+      <DynamicMetatag data={data} />
+      <DynamicSchema
+        city={city}
+        slug={slug}
+        heading={heading}
+        subheading={subheading}
+        page={page}
+      />
+      <Navbar />
+      <main>
+        <section className='bg-gradient-to-b from-slate-50 to-white pb-20 overflow-hidden'>
+          {/* HERO IMAGE */}
+          <div className='relative h-[260px] md:h-[350px] overflow-hidden'>
+            <Image
+              src='/service6.jpg'
+              alt={`${heading} in ${city.city}`}
+              width={1300}
+              height={500}
+              priority
+              className='w-full h-full object-cover'
+            />
+
+            {/* Overlay */}
+            <div className='absolute inset-0 bg-black/45' />
+
+            {/* Hero Content */}
+            <div className='absolute inset-0 flex items-center justify-center px-4'>
+              <div className='text-center max-w-4xl'>
+                <span className='inline-flex items-center rounded-full bg-white/20 backdrop-blur-md text-white px-5 py-2 text-sm md:text-base font-semibold mb-1 border border-white/30'>
+                  Sustainable Water Solutions
+                </span>
+
+                <h1 className='text-3xl md:text-5xl font-bold text-white leading-tight drop-shadow-lg'>
+                  {heading} in {city.city}
+                </h1>
+              </div>
+            </div>
+          </div>
+
+          {/* CONTENT SECTION */}
+          <div className='max-w-7xl mx-auto px-2 md:px-8 lg:px-5 -mt-12 relative z-10'>
+            <div className='bg-white rounded-[36px] shadow-2xl border border-slate-200 p-2 md:p-10'>
+              <div className='max-w-7xl'>
+                <div className='grid lg:grid-cols-[1.4fr_0.8fr] gap-10'>
+                  {/* LEFT CONTENT */}
+                  <div className='space-y-4'>
+                    {/* INTRO */}
+                    <div className='bg-white border space-y-3 border-slate-200 rounded-[32px] p-6 md:p-10 shadow-lg'>
+                      <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
+                        {heading} in {city.city} is an eco-friendly and
+                        sustainable method of collecting and storing rainwater
+                        for future use. With the increasing water scarcity in
+                        urban areas like {city.city}, implementing a rainwater
+                        harvesting system has become crucial. Noida, a
+                        fast-developing city in Uttar Pradesh, faces water
+                        shortages due to overexploitation of groundwater and
+                        inadequate rainfall. Therefore, adopting it can help
+                        alleviate the water crisis and ensure a sustainable
+                        water supply.
+                      </p>
+                    </div>
+
+                    {/* CHOOSING SUPPLIER */}
+                    <div className='bg-white border border-slate-200 rounded-[32px] p-6 md:p-10 shadow-lg'>
+                      <h2 className='text-2xl md:text-3xl font-bold text-slate-900 mb-3'>
+                        Benefits of {heading} in {city.city}
+                      </h2>
+
+                      <ul className='space-y-3'>
+                        <li className='flex items-start gap-4'>
+                          <div className='min-w-3 h-3 rounded-full bg-green-600 mt-3'></div>
+                          <p className='text-gray-700 leading-7'>
+                            <span className='font-semibold text-slate-900'>
+                              Water Conservation:
+                            </span>{' '}
+                            {heading} also aids in water conservation. By
+                            capturing Rainwater, it can be used for various
+                            non-potable purposes such as irrigation, washing
+                            cars, flushing toilets, and cleaning. This reduces
+                            the demand for freshwater and contributes to water
+                            conservation efforts.
+                          </p>
+                        </li>
+
+                        <li className='flex items-start gap-4'>
+                          <div className='min-w-3 h-3 rounded-full bg-green-600 mt-2'></div>
+                          <p className='text-gray-700 leading-7'>
+                            <span className='font-semibold text-slate-900'>
+                              Sustainable Water Management:
+                            </span>{' '}
+                            Implementing a {heading} Services Provider in{' '}
+                            {city.city} offers numerous benefits. Firstly, it
+                            promotes sustainable water management by reducing
+                            the reliance on groundwater and municipal water
+                            supply. This helps conserve precious water resources
+                            and minimizes the strain on existing water sources.
+                          </p>
+                        </li>
+
+                        <li className='flex items-start gap-4'>
+                          <div className='min-w-3 h-3 rounded-full bg-green-600 mt-2'></div>
+                          <p className='text-gray-700 leading-7'>
+                            <span className='font-semibold text-slate-900'>
+                              Cost Savings:
+                            </span>{' '}
+                            Another advantage of {heading} in {city.city} is the
+                            potential for cost savings. Household and businesses
+                            can significantly reduce their water bills by
+                            utilizing rainwater for non-drinking purposes.
+                            Moreover, in the long run, the initial investment in
+                            a rainwater harvesting system can be recouped
+                            through these savings.
+                          </p>
+                        </li>
+                      </ul>
+
+                      <p className='text-gray-700 text-[15px] mt-5 md:text-md leading-7 text-justify'>
+                        We are offering a {heading} in {city.city}, that is an
+                        efficient, and sustainable approach to water management.
+                        These systems can be easily tailored to meet the
+                        particular requirements of different applications and
+                        structures. These systems have the ability to capture,
+                        store, and utilize rainwater efficiently, modular
+                        rainwater harvesting systems contribute to water
+                        conservation, cost savings, and environmental
+                        sustainability. You can join us to learn more about our
+                        offerings.
+                      </p>
+                    </div>
+
+                    {/* BEST CHOICE */}
+                    <div className='bg-gradient-to-r from-sky-600 to-cyan-600 rounded-[32px] p-6 md:p-10 text-white shadow-2xl'>
+                      <h2 className='text-2xl md:text-3xl font-bold mb-3'>
+                        Best Choice for {heading} in {city.city}
+                      </h2>
+
+                      <p className='leading-7 text-slate-100 text-[16px] md:text-md'>
+                        InRain Constructions Pvt. Ltd. is the best {heading} in{' '}
+                        {city.city}, providing top-quality products and
+                        services. With extensive experience and expertise, we
+                        offer customized solutions, durable tanks, efficient
+                        filters, and reliable pumps. Trust InRain for all your
+                        rainwater harvesting needs.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* RIGHT SIDE */}
+                  <div className='lg:sticky lg:top-28 h-fit space-y-5'>
+                    {/* IMAGE CARD */}
+                    <div className='overflow-hidden rounded-[36px] shadow-2xl border border-slate-200 group bg-white'>
+                      <Image
+                        src='/modular-rainwater-harvesting.jpg'
+                        alt={
+                          `${heading} in ${city.city}` +
+                          ' ' +
+                          'Image' +
+                          ' ' +
+                          '1'
+                        }
+                        width={500}
+                        height={500}
+                        className='w-full h-full object-cover transition duration-700 group-hover:scale-105'
+                      />
+                    </div>
+
+                    {/* INFO CARD */}
+                    <div className='bg-gradient-to-br from-sky-50 to-cyan-50 border border-sky-100 rounded-[32px] p-7 shadow-lg'>
+                      <span className='inline-flex px-4 py-2 rounded-full bg-sky-100 text-sky-700 text-sm font-semibold mb-4'>
+                        Sustainable Water Management
+                      </span>
+
+                      <h3 className='text-2xl font-bold text-slate-900 mb-3'>
+                        {subheading} in {city.city}
+                      </h3>
+
+                      <p className='text-gray-700 leading-7'>
+                        {subheading} in {city.city} helps conserve water, reduce
+                        groundwater dependency, and support eco-friendly urban
+                        development.
+                      </p>
+                    </div>
+
+                    {/* SMALL CTA CARD */}
+                    <div className='bg-slate-900 text-white rounded-[32px] p-7 shadow-xl'>
+                      <h4 className='text-xl font-bold mb-3'>
+                        Need Expert Consultation?
+                      </h4>
+
+                      <p className='text-slate-300 leading-7 mb-5'>
+                        Get customized {heading} solutions in {city.city},{' '}
+                        designed according to your project requirements.
+                      </p>
+
+                      <Link
+                        href='/contact'
+                        className='bg-sky-500 hover:bg-sky-600 transition px-6 py-3 rounded-xl font-semibold'
+                      >
+                        Get a Quote
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <Certification />
+      </main>
+      <Footer />
+    </>
+  )
+}
+
+/* ---------------------------- */
+/* Static Paths */
+/* ---------------------------- */
+
+export async function getStaticPaths () {
+  const paths = CityData.map(city => ({
+    params: {
+      location: city.slug
+    }
+  }))
+
+  return {
+    paths,
+    fallback: 'blocking'
+  }
+}
+
+/* ---------------------------- */
+/* Static Props */
+/* ---------------------------- */
+
+export async function getStaticProps ({ params }) {
+  const slug = params.location
+
+  // FIXED: find city by slug
+  const city = CityData.find(item => item.slug === slug)
+
+  // 404 page if city not found
+  if (!city) {
+    return {
+      notFound: true
+    }
+  }
+
+  return {
+    props: {
+      city,
+      slug
+    },
+
+    // Rebuild every 24 hrs
+    revalidate: 86400
+  }
+}

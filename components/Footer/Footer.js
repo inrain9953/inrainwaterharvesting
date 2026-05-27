@@ -1,70 +1,70 @@
-import Link from "next/link";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import XIcon from "@mui/icons-material/X";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
-import EmailIcon from "@mui/icons-material/Email";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import dynamic from "next/dynamic";
-const Clients = dynamic(() => import("../Clients/Clients"), {
-  ssr: false,
-});
-import { serviceData } from "../constant";
+import Link from 'next/link'
+import FacebookIcon from '@mui/icons-material/Facebook'
+import YouTubeIcon from '@mui/icons-material/YouTube'
+import InstagramIcon from '@mui/icons-material/Instagram'
+import XIcon from '@mui/icons-material/X'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import LocationOnIcon from '@mui/icons-material/LocationOn'
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
+import EmailIcon from '@mui/icons-material/Email'
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
+import dynamic from 'next/dynamic'
+const Clients = dynamic(() => import('../Clients/Clients'), {
+  ssr: false
+})
+import { serviceData } from '../constant'
 
-export default function Footer() {
+export default function Footer () {
   const quickLinks = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/about-us" },
-    { name: "Products", href: "/products" },
-    { name: "Contact Us", href: "/contact-us" },
-    { name: "BLogs", href: "/blogs" },
-    { name: "Business Network", href: "/business-network" },
-  ];
+    { name: 'Home', href: '/' },
+    { name: 'About Us', href: '/about-us' },
+    { name: 'Products', href: '/products' },
+    { name: 'Contact Us', href: '/contact-us' },
+    { name: 'BLogs', href: '/blogs' },
+    { name: 'Business Network', href: '/business-network' }
+  ]
 
   const socialLinks = [
     {
       icon: <FacebookIcon />,
-      href: "https://www.facebook.com/inrainconstructionofficial",
+      href: 'https://www.facebook.com/inrainconstructionofficial'
     },
     {
       icon: <YouTubeIcon />,
-      href: "https://www.youtube.com/@inrainharvesting",
+      href: 'https://www.youtube.com/@inrainharvesting'
     },
     {
       icon: <InstagramIcon />,
-      href: "https://www.instagram.com/inrainconstruction/",
+      href: 'https://www.instagram.com/inrainconstruction/'
     },
     {
       icon: <XIcon />,
-      href: "https://x.com/InrainC",
+      href: 'https://x.com/InrainC'
     },
     {
       icon: <LinkedInIcon />,
-      href: "https://www.linkedin.com/company/35590476/admin/dashboard/",
-    },
-  ];
+      href: 'https://www.linkedin.com/company/35590476/admin/dashboard/'
+    }
+  ]
 
   return (
     <div>
       <Clients />
-      <footer className="bg-green-700 text-white">
+      <footer className='bg-green-700 text-white'>
         {/* Main Footer */}
-        <div className="max-w-7xl mx-auto px-6 md:px-10 py-7">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className='max-w-7xl mx-auto px-6 md:px-10 py-7'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5'>
             {/* Social Links */}
             <div>
-              <h3 className="text-3xl font-bold mb-5">Social Links</h3>
+              <h3 className='text-3xl font-bold mb-5'>Social Links</h3>
 
-              <div className="flex gap-3 flex-wrap">
+              <div className='flex gap-3 flex-wrap'>
                 {socialLinks.map((item, index) => (
                   <Link
-                    target="_blank"
+                    target='_blank'
                     key={index}
                     href={item.href}
-                    className="w-10 h-10 rounded-full bg-sky-200 text-black flex items-center justify-center text-lg hover:scale-110 hover:bg-white transition duration-300"
+                    className='w-10 h-10 rounded-full bg-sky-200 text-black flex items-center justify-center text-lg hover:scale-110 hover:bg-white transition duration-300'
                   >
                     {item.icon}
                   </Link>
@@ -74,16 +74,16 @@ export default function Footer() {
 
             {/* Quick Links */}
             <div>
-              <h2 className="text-3xl font-bold mb-5">Quick Links</h2>
+              <h2 className='text-3xl font-bold mb-5'>Quick Links</h2>
 
-              <ul className="space-y-2">
-                {quickLinks.map((link) => (
+              <ul className='space-y-2'>
+                {quickLinks.map(link => (
                   <li key={link.name}>
                     <Link
                       href={link.href}
-                      className="flex items-center gap-1 text-sm hover:text-sky-500 transition"
+                      className='flex items-center gap-1 text-sm hover:text-sky-500 transition'
                     >
-                      <ArrowForwardIosIcon fontSize="small" />
+                      <ArrowForwardIosIcon sx={{ fontSize: 10 }} />
                       {link.name}
                     </Link>
                   </li>
@@ -93,16 +93,16 @@ export default function Footer() {
 
             {/* Services */}
             <div>
-              <h2 className="text-3xl font-bold mb-5">Services</h2>
+              <h2 className='text-3xl font-bold mb-5'>Services</h2>
 
-              <ul className="space-y-2">
-                {serviceData.map((product) => (
+              <ul className='space-y-2'>
+                {serviceData.map(product => (
                   <li key={product.title}>
                     <Link
                       href={product.link}
-                      className="flex items-center justify-start gap-1 text-xs hover:text-sky-200 transition"
+                      className='flex items-center justify-start gap-1 text-xs hover:text-sky-200 transition'
                     >
-                      <ArrowForwardIosIcon  sx={{ fontSize: 10 }} />
+                      <ArrowForwardIosIcon sx={{ fontSize: 10 }} />
                       <span>{product.title}</span>
                     </Link>
                   </li>
@@ -112,18 +112,18 @@ export default function Footer() {
 
             {/* Office */}
             <div>
-              <h2 className="text-3xl font-bold mb-5">Our Office</h2>
+              <h2 className='text-3xl font-bold mb-5'>Our Office</h2>
 
-              <div className="space-y-2">
+              <div className='space-y-2'>
                 {/* Corporate Office */}
                 <div>
-                  <div className="flex items-start gap-1">
+                  <div className='flex items-start gap-1'>
                     <LocationOnIcon />
                     <a
-                      target="_blank"
-                      href="https://maps.app.goo.gl/QSZoYkgd8GufagvC6"
+                      target='_blank'
+                      href='https://maps.app.goo.gl/QSZoYkgd8GufagvC6'
                     >
-                      <p className="font-medium text-base text-white hover:text-sky-200">
+                      <p className='font-medium text-base text-white hover:text-sky-200'>
                         Plot No 06, KH431, 1st floor, Main Road
                         Chattarpur-Satbari, Satbari, New delhi 110074
                       </p>
@@ -132,18 +132,18 @@ export default function Footer() {
                 </div>
 
                 {/* Phone */}
-                <div className="space-y-1">
+                <div className='space-y-1'>
                   <a
-                    href="tel:+919953070003"
-                    className="flex items-center gap-3 text-sm hover:text-sky-400 transition"
+                    href='tel:+919953070003'
+                    className='flex items-center gap-3 text-sm hover:text-sky-400 transition'
                   >
                     <LocalPhoneIcon />
                     +91-9953070003
                   </a>
 
                   <a
-                    href="tel:+919910220794"
-                    className="flex items-center gap-3 text-sm hover:text-sky-400 transition"
+                    href='tel:+919910220794'
+                    className='flex items-center gap-3 text-sm hover:text-sky-400 transition'
                   >
                     <LocalPhoneIcon />
                     +91-9910220794
@@ -151,18 +151,18 @@ export default function Footer() {
                 </div>
 
                 {/* Email */}
-                <div className="space-y-1">
+                <div className='space-y-1'>
                   <a
-                    href="mailto:inrainconstruction@gmail.com"
-                    className="flex items-center gap-1 text-sm hover:text-sky-200 transition break-all"
+                    href='mailto:inrainconstruction@gmail.com'
+                    className='flex items-center gap-1 text-sm hover:text-sky-200 transition break-all'
                   >
                     <EmailIcon />
                     inrainconstruction@gmail.com
                   </a>
 
                   <a
-                    href="mailto:sales@inrainwaterharvesting.com"
-                    className="flex items-center gap-1 text-sm hover:text-sky-200 transition break-all"
+                    href='mailto:sales@inrainwaterharvesting.com'
+                    className='flex items-center gap-1 text-sm hover:text-sky-200 transition break-all'
                   >
                     <EmailIcon />
                     sales@inrainwaterharvesting.com
@@ -174,14 +174,14 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="bg-green-900 border-t border-white/20">
-          <div className="max-w-7xl mx-auto px-6 py-2 text-center">
-            <span className="text-xs">
+        <div className='bg-green-900 border-t border-white/20'>
+          <div className='max-w-7xl mx-auto px-6 py-2 text-center'>
+            <span className='text-xs'>
               © 2026 InRain Construction Pvt Ltd. All Rights Reserved.
             </span>
           </div>
         </div>
       </footer>
     </div>
-  );
+  )
 }

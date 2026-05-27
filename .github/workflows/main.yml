@@ -22,7 +22,7 @@ jobs:
 
       - name: Login to GHCR
         run: |
-          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io \
+          echo "${{ github.token }}" | docker login ghcr.io \
           -u ${{ github.actor }} --password-stdin
 
       - name: Build Docker Image
@@ -42,7 +42,7 @@ jobs:
           script: |
             cd /srv/app
 
-            echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io \
+            echo "${{ github.token }}" | docker login ghcr.io \
             -u ${{ github.actor }} --password-stdin
 
             docker compose pull

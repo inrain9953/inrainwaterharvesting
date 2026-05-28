@@ -6,7 +6,7 @@ const DynamicSchema = ({ city, slug, heading, subheading, page }) => {
     '@type': 'LocalBusiness',
 
     name: 'InRain® Construction Pvt. Ltd.',
-    alternateName: 'InRain® Construction Pvt. Ltd.',
+    alternateName: 'InRain®',
 
     description: `Professional ${heading} in ${city.city}. InRain Construction provides ${subheading}, groundwater recharge systems, rainwater filtration, flood mitigation, storm water management and sustainable water conservation solutions in ${city.city}.`,
 

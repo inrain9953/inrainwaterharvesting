@@ -121,7 +121,7 @@ const Hero6 = () => {
 
             {/* CTA */}
             <div className="mt-5">
-              <Link href="/#">
+              <Link href="/water-harvesting-system">
                 <Button
                   variant="contained"
                   sx={{

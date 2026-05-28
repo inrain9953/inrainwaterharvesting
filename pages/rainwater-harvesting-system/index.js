@@ -88,14 +88,20 @@ const Rainwater_Harvesting_System = () => {
                   </p>
 
                   <p>
-                    Modern rainwater harvesting systems are designed with
-                    advanced filtration technologies and durable storage
-                    solutions to ensure water quality and longevity. These
-                    systems can be easily integrated into residential buildings,
-                    commercial complexes, and industrial facilities. In addition
-                    to storage, some systems are designed for groundwater
-                    recharge, where excess water is directed into recharge pits
-                    or borewells to replenish underground water levels.
+                    <Link
+                      className='text-sky-500 font-semibold hover:underline'
+                      href='/modular-rainwater-harvesting-system'
+                    >
+                      Modern Rainwater Harvesting Systems
+                    </Link>{' '}
+                    are designed with advanced filtration technologies and
+                    durable storage solutions to ensure water quality and
+                    longevity. These systems can be easily integrated into
+                    residential buildings, commercial complexes, and industrial
+                    facilities. In addition to storage, some systems are
+                    designed for groundwater recharge, where excess water is
+                    directed into recharge pits or borewells to replenish
+                    underground water levels.
                   </p>
 
                   <p>

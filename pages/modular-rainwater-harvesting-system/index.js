@@ -145,17 +145,19 @@ const ModularRainwaterHarvestingSystem = () => {
                     specific application.
                   </p>
                   <p>
-                    Modular Rainwater Harvesting System Service Provider is also
-                    highly adaptable to different environmental conditions and
-                    building structures. The components can be easily installed
-                    on existing rooftops or integrated into new construction
-                    projects. This adaptability eliminates the need for major
-                    alterations to the building design, making it a
-                    cost-effective solution for retrofitting rainwater
-                    harvesting systems into existing structures. Additionally,
-                    the modular components can be disassembled and reinstalled
-                    if necessary, allowing for flexibility in case of building
-                    renovations or relocation.
+                    <Link href='/' className='font-semibold text-sky-600 hover:underline'>
+                      Modular Rainwater Harvesting System
+                    </Link>{' '}
+                    Service Provider is also highly adaptable to different
+                    environmental conditions and building structures. The
+                    components can be easily installed on existing rooftops or
+                    integrated into new construction projects. This adaptability
+                    eliminates the need for major alterations to the building
+                    design, making it a cost-effective solution for retrofitting
+                    rainwater harvesting systems into existing structures.
+                    Additionally, the modular components can be disassembled and
+                    reinstalled if necessary, allowing for flexibility in case
+                    of building renovations or relocation.
                   </p>
                   <p>
                     The environmental benefits of modular rainwater harvesting

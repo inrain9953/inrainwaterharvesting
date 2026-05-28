@@ -62,7 +62,7 @@ const StaticMetatag = ({ data }) => {
       <script
         async
         src='https://www.googletagmanager.com/gtag/js?id=G-1CFEW0CZTM'
-      ></script>
+      />
     </Head>
   )
 }

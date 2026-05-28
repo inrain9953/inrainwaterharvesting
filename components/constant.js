@@ -1,131 +1,131 @@
 export const clientSlider1 = [
   {
-    img: '/clients/tata.png',
+    img: '/Clients/tata.png',
     description: 'TATA',
     alt: 'TATA'
   },
   {
-    img: '/clients/pepsico.jpg',
+    img: '/Clients/pepsico.jpg',
     description: 'PEPSICO',
     alt: 'PEPSICO'
   },
   {
-    img: '/clients/smart-city-karimnagar.png',
+    img: '/Clients/smart-city-karimnagar.png',
     description: 'SMART CITY KARIMNAGAR',
     alt: 'SMART CITY KARIMNAGAR'
   },
   {
-    img: '/clients/delhi-development.png',
+    img: '/Clients/delhi-development.png',
     description: 'DELHI DEVELOPMENT AUTHORITY',
     alt: 'DELHI DEVELOPMENT AUTHORITY'
   },
   {
-    img: '/clients/pradhanmantri-sangrahalaya.jpg',
+    img: '/Clients/pradhanmantri-sangrahalaya.jpg',
     description: 'PRADHANMANTRI SANGRAHALAYA',
     alt: 'PRADHANMANTRI SANGRAHALAYA'
   },
   {
-    img: '/clients/nhai.jpg',
+    img: '/Clients/nhai.jpg',
     description: 'NHAI',
     alt: 'NHAI'
   },
   {
-    img: '/clients/international-arrivals.jpg',
+    img: '/Clients/international-arrivals.jpg',
     description: 'INTERNATIONAL ARRIVALS',
     alt: 'INTERNATIONAL ARRIVALS'
   },
   {
-    img: '/clients/ndmc.jpg',
+    img: '/Clients/ndmc.jpg',
     description: 'NDMC',
     alt: 'NDMC'
   },
   {
-    img: '/clients/hindustan-unilever.jpg',
+    img: '/Clients/hindustan-unilever.jpg',
     description: 'HINDUSTAN UNILEVER',
     alt: 'HINDUSTAN UNILEVER'
   },
   {
-    img: '/clients/cpwd.jpg',
+    img: '/Clients/cpwd.jpg',
     description: 'CPWD',
     alt: 'CPWD'
   },
   {
-    img: '/clients/pwd.jpg',
+    img: '/Clients/pwd.jpg',
     description: 'PWD',
     alt: 'PWD'
   },
   {
-    img: '/clients/ahluwalia.png',
+    img: '/Clients/ahluwalia.png',
     description: 'Ahluwalia Contracts India Ltd.',
     alt: 'Ahluwalia Contracts India Ltd.'
   },
   {
-    img: '/clients/airportauthorityindia.webp',
+    img: '/Clients/airportauthorityindia.webp',
     description: 'AIRPORT AUTHORITY OF INDIA',
     alt: 'AIRPORT AUTHORITY OF INDIA'
   },
   {
-    img: '/clients/bharatiyam.jpg',
+    img: '/Clients/bharatiyam.jpg',
     description: 'BHARATIYAM',
     alt: 'BHARATIYAM'
   },
   {
-    img: '/clients/blkashyap.jpg',
+    img: '/Clients/blkashyap.jpg',
     description: 'BL KASHYAP',
     alt: 'BL KASHYAP'
   },
   {
-    img: '/clients/creambell.png',
+    img: '/Clients/creambell.png',
     description: 'CREAM BELL',
     alt: 'CREAM BELL'
   },
   {
-    img: '/clients/dlf.jpg',
+    img: '/Clients/dlf.jpg',
     description: 'DLF',
     alt: 'DLF'
   },
   {
-    img: '/clients/emperiumbuilding.png',
+    img: '/Clients/emperiumbuilding.png',
     description: 'EMPERIUM BUILDING',
     alt: 'EMPERIUM BUILDING'
   },
   {
-    img: '/clients/epackdurable.jpg',
+    img: '/Clients/epackdurable.jpg',
     description: 'EPACK DURABLE',
     alt: 'EPACK DURABLE'
   },
   {
-    img: '/clients/glc.jpg',
+    img: '/Clients/glc.jpg',
     description: 'GLC',
     alt: 'GLC'
   },
   {
-    img: '/clients/hng.avif',
+    img: '/Clients/hng.avif',
     description: 'HNG Glass',
     alt: 'HNG Glass'
   },
   {
-    img: '/clients/idvb.png',
+    img: '/Clients/idvb.png',
     description: 'IDVB',
     alt: 'IDVB'
   },
   {
-    img: '/clients/republicmedia.png',
+    img: '/Clients/republicmedia.png',
     description: 'REPUBLIC MEDIA',
     alt: 'REPUBLIC MEDIA'
   },
   {
-    img: '/clients/rlda.jpg',
+    img: '/Clients/rlda.jpg',
     description: 'RLDA',
     alt: 'RLDA'
   },
   {
-    img: '/clients/stylam.png',
+    img: '/Clients/stylam.png',
     description: 'STYLAM',
     alt: 'STYLAM'
   },
   {
-    img: '/clients/swadeshi.webp',
+    img: '/Clients/swadeshi.webp',
     description: 'SWADESHI INFRA',
     alt: 'SWADESHI INFRA'
   }
@@ -133,142 +133,142 @@ export const clientSlider1 = [
 
 export const clientSlider2 = [
   {
-    img: '/clients/larsen-and-toubro.png',
+    img: '/Clients/larsen-and-toubro.png',
     description: 'LARSEN & TOUBRO',
     alt: 'LARSEN & TOUBRO'
   },
   {
-    img: '/clients/marathon-electric.png',
+    img: '/Clients/marathon-electric.png',
     description: 'MARATHON ELECTRIC',
     alt: 'MARATHON ELECTRIC'
   },
   {
-    img: '/clients/mittal.png',
+    img: '/Clients/mittal.png',
     description: 'MITTAL CONS.',
     alt: 'MITTAL CONS.'
   },
   {
-    img: '/clients/gmda.jpg',
+    img: '/Clients/gmda.jpg',
     description: 'GMDA',
     alt: 'GMDA'
   },
   {
-    img: '/clients/fujita.jpeg',
+    img: '/Clients/fujita.jpeg',
     description: 'FUJITA',
     alt: 'FUJITA'
   },
   {
-    img: '/clients/brookfield-properties.png',
+    img: '/Clients/brookfield-properties.png',
     description: 'BROOKFIELD PROPERTIES',
     alt: 'BROOKFIELD PROPERTIES'
   },
   {
-    img: '/clients/denso.png',
+    img: '/Clients/denso.png',
     description: 'DENSO',
     alt: 'DENSO'
   },
   {
-    img: '/clients/gls.png',
+    img: '/Clients/gls.png',
     description: 'GLS',
     alt: 'GLS'
   },
   {
-    img: '/clients/cbre.png',
+    img: '/Clients/cbre.png',
     description: 'CBRE',
     alt: 'CBRE'
   },
   {
-    img: '/clients/supreme-pipes.png',
+    img: '/Clients/supreme-pipes.png',
     description: 'SUPREME PIPES',
     alt: 'SUPREME PIPES'
   },
   {
-    img: '/clients/ahresty.png',
+    img: '/Clients/ahresty.png',
     description: 'AHRESTY',
     alt: 'AHRESTY'
   },
   {
-    img: '/clients/v3.jpg',
+    img: '/Clients/v3.jpg',
     description: 'V3',
     alt: 'V3'
   },
   {
-    img: '/clients/jaypee.jpg',
+    img: '/Clients/jaypee.jpg',
     description: 'JAYPEE',
     alt: 'JAYPEE'
   },
   {
-    img: '/clients/jindal.png',
+    img: '/Clients/jindal.png',
     description: 'JINDAL',
     alt: 'JINDAL'
   },
   {
-    img: '/clients/kwhomes.jpg',
+    img: '/Clients/kwhomes.jpg',
     description: 'KW HOMES',
     alt: 'KW HOMES'
   },
   {
-    img: '/clients/lenskart.webp',
+    img: '/Clients/lenskart.webp',
     description: 'LENSKART',
     alt: 'LENSKART'
   },
   {
-    img: '/clients/max.webp',
+    img: '/Clients/max.webp',
     description: 'MAX',
     alt: 'MAX'
   },
   {
-    img: '/clients/mes.png',
+    img: '/Clients/mes.png',
     description: 'MES',
     alt: 'MES'
   },
   {
-    img: '/clients/nbcc.png',
+    img: '/Clients/nbcc.png',
     description: 'NBCC',
     alt: 'NBCC'
   },
   {
-    img: '/clients/noidagolfcourse.png',
+    img: '/Clients/noidagolfcourse.png',
     description: 'NOIDA GOLF COURSE',
     alt: 'NOIDA GOLF COURSE'
   },
   {
-    img: '/clients/ongc.svg',
+    img: '/Clients/ongc.svg',
     description: 'ONGC',
     alt: 'ONGC'
   },
   {
-    img: '/clients/ozone.png',
+    img: '/Clients/ozone.png',
     description: 'OZONE',
     alt: 'OZONE'
   },
   {
-    img: '/clients/parnika.avif',
+    img: '/Clients/parnika.avif',
     description: 'PARNIKA COMMERCIAL',
     alt: 'PARNIKA COMMERCIAL'
   },
   {
-    img: '/clients/radisson.jpg',
+    img: '/Clients/radisson.jpg',
     description: 'RADISSON BLU',
     alt: 'RADISSON BLU'
   },
   {
-    img: '/clients/tataconsumer.jpg',
+    img: '/Clients/tataconsumer.jpg',
     description: 'TATA CONSUMER',
     alt: 'TATA CONSUMER'
   },
   {
-    img: '/clients/tatasteel.png',
+    img: '/Clients/tatasteel.png',
     description: 'TATA STEEL',
     alt: 'TATA STEEL'
   },
   {
-    img: '/clients/vishwapublic.png',
+    img: '/Clients/vishwapublic.png',
     description: 'VISHWA BHARTI PUBLIC SCHOOL',
     alt: 'VISHWA BHARTI PUBLIC SCHOOL'
   },
   {
-    img: '/clients/whirlpool.jpg',
+    img: '/Clients/whirlpool.jpg',
     description: 'WHIRLPOOL',
     alt: 'WHIRLPOOL'
   }

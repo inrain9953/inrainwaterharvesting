@@ -1,8 +1,11 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import { motion } from 'framer-motion'
-import HomeIcon from '@mui/icons-material/Home'
-import RefreshIcon from '@mui/icons-material/Refresh'
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import HomeIcon from "@mui/icons-material/Home";
+import EngineeringIcon from "@mui/icons-material/Engineering";
+import EmailIcon from "@mui/icons-material/Email";
+import PhoneIcon from "@mui/icons-material/Phone";
+import ContactForm from "@/components/Contact/Form";
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/Footer'
 
@@ -10,60 +13,134 @@ export default function Error () {
   return (
     <>
       <Navbar />
-      <div className='min-h-screen bg-gradient-to-b from-sky-50 to-white flex items-center justify-center px-5 overflow-hidden'>
-        <div className='max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center'>
-          {/* LEFT CONTENT */}
-          <motion.div
-            initial={{ opacity: 0, x: -60 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className='text-center lg:text-left'
-          >
-            <span className='inline-block bg-red-100 text-red-600 px-5 py-2 rounded-full font-semibold text-sm'>
-              Error 404
-            </span>
+       <div className="min-h-screen bg-gradient-to-b from-sky-50 via-white to-green-50">
+      {/* HERO */}
+      <section className="relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-[400px] h-[400px] bg-sky-200 blur-[140px] rounded-full opacity-40" />
+        <div className="absolute bottom-0 right-0 w-[350px] h-[350px] bg-green-200 blur-[120px] rounded-full opacity-40" />
 
-            <h1 className='text-5xl md:text-7xl font-extrabold text-gray-900 mt-5 leading-tight'>
-              Oops! Page Not Found
-            </h1>
+        <div className="max-w-7xl mx-auto px-5 md:px-10 py-10">
+          <div className="grid lg:grid-cols-2 gap-14 items-center">
+            {/* LEFT CONTENT */}
+            <motion.div
+              initial={{ opacity: 0, x: -60 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.7 }}
+              className="text-center lg:text-left"
+            >
+              {/* Badge */}
+              <span className="inline-flex items-center gap-2 bg-green-100 text-green-700 border border-green-200 px-5 py-2 rounded-full text-sm font-semibold">
+                <EngineeringIcon fontSize="small" />
+                Water Conservation & Management Company
+              </span>
 
-            <p className='text-gray-600 text-lg leading-8 mt-6 max-w-2xl'>
-              The page you are looking for might have been removed, renamed, or
-              is temporarily unavailable. Let’s get you back to the right place.
-            </p>
+              {/* Title */}
+              <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-3 leading-tight">
+                InRain® Construction <br />
+                Private Limited
+              </h1>
 
-            {/* BUTTONS */}
-            <div className='flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start'>
-              <Link
-                href='/'
-                className='inline-flex items-center justify-center gap-2 bg-sky-600 hover:bg-sky-700 text-white px-8 py-4 rounded-2xl font-semibold transition duration-300 shadow-lg hover:scale-105'
-              >
-                <HomeIcon />
-                Back To Home
-              </Link>
-            </div>
-          </motion.div>
+              <h2 className="text-sky-700 text-2xl md:text-3xl font-bold mt-5">
+                Oops! Page Not Found (404)
+              </h2>
 
-          {/* RIGHT IMAGE */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.85 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.9 }}
-            className='relative flex justify-center'
-          >
-            <div className='absolute w-[350px] h-[350px] bg-sky-100 blur-[100px] rounded-full' />
+              <p className="text-lg text-gray-600 leading-7 mt-3">
+                Looks like you’ve taken a wrong turn—this page doesn’t
+                exist or has been moved.
+              </p>
 
-            <Image
-              src='/rainwater-harvesting-tank.jpg'
-              alt='404 Error'
-              width={600}
-              height={500}
-              className='relative z-10 object-contain'
-              priority
-            />
-          </motion.div>
+              <p className="text-gray-600 leading-7 mt-3">
+                At <strong>InRain® Construction Pvt. Ltd.</strong>, we are all
+                about building sustainable solutions, but unfortunately,
+                we couldn't build the page you're looking for.
+              </p>
+
+              {/* WHAT YOU CAN DO */}
+              <div className="bg-white border border-slate-200 rounded-[32px] shadow-lg p-6 mt-4">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  Here's what you can do:
+                </h3>
+
+                <div className="space-y-2">
+                  <Link
+                    href="/"
+                    className="flex items-center gap-3 text-gray-700 hover:text-sky-600 transition"
+                  >
+                    🔹 Go Back to the Home Page
+                  </Link>
+
+                  <Link
+                    href="/products"
+                    className="flex items-center gap-3 text-gray-700 hover:text-sky-600 transition"
+                  >
+                    🔹 Explore Our Services: Rainwater Harvesting Solutions
+                  </Link>
+
+                  <div className="text-gray-700 leading-7">
+                    🔹 Contact Us for any assistance:
+                  </div>
+
+                  <div className="flex flex-col md:flex-row md:items-center gap-4">
+                    <a
+                      href="mailto:sales@inrainwaterharvesting.com"
+                      className="flex items-center gap-2 text-sky-700 hover:text-sky-900 transition"
+                    >
+                      <EmailIcon fontSize="small" />
+                      sales@inrainwaterharvesting.com
+                    </a>
+
+                    <a
+                      href="tel:+919953070003"
+                      className="flex items-center gap-2 text-green-700 hover:text-green-900 transition"
+                    >
+                      <PhoneIcon fontSize="small" />
+                      +91-9953070003
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Need Help */}
+              <div className="mt-8 bg-gradient-to-r from-green-700 to-sky-700 rounded-[32px] p-7 shadow-xl text-white">
+                <h3 className="text-2xl font-bold mb-4">
+                  Need Help?
+                </h3>
+
+                <p className="leading-8 text-white/90">
+                  We’re always ready to assist you with Water Conservation,
+                  Rainwater Harvesting Systems, and Sustainable Solutions.
+                </p>
+
+                <p className="mt-4 font-semibold text-lg">
+                  Let’s make every drop count!
+                </p>
+
+                <Link
+                  href="/"
+                  className="inline-flex items-center gap-2 bg-white text-sky-700 hover:bg-slate-100 px-7 py-4 rounded-2xl font-bold mt-6 transition duration-300 hover:scale-105"
+                >
+                  <HomeIcon />
+                  Back To Homepage
+                </Link>
+              </div>
+            </motion.div>
+
+            {/* RIGHT SIDE */}
+            <motion.div
+              initial={{ opacity: 0, x: 60 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.7 }}
+              className="relative"
+            >
+              {/* Contact Form */}
+              <div className="bg-sky-100 rounded-[40px] shadow-2xl p-4 md:p-6">
+                <ContactForm />
+              </div>
+            </motion.div>
+          </div>
         </div>
-      </div>
+      </section>
+    </div>
       <Footer />
     </>
   )

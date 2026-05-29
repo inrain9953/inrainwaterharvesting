@@ -12,7 +12,7 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@langchain/core": "^0.3.43",
-    "@langchain/groq": "^0.2.0",
+    "@langchain/groq": "^0.2.4",
     "@mui/icons-material": "^5.16.6",
     "@mui/material": "^5.16.6",
     "@supabase/supabase-js": "^2.80.0",

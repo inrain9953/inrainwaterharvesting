@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
   }
 })
 
-export async function sendMail ({ userEmail, userName, phone, message }) {
+export async function GoogleAdsMail ({ userEmail, userName, phone, message }) {
   try {
     // 1. Mail to user
     await transporter.sendMail({
@@ -175,7 +175,7 @@ export async function sendMail ({ userEmail, userName, phone, message }) {
     await transporter.sendMail({
       from: process.env.EMAIL,
       to: process.env.EMAIL_ADMIN,
-      subject: 'New Lead received from inrainwaterharvesting.com',
+      subject: 'New Lead received from inrainwaterharvesting.com by Google Ads',
       html: `
 <div style="margin:0;padding:30px 15px;background:#f4f7fb;font-family:Arial,sans-serif;">
 
@@ -219,7 +219,7 @@ export async function sendMail ({ userEmail, userName, phone, message }) {
                   font-size:28px;
                 "
               >
-                🚀 New Lead from inrainwaterharvesting.com
+                🚀 New Lead from Google Ads
               </h1>
 
               <p 
@@ -229,7 +229,7 @@ export async function sendMail ({ userEmail, userName, phone, message }) {
                   font-size:16px;
                 "
               >
-                A new lead has been submitted through website.
+                A new lead has been submitted through the Google Ads form.
               </p>
 
             </td>
@@ -362,7 +362,7 @@ export async function sendMail ({ userEmail, userName, phone, message }) {
                     margin-right:10px;
                   "
                 >
-                  Reply to Customer
+                  Reply to Client
                 </a>
 
                 <a
@@ -422,7 +422,7 @@ export async function sendMail ({ userEmail, userName, phone, message }) {
                   margin-top:12px;
                 "
               >
-                This enquiry was submitted from your website<br/>
+                This enquiry was submitted from your Google Ads campaign on inrainwaterharvesting.com<br/>
                 © ${new Date().getFullYear()} InRain® Construction Pvt. Ltd. All Rights Reserved.<br/>:
                 <br/>
                 www.inrainwaterharvesting.com

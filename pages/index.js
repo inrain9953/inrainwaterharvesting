@@ -13,18 +13,18 @@ import LocalSchema from "@/components/Schema/StaticSchema";
 export default function Home() {
   const data = {
     title:
-      "Rainwater Harvesting System in Delhi | Rainwater Harvesting System Service Provider in Delhi",
+      "Rainwater Harvesting System in Delhi | Modular Rainwater Harvesting",
     desc: "Find a Rainwater Harvesting System in Delhi. We are the best Modular Rainwater Harvesting System Service Provider in Delhi. Get & Install a Rainwater Harvesting System at the best price. ",
     keyword:
-      "Rooftop Rainwater Harvesting System in Delhi, Modular Rainwater Harvesting System in Delhi, Rainwater Harvesting Tank in Delhi, Polymer Type Rainwater Harvesting System in Delhi, Storm water Management in Delhi",
+      "Rooftop Rainwater Harvesting System in Delhi, Modular Rainwater Harvesting in Delhi, Rainwater Harvesting Tank in Delhi, Polymer Type Rainwater Harvesting System in Delhi, Storm water Management in Delhi",
     canonical: "https://www.inrainwaterharvesting.com/",
     ogTitle:
-      "Rainwater Harvesting System in Delhi | Rainwater Harvesting System Service Provider in Delhi",
+      "Rainwater Harvesting System in Delhi | Modular Rainwater Harvesting",
     ogDescription:
       "Find a Rainwater Harvesting System in Delhi. We are the best Modular Rainwater Harvesting System Service Provider in Delhi. Get & Install a Rainwater Harvesting System at the best price.",
     ogUrl: "https://www.inrainwaterharvesting.com/",
     twittertitle:
-      "Rainwater Harvesting System in Delhi | Rainwater Harvesting System Service Provider in Delhi",
+      "Rainwater Harvesting System in Delhi | Modular Rainwater Harvesting",
     twitterdescription:
       "Find a Rainwater Harvesting System in Delhi. We are the best Modular Rainwater Harvesting System Service Provider in Delhi. Get & Install a Rainwater Harvesting System at the best price.",
   };

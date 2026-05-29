@@ -13,6 +13,7 @@ const Clients = dynamic(() => import('../Clients/Clients'), {
   ssr: false
 })
 import { serviceData } from '../constant'
+import PopUp from '../PopUp/Popup'
 
 export default function Footer () {
   const quickLinks = [
@@ -49,6 +50,7 @@ export default function Footer () {
 
   return (
     <div>
+      <PopUp />
       <Clients />
       <footer className='bg-green-700 text-white'>
         {/* Main Footer */}

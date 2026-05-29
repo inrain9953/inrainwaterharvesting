@@ -1,8 +1,8 @@
 import mongoose from 'mongoose'
 import { Product } from './dbschema'
-import { sendMail } from './lib/sendmail'
+import { GoogleAdsMail } from './lib/googleadmail'
 
-export default async function FormSubmit(req, res) {
+export default async function GoogleAdForm(req, res) {
   try {
     if (req.method !== 'POST') {
       return res.status(405).json({
@@ -30,7 +30,7 @@ export default async function FormSubmit(req, res) {
     }
 
     // Send mail in background (non-blocking)
-    sendMail({
+    GoogleAdsMail({
       userEmail: email,
       userName: name,
       phone,

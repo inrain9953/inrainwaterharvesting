@@ -31,7 +31,7 @@ const ChatWindow = memo(
           transition-all duration-300 ease-in-out
           ${isMobile
             ? "bottom-0 left-0 right-0 h-[78vh] md:hidden m-3"
-            : "hidden md:flex bottom-42 right-24 w-[300px] h-[450px]"
+            : "hidden md:flex bottom-36 right-26 w-[300px] h-[450px]"
           }
         `}
       >

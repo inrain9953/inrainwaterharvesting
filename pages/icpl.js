@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '@mui/material'
+import Script from 'next/script'
 import CountUp from 'react-countup'
 import Certification from '@/components/Certification/Certification'
 import Footer from '@/components/Footer/Footer'
@@ -32,6 +33,21 @@ const ICPL = () => {
   return (
     <>
       <StaticMetatag data={data} />
+      <Script
+        src='https://www.googletagmanager.com/gtag/js?id=AW-16650006765'
+        strategy='afterInteractive'
+      />
+
+      <Script id='google-ads' strategy='afterInteractive'>
+        {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+
+    gtag('js', new Date()); 
+    gtag('config', 'AW-16650006765');
+  `}
+      </Script>
       <StaticSchema />
       <GoogleNavbar />
       <section>

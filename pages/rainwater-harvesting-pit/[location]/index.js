@@ -124,9 +124,12 @@ export default function RainwaterHarvestingPitLocationPage ({ city, slug }) {
                         the risk of urban flooding during heavy rains.
                       </p>
                       <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
-                        <bold className='font-semibold'>
+                        <Link
+                          href={'/'}
+                          className='font-semibold text-blue-600 hover:text-green-600'
+                        >
                           {heading} in {city.city}
-                        </bold>{' '}
+                        </Link>{' '}
                         are cost-effective, easy to install, and require minimal
                         maintenance. Regular cleaning of filters and inspection
                         of the system ensures long-term efficiency. They are

@@ -141,9 +141,12 @@ export default function WaterHarvestingSystemLocationPage ({ city, slug }) {
                       </p>
                       <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
                         In conclusion, a{' '}
-                        <bold className='font-semibold'>
+                        <Link
+                          href={'/'}
+                          className='font-semibold text-green-600 hover:text-sky-600'
+                        >
                           {heading} in {city.city}
-                        </bold>{' '}
+                        </Link>{' '}
                         is a practical and eco-friendly solution for efficient
                         water management. Its adoption is essential for ensuring
                         a reliable water supply and building a sustainable

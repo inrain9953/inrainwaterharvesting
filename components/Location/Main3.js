@@ -26,9 +26,12 @@ const Main3 = ({ location, slug }) => {
               <div className='space-y-3 text-gray-600 text-base md:text-md leading-7 text-justify'>
                 <p>
                   A{' '}
-                  <span className='font-semibold'>
+                  <Link
+                    href={`/rooftop-rainwater-harvesting/${slug}`}
+                    className='font-semibold text-green-600 hover:text-sky-600'
+                  >
                     Rooftop Rainwater Harvesting System in {location}
-                  </span>{' '}
+                  </Link>{' '}
                   intended for filtration, transitory maintenance and ensuing
                   release. It is utilized in waste channel application. It is
                   developed utilizing our restrictive plastic infusion shaped

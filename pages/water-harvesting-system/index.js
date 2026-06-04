@@ -1,60 +1,58 @@
-import React from "react";
-import StaticMetatag from "@/components/Schema/StaticMetatag";
-import StaticSchema from "@/components/Schema/StaticSchema";
-import Navbar from "@/components/Navbar/Navbar";
-import Footer from "@/components/Footer/Footer";
-import Certification from "@/components/Certification/Certification";
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react'
+import StaticMetatag from '@/components/Schema/StaticMetatag'
+import StaticSchema from '@/components/Schema/StaticSchema'
+import Navbar from '@/components/Navbar/Navbar'
+import Footer from '@/components/Footer/Footer'
+import Certification from '@/components/Certification/Certification'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Water_Harvesting_System = () => {
   const data = {
-    title: "Water Harvesting System | Sustainable Water Conservation Solution",
-    desc: "Discover water harvesting systems for sustainable water collection, storage, and groundwater recharge. Reduce water scarcity, lower water bills, and support eco-friendly water conservation for residential, commercial, and industrial use.",
+    title: 'Water Harvesting System | Sustainable Water Conservation Solution',
+    desc: 'Discover water harvesting systems for sustainable water collection, storage, and groundwater recharge. Reduce water scarcity, lower water bills, and support eco-friendly water conservation for residential, commercial, and industrial use.',
     keyword:
-      "water harvesting system, rainwater harvesting system, water conservation system, rainwater collection system, sustainable water management, groundwater recharge system, rooftop rainwater harvesting, water storage tank, rainwater filtration system, eco-friendly water solution, urban water conservation, commercial water harvesting, industrial water harvesting, domestic water harvesting system, stormwater management system, water saving technology, groundwater replenishment, sustainable water conservation",
-    canonical:
-      "https://www.inrainwaterharvesting.com/water-harvesting-system",
+      'water harvesting system, rainwater harvesting system, water conservation system, rainwater collection system, sustainable water management, groundwater recharge system, rooftop rainwater harvesting, water storage tank, rainwater filtration system, eco-friendly water solution, urban water conservation, commercial water harvesting, industrial water harvesting, domestic water harvesting system, stormwater management system, water saving technology, groundwater replenishment, sustainable water conservation',
+    canonical: 'https://www.inrainwaterharvesting.com/water-harvesting-system',
     ogTitle:
-      "Water Harvesting System | Sustainable Water Conservation Solution",
+      'Water Harvesting System | Sustainable Water Conservation Solution',
     ogDescription:
-      "Discover water harvesting systems for sustainable water collection, storage, and groundwater recharge. Reduce water scarcity, lower water bills, and support eco-friendly water conservation for residential, commercial, and industrial use.",
-    ogUrl:
-      "https://www.inrainwaterharvesting.com/water-harvesting-system",
+      'Discover water harvesting systems for sustainable water collection, storage, and groundwater recharge. Reduce water scarcity, lower water bills, and support eco-friendly water conservation for residential, commercial, and industrial use.',
+    ogUrl: 'https://www.inrainwaterharvesting.com/water-harvesting-system',
     twittertitle:
-      "Water Harvesting System | Sustainable Water Conservation Solution",
+      'Water Harvesting System | Sustainable Water Conservation Solution',
     twitterdescription:
-      "Discover water harvesting systems for sustainable water collection, storage, and groundwater recharge. Reduce water scarcity, lower water bills, and support eco-friendly water conservation for residential, commercial, and industrial use.",
-  };
+      'Discover water harvesting systems for sustainable water collection, storage, and groundwater recharge. Reduce water scarcity, lower water bills, and support eco-friendly water conservation for residential, commercial, and industrial use.'
+  }
   return (
     <>
       <StaticMetatag data={data} />
       <StaticSchema />
       <Navbar />
       <main>
-        <section className="bg-gradient-to-b from-slate-50 to-white pb-20 overflow-hidden">
+        <section className='bg-gradient-to-b from-slate-50 to-white pb-20 overflow-hidden'>
           {/* HERO IMAGE */}
-          <div className="relative h-[260px] md:h-[350px] overflow-hidden">
+          <div className='relative h-[260px] md:h-[350px] overflow-hidden'>
             <Image
-              src="/service11.jpg"
-              alt="Water Harvesting System"
+              src='/service11.jpg'
+              alt='Water Harvesting System'
               width={1300}
               height={500}
               priority
-              className="w-full h-full object-cover"
+              className='w-full h-full object-cover'
             />
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-black/45" />
+            <div className='absolute inset-0 bg-black/45' />
 
             {/* Hero Content */}
-            <div className="absolute inset-0 flex items-center justify-center px-4">
-              <div className="text-center max-w-4xl">
-                <span className="inline-flex items-center rounded-full bg-white/20 backdrop-blur-md text-white px-5 py-2 text-sm md:text-base font-semibold mb-1 border border-white/30">
+            <div className='absolute inset-0 flex items-center justify-center px-4'>
+              <div className='text-center max-w-4xl'>
+                <span className='inline-flex items-center rounded-full bg-white/20 backdrop-blur-md text-white px-5 py-2 text-sm md:text-base font-semibold mb-1 border border-white/30'>
                   Sustainable Water Solutions
                 </span>
 
-                <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight drop-shadow-lg">
+                <h1 className='text-3xl md:text-5xl font-bold text-white leading-tight drop-shadow-lg'>
                   Water Harvesting System
                 </h1>
               </div>
@@ -62,15 +60,15 @@ const Water_Harvesting_System = () => {
           </div>
 
           {/* CONTENT SECTION */}
-          <div className="max-w-7xl mx-auto px-2 md:px-8 lg:px-5 -mt-12 relative z-10">
-            <div className="bg-white rounded-[36px] shadow-2xl border border-slate-200 p-2 md:p-10">
-              <div className="max-w-7xl">
-                <div className="grid lg:grid-cols-[1.4fr_0.8fr] gap-10">
+          <div className='max-w-7xl mx-auto px-2 md:px-8 lg:px-5 -mt-12 relative z-10'>
+            <div className='bg-white rounded-[36px] shadow-2xl border border-slate-200 p-2 md:p-10'>
+              <div className='max-w-7xl'>
+                <div className='grid lg:grid-cols-[1.4fr_0.8fr] gap-10'>
                   {/* LEFT CONTENT */}
-                  <div className="space-y-4">
+                  <div className='space-y-4'>
                     {/* INTRO */}
-                    <div className="bg-white border space-y-3 border-slate-200 rounded-[32px] p-6 md:p-10 shadow-lg">
-                      <p className="text-gray-700 text-[15px] md:text-md leading-7 text-justify">
+                    <div className='bg-white border space-y-3 border-slate-200 rounded-[32px] p-6 md:p-10 shadow-lg'>
+                      <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
                         A water harvesting system is a sustainable method of
                         collecting, storing, and managing water from natural
                         sources such as rainfall and surface runoff. It plays a
@@ -80,17 +78,23 @@ const Water_Harvesting_System = () => {
                         these systems help conserve valuable resources and
                         reduce dependence on external water supplies.
                       </p>
-                      <p className="text-gray-700 text-[15px] md:text-md leading-7 text-justify">
-                        The most common type of water harvesting system is
-                        rainwater harvesting, where water is collected from
-                        rooftops, open areas, or paved surfaces. The system
-                        typically consists of a catchment area, gutters or
-                        pipelines, filtration units, storage tanks, and
-                        distribution mechanisms. The collected water passes
-                        through filters that remove dust, leaves, and other
-                        impurities before being stored for later use.
+                      <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
+                        The most common type of water harvesting system is{' '}
+                        <Link
+                          href={'/rainwater-harvesting-system'}
+                          className='font-semibold text-green-500 hover:text-sky-500'
+                        >
+                          rainwater harvesting
+                        </Link>
+                        , where water is collected from rooftops, open areas, or
+                        paved surfaces. The system typically consists of a
+                        catchment area, gutters or pipelines, filtration units,
+                        storage tanks, and distribution mechanisms. The
+                        collected water passes through filters that remove dust,
+                        leaves, and other impurities before being stored for
+                        later use.
                       </p>
-                      <p className="text-gray-700 text-[15px] md:text-md leading-7 text-justify">
+                      <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
                         Modern water harvesting systems are designed with
                         advanced technologies to improve efficiency and water
                         quality. Features such as first-flush devices,
@@ -102,7 +106,7 @@ const Water_Harvesting_System = () => {
                         restore declining water tables and supports long-term
                         water availability.
                       </p>
-                      <p className="text-gray-700 text-[15px] md:text-md leading-7 text-justify">
+                      <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
                         Water harvested through these systems can be used for
                         various purposes, including gardening, cleaning,
                         irrigation, flushing, and industrial processes. With
@@ -111,14 +115,14 @@ const Water_Harvesting_System = () => {
                         supplies and lowers water bills for households and
                         businesses.
                       </p>
-                      <p className="text-gray-700 text-[15px] md:text-md leading-7 text-justify">
+                      <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
                         The benefits of a water harvesting system go beyond cost
                         savings. It helps prevent urban flooding by managing
                         excess rainwater and reduces soil erosion. Moreover, it
                         promotes environmental sustainability by conserving
                         water and supporting ecological balance.
                       </p>
-                      <p className="text-gray-700 text-[15px] md:text-md leading-7 text-justify">
+                      <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
                         In conclusion, a water harvesting system is a practical
                         and eco-friendly solution for efficient water
                         management. Its adoption is essential for ensuring a
@@ -128,12 +132,12 @@ const Water_Harvesting_System = () => {
                     </div>
 
                     {/* BEST CHOICE */}
-                    <div className="bg-gradient-to-r from-sky-600 to-cyan-600 rounded-[32px] p-6 md:p-10 text-white shadow-2xl">
-                      <h2 className="text-2xl md:text-3xl font-bold mb-3">
+                    <div className='bg-gradient-to-r from-sky-600 to-cyan-600 rounded-[32px] p-6 md:p-10 text-white shadow-2xl'>
+                      <h2 className='text-2xl md:text-3xl font-bold mb-3'>
                         Best Choice for Rainwater Harvesting Solutions
                       </h2>
 
-                      <p className="leading-7 text-slate-100 text-[16px] md:text-md">
+                      <p className='leading-7 text-slate-100 text-[16px] md:text-md'>
                         InRain Constructions Pvt. Ltd. is the best rainwater
                         harvesting supplier, providing top-quality products and
                         services. With extensive experience and expertise, we
@@ -145,29 +149,29 @@ const Water_Harvesting_System = () => {
                   </div>
 
                   {/* RIGHT SIDE */}
-                  <div className="lg:sticky lg:top-28 h-fit space-y-5">
+                  <div className='lg:sticky lg:top-28 h-fit space-y-5'>
                     {/* IMAGE CARD */}
-                    <div className="overflow-hidden rounded-[36px] shadow-2xl border border-slate-200 group bg-white">
+                    <div className='overflow-hidden rounded-[36px] shadow-2xl border border-slate-200 group bg-white'>
                       <Image
-                        src="/water-harvesting-system.jpg"
-                        alt="Water Harvesting System"
+                        src='/water-harvesting-system.jpg'
+                        alt='Water Harvesting System'
                         width={500}
                         height={500}
-                        className="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+                        className='w-full h-full object-cover transition duration-700 group-hover:scale-105'
                       />
                     </div>
 
                     {/* INFO CARD */}
-                    <div className="bg-gradient-to-br from-sky-50 to-cyan-50 border border-sky-100 rounded-[32px] p-7 shadow-lg">
-                      <span className="inline-flex px-4 py-2 rounded-full bg-sky-100 text-sky-700 text-sm font-semibold mb-4">
+                    <div className='bg-gradient-to-br from-sky-50 to-cyan-50 border border-sky-100 rounded-[32px] p-7 shadow-lg'>
+                      <span className='inline-flex px-4 py-2 rounded-full bg-sky-100 text-sky-700 text-sm font-semibold mb-4'>
                         Sustainable Water Management
                       </span>
 
-                      <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                      <h3 className='text-2xl font-bold text-slate-900 mb-3'>
                         Water Harvesting Solutions
                       </h3>
 
-                      <p className="text-gray-700 leading-7">
+                      <p className='text-gray-700 leading-7'>
                         Water Harvesting solution helps conserve water, reduce
                         groundwater dependency, and support eco-friendly urban
                         development.
@@ -175,19 +179,19 @@ const Water_Harvesting_System = () => {
                     </div>
 
                     {/* SMALL CTA CARD */}
-                    <div className="bg-slate-900 text-white rounded-[32px] p-7 shadow-xl">
-                      <h4 className="text-xl font-bold mb-3">
+                    <div className='bg-slate-900 text-white rounded-[32px] p-7 shadow-xl'>
+                      <h4 className='text-xl font-bold mb-3'>
                         Need Expert Consultation?
                       </h4>
 
-                      <p className="text-slate-300 leading-7 mb-5">
+                      <p className='text-slate-300 leading-7 mb-5'>
                         Get customized rainwater harvesting solutions designed
                         according to your project requirements.
                       </p>
 
                       <Link
-                        href="/contact"
-                        className="bg-sky-500 hover:bg-sky-600 transition px-6 py-3 rounded-xl font-semibold"
+                        href='/contact'
+                        className='bg-sky-500 hover:bg-sky-600 transition px-6 py-3 rounded-xl font-semibold'
                       >
                         Get a Quote
                       </Link>
@@ -203,7 +207,7 @@ const Water_Harvesting_System = () => {
       </main>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Water_Harvesting_System;
+export default Water_Harvesting_System

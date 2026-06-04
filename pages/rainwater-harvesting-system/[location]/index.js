@@ -61,7 +61,7 @@ export default function RainwaterHarvestingPage ({ city, slug }) {
           subheading={subheading}
           location={city.city}
         />
-        <Main2 location={city.city} />
+        <Main2 location={city.city} slug={slug} />
         <Main3 location={city.city} slug={slug} />
         <Main4 />
         <Main5 />

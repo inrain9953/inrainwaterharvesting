@@ -99,12 +99,15 @@ const Ground_Water_Recharge_System = () => {
                   </p>
 
                   <p>
-                    One of the main benefits of a groundwater recharge system is
-                    the restoration of depleted aquifers. It helps improve water
-                    availability for domestic, agricultural, and industrial use.
-                    Furthermore, it reduces surface runoff, prevents
-                    waterlogging, and minimizes the risk of urban flooding
-                    during heavy rainfall. Over time, it also improves
+                    One of the main benefits of a{' '}
+                    <Link className='font-semibold text-green-500 hover:text-sky-500' href='/'>
+                      Groundwater Recharge System
+                    </Link>{' '}
+                    is the restoration of depleted aquifers. It helps improve
+                    water availability for domestic, agricultural, and
+                    industrial use. Furthermore, it reduces surface runoff,
+                    prevents waterlogging, and minimizes the risk of urban
+                    flooding during heavy rainfall. Over time, it also improves
                     groundwater quality through natural filtration.
                   </p>
 

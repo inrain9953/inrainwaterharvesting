@@ -145,9 +145,14 @@ const Rainwater_Harvesting_System = () => {
                     </h3>
 
                     <p className='text-gray-600 leading-7'>
-                      Rainwater harvesting helps conserve water, reduce
-                      groundwater dependency, and support eco-friendly urban
-                      development.
+                      <Link
+                        href={'/'}
+                        className='font-semibold text-green-500 hover:text-sky-500'
+                      >
+                        Rainwater harvesting
+                      </Link>{' '}
+                      helps conserve water, reduce groundwater dependency, and
+                      support eco-friendly urban development.
                     </p>
                   </div>
 

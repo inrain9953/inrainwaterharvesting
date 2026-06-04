@@ -67,12 +67,18 @@ const RainwaterHarvestingtank = () => {
                 {/* LEFT CONTENT */}
                 <div className='space-y-3 text-gray-600 text-base md:text-md leading-7 text-justify'>
                   <p>
-                    A rainwater harvesting tank is a vital component of any
-                    rainwater harvesting system, designed to store collected
-                    rainwater for future use. With growing concerns over water
-                    scarcity and rising utility costs, these tanks provide an
-                    efficient and sustainable way to conserve water for
-                    domestic, commercial, and industrial applications.
+                    A rainwater harvesting tank is a vital component of any{' '}
+                    <Link
+                      href={'/rainwater-harvesting-system'}
+                      className='font-semibold text-green-500 hover:text-sky-500'
+                    >
+                      rainwater harvesting system
+                    </Link>{' '}
+                    , designed to store collected rainwater for future use. With
+                    growing concerns over water scarcity and rising utility
+                    costs, these tanks provide an efficient and sustainable way
+                    to conserve water for domestic, commercial, and industrial
+                    applications.
                   </p>
 
                   <p>
@@ -132,9 +138,14 @@ const RainwaterHarvestingtank = () => {
                     </h3>
 
                     <p className='text-gray-600 leading-7'>
-                      Rainwater harvesting helps conserve water, reduce
-                      groundwater dependency, and support eco-friendly urban
-                      development.
+                      <Link
+                        href={'/'}
+                        className='font-semibold text-green-500 hover:text-sky-500'
+                      >
+                        Rainwater harvesting
+                      </Link>{' '}
+                      helps conserve water, reduce groundwater dependency, and
+                      support eco-friendly urban development.
                     </p>
                   </div>
 

@@ -82,10 +82,16 @@ const ModularRainwaterHarvestingSystem = () => {
                   </p>
 
                   <p>
-                    The modular Rainwater Harvesting System in Delhi is based on
-                    the idea of utilizing pre-fabricated components that can be
-                    easily assembled and adapted to various settings and
-                    structures.
+                    The modular{' '}
+                    <Link
+                      className='text-green-500 font-semibold hover:text-sky-500'
+                      href={'/rainwater-harvesting-system'}
+                    >
+                      Rainwater Harvesting System
+                    </Link>{' '}
+                    in Delhi is based on the idea of utilizing pre-fabricated
+                    components that can be easily assembled and adapted to
+                    various settings and structures.
                   </p>
 
                   <p>
@@ -145,7 +151,10 @@ const ModularRainwaterHarvestingSystem = () => {
                     specific application.
                   </p>
                   <p>
-                    <Link href='/' className='font-semibold text-sky-600 hover:underline'>
+                    <Link
+                      href='/'
+                      className='font-semibold text-sky-600 hover:underline'
+                    >
                       Modular Rainwater Harvesting System
                     </Link>{' '}
                     Service Provider is also highly adaptable to different
@@ -198,9 +207,15 @@ const ModularRainwaterHarvestingSystem = () => {
                     </h3>
 
                     <p className='text-gray-600 leading-7'>
-                      Modular Rainwater Harvesting Tanks helps conserve water,
-                      reduce groundwater dependency, and support eco-friendly
-                      urban development.
+                      Modular{' '}
+                      <Link
+                        href='/rainwater-harvesting-tank'
+                        className='text-green-500 font-semibold hover:text-sky-500'
+                      >
+                        Rainwater Harvesting Tanks
+                      </Link>{' '}
+                      helps conserve water, reduce groundwater dependency, and
+                      support eco-friendly urban development.
                     </p>
                   </div>
 

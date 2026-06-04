@@ -149,11 +149,17 @@ const RWHForFloodMitigation = () => {
                           <span className='font-semibold text-slate-900'>
                             Urban Design:
                           </span>{' '}
-                          Urban planning should incorporate rainwater harvesting
-                          systems as a standard feature. Integrating catchment
-                          areas, storage facilities, and distribution networks
-                          within urban landscapes can efficiently utilize
-                          rainwater and contribute to flood reduction.
+                          Urban planning should incorporate{' '}
+                          <Link
+                            href={'/rainwater-harvesting-system'}
+                            className='font-semibold text-green-500 hover:text-sky-500'
+                          >
+                            rainwater harvesting system
+                          </Link>{' '}
+                          as a standard feature. Integrating catchment areas,
+                          storage facilities, and distribution networks within
+                          urban landscapes can efficiently utilize rainwater and
+                          contribute to flood reduction.
                         </p>
                       </li>
                     </ul>
@@ -165,7 +171,7 @@ const RWHForFloodMitigation = () => {
                       Harvesting Solutions
                     </h2>
 
-                    <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
+                    <p className='text-white text-[15px] md:text-md leading-7 text-justify'>
                       InRain Constructions Pvt. Ltd., the vanguard of rainwater
                       harvesting for flood mitigation, offers innovative
                       solutions for sustainable flood mitigation. With expertise
@@ -218,9 +224,14 @@ const RWHForFloodMitigation = () => {
                     </h3>
 
                     <p className='text-gray-700 leading-7'>
-                      Rainwater Harvesting solution helps conserve water, reduce
-                      groundwater dependency, and support eco-friendly urban
-                      development.
+                      <Link
+                        href={'/'}
+                        className='font-semibold text-green-500 hover:text-sky-500'
+                      >
+                        Rainwater Harvesting
+                      </Link>{' '}
+                      solution helps conserve water, reduce groundwater
+                      dependency, and support eco-friendly urban development.
                     </p>
                   </div>
 

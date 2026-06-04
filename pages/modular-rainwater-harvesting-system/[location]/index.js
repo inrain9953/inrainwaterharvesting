@@ -159,16 +159,22 @@ export default function ModularRainwaterHarvestingSystemLocationPage ({
                       </ul>
 
                       <p className='text-gray-700 text-[15px] mt-5 md:text-md leading-7 text-justify'>
-                        We are offering a {heading} in {city.city}, that is an
-                        efficient, and sustainable approach to water management.
-                        These systems can be easily tailored to meet the
-                        particular requirements of different applications and
-                        structures. These systems have the ability to capture,
-                        store, and utilize rainwater efficiently, modular
-                        rainwater harvesting systems contribute to water
-                        conservation, cost savings, and environmental
-                        sustainability. You can join us to learn more about our
-                        offerings.
+                        We are offering a{' '}
+                        <Link
+                          href={'/'}
+                          className='font-semibold text-green-600 hover:text-sky-500'
+                        >
+                          {heading} in {city.city}
+                        </Link>
+                        , that is an efficient, and sustainable approach to
+                        water management. These systems can be easily tailored
+                        to meet the particular requirements of different
+                        applications and structures. These systems have the
+                        ability to capture, store, and utilize rainwater
+                        efficiently, modular rainwater harvesting systems
+                        contribute to water conservation, cost savings, and
+                        environmental sustainability. You can join us to learn
+                        more about our offerings.
                       </p>
                     </div>
 

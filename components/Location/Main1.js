@@ -34,9 +34,9 @@ const Main1 = ({ heading, location, img }) => {
                   InRain Construction Private Limited
                 </bold>{' '}
                 is a leading{' '}
-                <span className='font-semibold text-sky-700'>
+                <Link href={'/'} className='font-semibold text-sky-700 hover:text-green-600'>
                   {heading} in {location}
-                </span>{' '}
+                </Link>{' '}
                 specializing in advanced rainwater harvesting solutions. With a
                 strong track record of success, we have executed over{' '}
                 <span className='font-semibold text-sky-700'>

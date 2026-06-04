@@ -97,9 +97,12 @@ export default function RainwaterHarvestingSupplierLocationPage ({
                         various purposes, such as irrigation, toilet flushing,
                         laundry, and even drinking water, with appropriate
                         treatment.{' '}
-                        <bold className='font-semibold'>
+                        <Link
+                          href={'/'}
+                          className='font-semibold text-green-600 hover:text-sky-600'
+                        >
                           {heading} in {city.city}
-                        </bold>{' '}
+                        </Link>{' '}
                         is providing the necessary equipment and expertise to
                         implement effective rainwater harvesting systems.
                       </p>

@@ -91,14 +91,20 @@ export default function PrefabricatedRainwaterHarvestingLocationPage ({
                     {/* INTRO */}
                     <div className='bg-white border border-slate-200 rounded-[32px] p-6 md:p-10 shadow-lg'>
                       <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
-                        {heading} Systems in {city.city} are a sustainable
-                        solution for water scarcity and environmental concerns.
-                        These modular systems efficiently capture, store, and
-                        utilize rainwater using components like collection
-                        surfaces, gutters, filters, storage tanks, and
-                        distribution systems. These systems work together
-                        seamlessly to conserve and utilize water resources,
-                        addressing water scarcity and environmental concerns.
+                        <Link
+                          href={'/'}
+                          className='font-semibold text-blue-600 hover:text-green-600'
+                        >
+                          {heading} Systems in {city.city}
+                        </Link>{' '}
+                        are a sustainable solution for water scarcity and
+                        environmental concerns. These modular systems
+                        efficiently capture, store, and utilize rainwater using
+                        components like collection surfaces, gutters, filters,
+                        storage tanks, and distribution systems. These systems
+                        work together seamlessly to conserve and utilize water
+                        resources, addressing water scarcity and environmental
+                        concerns.
                       </p>
                     </div>
 

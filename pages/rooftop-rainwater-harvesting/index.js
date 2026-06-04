@@ -87,7 +87,13 @@ const Rooftop_Rainwater_Harvesting = () => {
                   </p>
 
                   <p>
-                    One of the major advantages of rooftop rainwater harvesting
+                    One of the major advantages of{' '}
+                    <Link
+                      href={'/'}
+                      className='font-semibold text-green-500 hover:text-sky-500'
+                    >
+                      rooftop rainwater harvesting
+                    </Link>{' '}
                     is its cost-effectiveness and ease of installation. It does
                     not require large land areas or complex infrastructure,
                     making it suitable for homes, offices, schools, and

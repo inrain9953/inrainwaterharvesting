@@ -82,8 +82,14 @@ const NewGenerationOfRainwaterHarvesting = () => {
                       At InRain Constructions Pvt. Ltd., we believe in
                       harnessing the power of nature to preserve and replenish
                       our water resources. With our cutting-edge technologies
-                      and expertise, we offer comprehensive rainwater harvesting
-                      systems tailored to meet the unique needs of our clients.
+                      and expertise, we offer comprehensive{' '}
+                      <Link
+                        href={'/rainwater-harvesting-system'}
+                        className='font-semibold text-green-500 hover:text-sky-500'
+                      >
+                        rainwater harvesting systems
+                      </Link>{' '}
+                      tailored to meet the unique needs of our clients.
                     </p>
                   </div>
 
@@ -229,9 +235,14 @@ const NewGenerationOfRainwaterHarvesting = () => {
                     </h3>
 
                     <p className='text-gray-700 leading-7'>
-                      Modular Rainwater Harvesting solution helps conserve
-                      water, reduce groundwater dependency, and support
-                      eco-friendly urban development.
+                      <Link
+                        href={'/modular-rainwater-harvesting-system'}
+                        className='font-semibold text-green-500 hover:text-sky-500'
+                      >
+                        Modular Rainwater Harvesting
+                      </Link>{' '}
+                      solution helps conserve water, reduce groundwater
+                      dependency, and support eco-friendly urban development.
                     </p>
                   </div>
 

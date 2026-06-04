@@ -155,10 +155,16 @@ const RainwaterHarvestingSolutionForIndustries = () => {
                           <span className='font-semibold text-slate-900'>
                             Monitoring and Maintenance:
                           </span>{' '}
-                          Regular monitoring of rainwater harvesting systems is
-                          crucial for proper functioning, ensuring longevity and
-                          efficiency through filter cleaning, tank inspection,
-                          and component repair.
+                          Regular monitoring of{' '}
+                          <Link
+                            href={'/rainwater-harvesting-system'}
+                            className='font-semibold text-green-500 hover:text-sky-500'
+                          >
+                            Rainwater Harvesting System
+                          </Link>{' '}
+                          is crucial for proper functioning, ensuring longevity
+                          and efficiency through filter cleaning, tank
+                          inspection, and component repair.
                         </p>
                       </li>
                       <li className='flex items-start gap-4'>
@@ -332,9 +338,14 @@ const RainwaterHarvestingSolutionForIndustries = () => {
                     </h3>
 
                     <p className='text-gray-700 leading-7'>
-                      Modular Rainwater Harvesting solution helps conserve
-                      water, reduce groundwater dependency, and support
-                      eco-friendly urban development.
+                      <Link
+                        href={'/modular-rainwater-harvesting-system'}
+                        className='font-semibold text-green-500 hover:text-sky-500'
+                      >
+                        Modular Rainwater Harvesting
+                      </Link>{' '}
+                      solution helps conserve water, reduce groundwater
+                      dependency, and support eco-friendly urban development.
                     </p>
                   </div>
 

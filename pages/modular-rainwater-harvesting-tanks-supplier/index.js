@@ -74,10 +74,16 @@ const Modular_Rainwater_harvesting_Tank_Supplier = () => {
                     flexibility, durability, and easy installation. As water
                     scarcity continues to be a growing concern, businesses,
                     residential complexes, and industries are increasingly
-                    turning toward modular systems. Reliable modular rainwater
-                    harvesting tank suppliers play a crucial role in delivering
-                    high-quality products that ensure long-term water
-                    conservation and sustainability.
+                    turning toward modular systems. Reliable modular{' '}
+                    <Link
+                      className='text-green-500 font-semibold hover:text-sky-500'
+                      href={'/rainwater-harvesting-tank'}
+                    >
+                      rainwater harvesting tank
+                    </Link>{' '}
+                    suppliers play a crucial role in delivering high-quality
+                    products that ensure long-term water conservation and
+                    sustainability.
                   </p>
 
                   <p>
@@ -118,10 +124,16 @@ const Modular_Rainwater_harvesting_Tank_Supplier = () => {
                     also provide complete solutions, including consultation,
                     system design, supply, and installation support. Their
                     expertise ensures that the tanks are integrated efficiently
-                    with rainwater harvesting systems, enabling effective
-                    collection, filtration, and storage of rainwater. This not
-                    only reduces dependency on groundwater but also helps in
-                    managing stormwater runoff.
+                    with{' '}
+                    <Link
+                      className='font-semibold text-green-500 hover:text-sky-500'
+                      href={'/rainwater-harvesting-system'}
+                    >
+                      rainwater harvesting systems
+                    </Link>
+                    , enabling effective collection, filtration, and storage of
+                    rainwater. This not only reduces dependency on groundwater
+                    but also helps in managing stormwater runoff.
                   </p>
                   <p>
                     Maintenance is another area where modular tanks stand out.

@@ -78,10 +78,16 @@ const New_Technology_Of_Rainwater_Harvesting = () => {
                   </p>
 
                   <p>
-                    One of the key innovations is modular rainwater harvesting
-                    systems. These systems use interlocking, high-strength
-                    plastic modules installed underground to store and recharge
-                    large volumes of rainwater. They are space-saving, easy to
+                    One of the key innovations is{' '}
+                    <Link
+                      href={'/modular-rainwater-harvesting-system'}
+                      className='font-semibold text-green-500 hover:text-sky-500'
+                    >
+                      modular rainwater harvesting systems
+                    </Link>
+                    . These systems use interlocking, high-strength plastic
+                    modules installed underground to store and recharge large
+                    volumes of rainwater. They are space-saving, easy to
                     install, and ideal for areas with limited land availability.
                     Unlike conventional pits, modular systems offer higher
                     storage capacity and better structural durability.
@@ -142,9 +148,15 @@ const New_Technology_Of_Rainwater_Harvesting = () => {
                     </h3>
 
                     <p className='text-gray-600 leading-7'>
-                      New Technology of Rainwater harvesting helps conserve
-                      water, reduce groundwater dependency, and support
-                      eco-friendly urban development.
+                      New Technology of{' '}
+                      <Link
+                        href={'/'}
+                        className='font-semibold text-green-500 hover:text-sky-500'
+                      >
+                        Rainwater harvesting
+                      </Link>{' '}
+                      helps conserve water, reduce groundwater dependency, and
+                      support eco-friendly urban development.
                     </p>
                   </div>
 

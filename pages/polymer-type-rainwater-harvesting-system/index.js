@@ -95,15 +95,21 @@ const PolymerTypeRainwaterHarvestingSystem = () => {
                   </p>
 
                   <p>
-                    One of the key advantages of polymer-based rainwater
-                    harvesting systems is their efficiency in collecting
-                    rainwater. The polymer-based collection surfaces, such as
-                    polymer-coated roofs or polymer-based gutters and pipes,
-                    provide a smooth and non-absorptive surface for rainwater to
-                    flow freely. This ensures maximum collection and prevents
-                    losses due to runoffor evaporation. The efficiency of the
-                    collection process helps to optimize the amount of rainwater
-                    harvested, maximizing the available water resources.
+                    One of the key advantages of{' '}
+                    <Link
+                      href={'/'}
+                      className='font-semibold text-green-500 hover:text-sky-500'
+                    >
+                      polymer-based rainwater harvesting systems
+                    </Link>{' '}
+                    is their efficiency in collecting rainwater. The
+                    polymer-based collection surfaces, such as polymer-coated
+                    roofs or polymer-based gutters and pipes, provide a smooth
+                    and non-absorptive surface for rainwater to flow freely.
+                    This ensures maximum collection and prevents losses due to
+                    runoffor evaporation. The efficiency of the collection
+                    process helps to optimize the amount of rainwater harvested,
+                    maximizing the available water resources.
                   </p>
 
                   <p>
@@ -190,9 +196,15 @@ const PolymerTypeRainwaterHarvestingSystem = () => {
                     </h3>
 
                     <p className='text-gray-600 leading-7'>
-                      Polymer Type Rainwater Harvesting System helps conserve
-                      water, reduce groundwater dependency, and support
-                      eco-friendly urban development.
+                      Polymer Type{' '}
+                      <Link
+                        href={'/rainwater-harvesting-system'}
+                        className='font-semibold text-green-500 hover:text-sky-500'
+                      >
+                        Rainwater harvesting System
+                      </Link>{' '}
+                      helps conserve water, reduce groundwater dependency, and
+                      support eco-friendly urban development.
                     </p>
                   </div>
 

@@ -101,10 +101,16 @@ const Main6 = ({ location, slug }) => {
                 Department (PWD), Smart Cities, and the residences of Supreme
                 Court Judges, among others. These projects have enabled us to
                 gain unparalleled expertise in rainwater harvesting, making us a
-                front-runner in the industry. A Water Harvesting System in{' '}
-                {location} helps collect and store rainwater, conserving
-                resources, reducing dependency on groundwater, and supporting
-                sustainable water management.
+                front-runner in the industry. A{' '}
+                <Link
+                  href={`/water-harvesting-system/${slug}`}
+                  className='font-semibold text-green-600 hover:text-sky-600'
+                >
+                  Water Harvesting System in {location}
+                </Link>{' '}
+                helps collect and store rainwater, conserving resources,
+                reducing dependency on groundwater, and supporting sustainable
+                water management.
               </p>
 
               <p>

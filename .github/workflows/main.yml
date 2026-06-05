@@ -33,27 +33,12 @@ jobs:
         run: |
           docker push $IMAGE_NAME
 
-      - name: Debug SSH Connectivity
+      - name: Verify Server Connectivity
         run: |
-          echo "Testing connectivity to SSH host..."
-          HOST="${{ secrets.SERVER_HOST }}"
-          PORT="${{ secrets.SERVER_PORT || 22 }}"
-
-          # Try to resolve hostname
-          echo "DNS Resolution:"
-          nslookup "$HOST" || dig "$HOST" || echo "DNS lookup failed"
-
-          # Check if host is reachable
-          echo -e "\nPing test:"
-          ping -c 3 "$HOST" || echo "Ping failed"
-
-          # Test SSH port connectivity
-          echo -e "\nSSH port connectivity:"
-          timeout 5 bash -c "</dev/tcp/$HOST/$PORT" && echo "Port $PORT is open" || echo "Port $PORT is blocked/closed"
-
-          # Show GitHub Action runner IP
-          echo -e "\nGitHub Actions runner IP:"
-          curl -s https://api.github.com/meta | jq '.actions'
+          echo "Testing connectivity to server..."
+          timeout 10 bash -c 'cat < /dev/null > /dev/tcp/${{ secrets.SERVER_HOST }}/22' && \
+          echo "✓ SSH port 22 is reachable" || \
+          echo "✗ Cannot reach SSH port 22 - Check firewall, server status, and SERVER_HOST secret"
 
       - name: SSH Deploy VPS
         uses: appleboy/ssh-action@v1.0.3
@@ -61,9 +46,6 @@ jobs:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
-          port: 22
-          timeout: 60s
-          command_timeout: 15m
           script: |
             cd /srv/app
 
@@ -71,6 +53,6 @@ jobs:
             -u ${{ github.actor }} --password-stdin
 
             docker compose pull
-            docker compose up -d --force-recreate
+            docker compose up -d
 
             docker image prune -af

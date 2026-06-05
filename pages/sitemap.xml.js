@@ -17,7 +17,7 @@ function generateSiteMap () {
     '/rooftop-rainwater-harvesting',
     '/polymer-type-rainwater-harvesting-system',
     '/storm-water-management-company',
-    'new-technology-of-rainwater-harvesting',
+    '/new-technology-of-rainwater-harvesting',
     '/ground-water-recharge-system',
     '/modular-rainwater-harvesting-tanks-supplier',
     '/new-generation-of-rainwater-harvesting',

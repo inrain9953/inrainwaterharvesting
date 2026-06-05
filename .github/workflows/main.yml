@@ -33,6 +33,28 @@ jobs:
         run: |
           docker push $IMAGE_NAME
 
+      - name: Debug SSH Connectivity
+        run: |
+          echo "Testing connectivity to SSH host..."
+          HOST="${{ secrets.SERVER_HOST }}"
+          PORT="${{ secrets.SERVER_PORT || 22 }}"
+          
+          # Try to resolve hostname
+          echo "DNS Resolution:"
+          nslookup "$HOST" || dig "$HOST" || echo "DNS lookup failed"
+          
+          # Check if host is reachable
+          echo -e "\nPing test:"
+          ping -c 3 "$HOST" || echo "Ping failed"
+          
+          # Test SSH port connectivity
+          echo -e "\nSSH port connectivity:"
+          timeout 5 bash -c "</dev/tcp/$HOST/$PORT" && echo "Port $PORT is open" || echo "Port $PORT is blocked/closed"
+          
+          # Show GitHub Action runner IP
+          echo -e "\nGitHub Actions runner IP:"
+          curl -s https://api.github.com/meta | jq '.actions'
+
       - name: SSH Deploy VPS
         uses: appleboy/ssh-action@v1.0.3
         with:

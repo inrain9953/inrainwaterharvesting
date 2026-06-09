@@ -167,7 +167,7 @@ const contact = () => {
             </div>
 
             {/* RIGHT SIDE FORM */}
-            <div className="sticky top-28">
+            <div className="sticky top-36">
               <div className="p-3 md:p-5">
                 <ContactForm />
               </div>

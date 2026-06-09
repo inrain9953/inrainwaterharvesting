@@ -10,8 +10,8 @@ const Certified = () => {
           loading='eager'
           src='/logo.png'
           alt='logo'
-          width={60}
-          height={60}
+          width={75}
+          height={75}
         />
       </Link>
       <div className='flex items-center gap-10'>

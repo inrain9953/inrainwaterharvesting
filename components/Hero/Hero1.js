@@ -19,8 +19,8 @@ const Hero1 = () => {
                 InRain® Construction Pvt. Ltd. (ICPL)
               </span>
 
-              <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900 mb-3">
-                Rainwater Harvesting System in Delhi
+              <h1 className="text-3xl md:text-4xl font-bold leading-tight text-gray-900 mb-3">
+                Modular Rainwater Harvesting System in Delhi
               </h1>
 
               <p className="text-gray-600 leading-7 text-justify text-base">

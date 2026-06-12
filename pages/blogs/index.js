@@ -1,33 +1,12 @@
-import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import AccessTimeIcon from '@mui/icons-material/AccessTime'
 import CategoryIcon from '@mui/icons-material/Category'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/Footer'
-import { Blog } from '../api/dbschema'
-import mongoose from 'mongoose'
+import Image from 'next/image'
 
-export const BlogsPage = ({
-  initialBlogs,
-  initialPagination,
-  initialError
-}) => {
-  const [blogs, setBlogs] = useState(initialBlogs || [])
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState(initialError || '')
-  const [pagination, setPagination] = useState(initialPagination || null)
-  const [search, setSearch] = useState('')
-  const [category, setCategory] = useState('')
-  const [currentPage, setCurrentPage] = useState(1)
-  const formatDate = date => {
-    return new Date(date).toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric'
-    })
-  }
-
+export const BlogsPage = () => {
   return (
     <>
       <Head>
@@ -45,162 +24,84 @@ export const BlogsPage = ({
         {/* Hero Section */}
         <div className='bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-10'>
           <div className='max-w-6xl mx-auto px-4'>
-            <h1 className='text-5xl font-bold mb-4'>InRain Blogs</h1>
-            <p className='text-xl text-blue-100 max-w-2xl'>
+            <h1 className='text-4xl font-bold mb-2'>InRain Blogs</h1>
+            <p className='text-lg text-blue-100 max-w-2xl'>
               Discover insights on rainwater harvesting, water conservation, and
               sustainable solutions
             </p>
           </div>
         </div>
 
-        {/* Main Content */}
-        <div className='max-w-6xl mx-auto px-4 py-12'>
-          {/* Loading State */}
-          {loading && (
-            <div className='flex justify-center items-center py-20'>
-              <div className='animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-500'></div>
-            </div>
-          )}
-
-          {/* Error State */}
-          {error && (
-            <div className='bg-red-50 border-l-4 border-red-500 p-4 rounded-lg mb-6'>
-              <p className='text-red-700 font-semibold'>⚠️ {error}</p>
-            </div>
-          )}
-
-          {/* Blogs Grid */}
-          {!loading && blogs.length > 0 && (
-            <>
-              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12'>
-                {blogs.map(blog => (
-                  <Link key={blog._id} href={`/blogs/${blog.slug}`}>
-                    <div className='bg-white rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 duration-300 overflow-hidden cursor-pointer group'>
-                      {/* Image Container */}
-                      {blog.image && (
-                        <div className='relative h-48 bg-gradient-to-br from-blue-200 to-indigo-200 overflow-hidden'>
-                          <img
-                            src={blog.image}
-                            alt={blog.title}
-                            className='w-full h-full object-cover group-hover:scale-110 transition duration-300'
-                          />
-                          <div className='absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-black/30 to-transparent'></div>
-                        </div>
-                      )}
-
-                      {/* Content Container */}
-                      <div className='p-6'>
-                        {/* Category Badge */}
-                        <div className='inline-block mb-3'>
-                          <span className='inline-flex items-center gap-1 bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold'>
-                            <CategoryIcon fontSize='small' /> {blog.category}
-                          </span>
-                        </div>
-
-                        {/* Title */}
-                        <h2 className='text-xl font-bold text-slate-800 mb-3 line-clamp-2 group-hover:text-blue-600 transition'>
-                          {blog.title}
-                        </h2>
-
-                        {/* Excerpt */}
-                        <p className='text-gray-600 text-sm mb-4 line-clamp-3'>
-                          {blog.excerpt}
-                        </p>
-
-                        {/* Meta Information */}
-                        <div className='flex items-center justify-between pt-4 border-t border-slate-100'>
-                          <div className='flex items-center gap-2 text-xs text-gray-500'>
-                            <AccessTimeIcon fontSize='small' />
-                            {formatDate(blog.createdAt)}
-                          </div>
-                          <span className='text-blue-600 font-semibold text-sm hover:text-blue-700'>
-                            Read More →
-                          </span>
-                        </div>
-                      </div>
-                    </div>
+        <div className='bg-gray-50 py-10'>
+          <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+            {/* Blog Grid */}
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+              {/* Blog 1 Card */}
+              <article className='group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2'>
+                {/* Image */}
+                <div className='relative overflow-hidden'>
+                  <Link href='/blogs/how-modular-rainwater-harvesting-revolutionizing-industrial-water-management'>
+                    <Image
+                      width={600}
+                      height={400}
+                      src='/new-generation-of-rainwater-harvesting.jpg'
+                      alt='Modular Rainwater Harvesting'
+                      className='w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110'
+                    />
                   </Link>
-                ))}
-              </div>
 
-              {/* Pagination */}
-              {pagination && pagination.totalPages > 1 && (
-                <div className='flex justify-center items-center gap-2 mb-12'>
-                  {currentPage > 1 && (
-                    <button
-                      onClick={() => handlePageChange(currentPage - 1)}
-                      className='px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition'
-                    >
-                      ← Previous
-                    </button>
-                  )}
+                  <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent'></div>
 
-                  {/* Page Numbers */}
-                  <div className='flex gap-1'>
-                    {Array.from(
-                      { length: pagination.totalPages },
-                      (_, i) => i + 1
-                    ).map(page => (
-                      <button
-                        key={page}
-                        onClick={() => handlePageChange(page)}
-                        className={`px-3 py-2 rounded-lg font-semibold transition ${
-                          currentPage === page
-                            ? 'bg-blue-600 text-white'
-                            : 'bg-slate-200 text-slate-700 hover:bg-slate-300'
-                        }`}
-                      >
-                        {page}
-                      </button>
-                    ))}
+                  <span className='absolute top-4 left-4 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full'>
+                    Water Management
+                  </span>
+                </div>
+
+                {/* Content */}
+                <div className='p-6'>
+                  <div className='flex items-center gap-3 text-xs text-gray-500 mb-4'>
+                    <span>📅 June 2025</span>
+                    <span>•</span>
+                    <span>5 Min Read</span>
                   </div>
 
-                  {currentPage < pagination.totalPages && (
-                    <button
-                      onClick={() => handlePageChange(currentPage + 1)}
-                      className='px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition'
+                  <Link href='/blogs/how-modular-rainwater-harvesting-revolutionizing-industrial-water-management'>
+                    <h3 className='text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-blue-600 transition-colors duration-300'>
+                      How Modular Rainwater Harvesting is Revolutionizing
+                      Industrial Water Management
+                    </h3>
+                  </Link>
+
+                  <p className='text-gray-600 leading-relaxed text-sm line-clamp-3 mb-3'>
+                    Discover how innovative modular rainwater harvesting systems
+                    are helping industries reduce water costs, recharge
+                    groundwater, and achieve sustainability goals while ensuring
+                    long-term water security.
+                  </p>
+
+                  <Link
+                    href='/blogs/how-modular-rainwater-harvesting-revolutionizing-industrial-water-management'
+                    className='inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors'
+                  >
+                    Read Full Article
+                    <svg
+                      className='w-4 h-4 transition-transform group-hover:translate-x-1'
+                      fill='none'
+                      stroke='currentColor'
+                      strokeWidth='2'
+                      viewBox='0 0 24 24'
                     >
-                      Next →
-                    </button>
-                  )}
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        d='M9 5l7 7-7 7'
+                      />
+                    </svg>
+                  </Link>
                 </div>
-              )}
-
-              {/* Blog Count */}
-              <div className='text-center text-gray-600 mb-6'>
-                Showing {(currentPage - 1) * 9 + 1} to{' '}
-                {Math.min(currentPage * 9, pagination.totalBlogs)} of{' '}
-                {pagination.totalBlogs} blogs
-              </div>
-            </>
-          )}
-
-          {/* No Blogs State */}
-          {!loading && blogs.length === 0 && (
-            <div className='text-center py-20'>
-              <div className='text-6xl mb-4'>📚</div>
-              <h3 className='text-2xl font-bold text-slate-800 mb-2'>
-                No blogs found
-              </h3>
-              <p className='text-gray-600 mb-6'>
-                {search || category
-                  ? 'Try adjusting your search or filters'
-                  : 'No published blogs yet. Check back soon!'}
-              </p>
-              {(search || category) && (
-                <button
-                  onClick={() => {
-                    setSearch('')
-                    setCategory('')
-                    fetchBlogs(1, '', '')
-                  }}
-                  className='bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition font-semibold'
-                >
-                  Clear Filters
-                </button>
-              )}
+              </article>
             </div>
-          )}
+          </div>
         </div>
       </div>
       <Footer />
@@ -209,26 +110,3 @@ export const BlogsPage = ({
 }
 
 export default BlogsPage
-
-export async function getStaticProps () {
-  await mongoose.connect(process.env.url)
-
-  const blogs = await Blog.find({
-    status: 'Published'
-  })
-    .sort({ createdAt: -1 })
-    .limit(49)
-    .lean()
-
-  return {
-    props: {
-      initialBlogs: JSON.parse(JSON.stringify(blogs)),
-      initialPagination: {
-        totalBlogs: blogs.length,
-        totalPages: 1
-      },
-      initialError: ''
-    },
-    revalidate: 3600
-  }
-}

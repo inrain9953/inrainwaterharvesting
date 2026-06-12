@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import AccessTimeIcon from '@mui/icons-material/AccessTime'
-import CategoryIcon from '@mui/icons-material/Category'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/Footer'
 import Image from 'next/image'

@@ -40,7 +40,7 @@ export const BlogsPage = () => {
               <article className='group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2'>
                 {/* Image */}
                 <div className='relative overflow-hidden'>
-                  <Link href='/blogs/how-modular-rainwater-harvesting-revolutionizing-industrial-water-management'>
+                  <Link href='/blogs/how-modular-rainwater-harvesting-is-revolutionizing-industrial-water-management'>
                     <Image
                       width={600}
                       height={400}
@@ -65,7 +65,7 @@ export const BlogsPage = () => {
                     <span>5 Min Read</span>
                   </div>
 
-                  <Link href='/blogs/how-modular-rainwater-harvesting-revolutionizing-industrial-water-management'>
+                  <Link href='/blogs/how-modular-rainwater-harvesting-is-revolutionizing-industrial-water-management'>
                     <h3 className='text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-blue-600 transition-colors duration-300'>
                       How Modular Rainwater Harvesting is Revolutionizing
                       Industrial Water Management
@@ -80,7 +80,7 @@ export const BlogsPage = () => {
                   </p>
 
                   <Link
-                    href='/blogs/how-modular-rainwater-harvesting-revolutionizing-industrial-water-management'
+                    href='/blogs/how-modular-rainwater-harvesting-is-revolutionizing-industrial-water-management'
                     className='inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors'
                   >
                     Read Full Article

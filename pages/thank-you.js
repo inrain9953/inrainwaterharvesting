@@ -20,7 +20,7 @@ export default function ThankYou () {
       gtag('config', 'AW-16650006765');
 
       gtag('event', 'conversion', {
-        send_to: 'AW-16650006765/gyk2CK3ox8gZEO3hq4M-',
+        send_to: 'AW-16650006765/xnCkCJyMy70cEO3hq4M-',
         value: 100000.0,
         currency: 'INR'
       });

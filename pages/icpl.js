@@ -35,10 +35,10 @@ const ICPL = () => {
       <StaticMetatag data={data} />
       <Script
         src='https://www.googletagmanager.com/gtag/js?id=AW-16650006765'
-        strategy='afterInteractive'
+        strategy='beforeInteractive'
       />
 
-      <Script id='google-ads' strategy='afterInteractive'>
+      <Script id='google-ads' strategy='beforeInteractive'>
         {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

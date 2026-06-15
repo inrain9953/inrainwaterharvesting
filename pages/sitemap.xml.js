@@ -26,7 +26,8 @@ function generateSiteMap () {
     '/rainwater-harvesting-for-flood-mitigation',
     '/prefabricated-rainwater-harvesting',
     '/water-harvesting-system',
-    '/rainwater-harvesting-pit'
+    '/rainwater-harvesting-pit',
+    '/blogs/how-modular-rainwater-harvesting-is-revolutionizing-industrial-water-management',
   ]
 
   // Static pages

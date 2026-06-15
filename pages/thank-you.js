@@ -7,10 +7,10 @@ export default function ThankYou () {
     <>
       <Script
         src='https://www.googletagmanager.com/gtag/js?id=AW-16650006765'
-        strategy='afterInteractive'
+        strategy='beforeInteractive'
       />
 
-      <Script id='google-tag' strategy='afterInteractive'>
+      <Script id='google-tag' strategy='beforeInteractive'>
         {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}

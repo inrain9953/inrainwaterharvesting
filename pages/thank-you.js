@@ -34,6 +34,9 @@ export default function ThankYou () {
         <p className='text-2xl font-semibold'>
           Your message has been sent successfully.
         </p>
+        <p className='text-lg font-semibold'>
+          Our Team will get back to you soon !
+        </p>
       </div>
 
       <Footer />

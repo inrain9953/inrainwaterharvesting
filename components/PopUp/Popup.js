@@ -226,10 +226,7 @@ const PopUp = () => {
         </div>
 
         {/* Main "Get Help" Trigger */}
-        <div className='flex items-center gap-1 transition-all duration-300 ease-out'>
-          <span className='rounded-xl bg-sky-500 px-2 py-1 text-xs text-white whitespace-nowrap'>
-            Get Help
-          </span>
+        <div className='transition-all duration-300 ease-out'>
           <button
             onClick={toggleMenu}
             aria-expanded={isMenuOpen}

@@ -3,10 +3,10 @@ import Script from 'next/script'
 const DynamicSchema = ({ city, slug, heading, subheading, page }) => {
   const schema = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    '@type': 'Organization',
 
     name: 'InRain® Construction Pvt. Ltd.',
-    alternateName: 'InRain®',
+    alternateName: 'InRain® Construction Pvt. Ltd.',
 
     description: `Professional ${heading} in ${city.city}. InRain Construction provides ${subheading}, groundwater recharge systems, rainwater filtration, flood mitigation, storm water management and sustainable water conservation solutions in ${city.city}.`,
 
@@ -24,27 +24,15 @@ const DynamicSchema = ({ city, slug, heading, subheading, page }) => {
     contactPoint: [
       {
         '@type': 'ContactPoint',
-        telephone: '011-35823511',
-        email: 'sales@inrainwaterharvesting.com', // change if different
+        telephone: '9910220794',
+        email: 'sales@inrainwaterharvesting.com',
         contactType: 'customer enquiry'
       }
     ],
-
-    sameAs: [
-      'https://www.facebook.com/inrainconstructionofficial',
-      'https://x.com/InrainC',
-      'https://www.instagram.com/inrainconstruction_/',
-      'https://in.pinterest.com/inrainc0212/'
-    ],
-
-    brand: {
-      '@type': 'Brand',
-      name: 'InRain® Construction Pvt. Ltd.'
-    },
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '4.3',
-      ratingCount: '1823'
+      ratingValue: '4.6',
+      ratingCount: '1943'
     }
   }
 

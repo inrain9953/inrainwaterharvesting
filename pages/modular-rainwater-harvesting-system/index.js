@@ -5,6 +5,7 @@ import Certification from '@/components/Certification/Certification'
 import Navbar from '@/components/Navbar/Navbar'
 import StaticMetatag from '@/components/Schema/StaticMetatag'
 import StaticSchema from '@/components/Schema/StaticSchema'
+import Footer from '@/components/Footer/Footer'
 
 const ModularRainwaterHarvestingSystem = () => {
   const data = {
@@ -245,6 +246,7 @@ const ModularRainwaterHarvestingSystem = () => {
 
         <Certification />
       </main>
+      <Footer />
     </>
   )
 }

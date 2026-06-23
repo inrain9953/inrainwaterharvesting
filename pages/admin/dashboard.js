@@ -189,6 +189,7 @@ export default function Dashboard () {
               <table className='w-full'>
                 <thead className='bg-sky-600 text-white'>
                   <tr>
+                    <th className='p-4 text-left'>Date/Time</th>
                     <th className='p-4 text-left'>Name</th>
                     <th className='p-4 text-left'>Email</th>
                     <th className='p-4 text-left'>Mobile</th>
@@ -197,13 +198,18 @@ export default function Dashboard () {
                   </tr>
                 </thead>
 
-                <tbody>
+                <tbody className='text-sm'>
                   {filteredLeads.length > 0 ? (
                     filteredLeads.map((lead, index) => (
                       <tr
                         key={lead._id}
                         className='border-b hover:bg-slate-50 transition'
                       >
+                        <td className='p-4 font-medium text-xs'>
+                          {new Date(lead.createdAt).toLocaleString('en-IN', {
+                            timeZone: 'Asia/Kolkata'
+                          })}
+                        </td>
                         <td className='p-4 font-medium'>{lead.name}</td>
 
                         <td className='p-4'>{lead.email}</td>

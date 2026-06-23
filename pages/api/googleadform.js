@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 import { Product } from './dbschema'
 import { GoogleAdsMail } from './lib/googleadmail'
 
-export default async function GoogleAdForm(req, res) {
+export default async function GoogleAdForm (req, res) {
   try {
     if (req.method !== 'POST') {
       return res.status(405).json({
@@ -18,7 +18,8 @@ export default async function GoogleAdForm(req, res) {
       name,
       email,
       mobile: phone,
-      message
+      message,
+      submittedAt: new Date()
     })
 
     const result = await product.save()

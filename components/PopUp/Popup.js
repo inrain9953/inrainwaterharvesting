@@ -4,10 +4,11 @@ import CallIcon from '@mui/icons-material/Call'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
 import CloseIcon from '@mui/icons-material/Close'
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline'
 import { TypeAnimation } from 'react-type-animation'
 import ChatMessage from '../AI/ChatMessage'
 import ThreePIcon from '@mui/icons-material/ThreeP'
+import { Call } from '../Tracking/Call'
+import { Whatsapp } from '../Tracking/Whatsapp'
 
 const ChatWindow = memo(
   ({
@@ -196,7 +197,7 @@ const PopUp = () => {
         </div>
 
         {/* Call Button */}
-        <div className={childClasses('delay-[70ms]')}>
+        <div onClick={Call} className={childClasses('delay-[70ms]')}>
           <span className='rounded-xl bg-sky-500 px-2 py-1 text-xs text-white whitespace-nowrap'>
             Call us
           </span>
@@ -210,7 +211,7 @@ const PopUp = () => {
         </div>
 
         {/* WhatsApp Button */}
-        <div className={childClasses('delay-[20ms]')}>
+        <div onClick={Whatsapp} className={childClasses('delay-[20ms]')}>
           <span className='rounded-xl bg-green-500 px-2 py-1 text-xs text-white whitespace-nowrap'>
             WhatsApp
           </span>

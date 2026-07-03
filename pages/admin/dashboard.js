@@ -7,6 +7,7 @@ import DeleteIcon from '@mui/icons-material/Delete'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/Footer'
 import Head from 'next/head'
+import TrackingAnalytics from '@/components/TrackingAnalytics/TrackingAnalytics'
 
 export default function Dashboard () {
   const router = useRouter()
@@ -14,11 +15,24 @@ export default function Dashboard () {
   const [loading, setLoading] = useState(true)
   const [leads, setLeads] = useState([])
   const [search, setSearch] = useState('')
+  const [view, setView] = useState('leads')
+  const [callClicks, setCallClicks] = useState([])
+  const [whatsappClicks, setWhatsappClicks] = useState([])
 
   useEffect(() => {
     checkAdmin()
     fetchLeads()
+    Tracing()
   }, [])
+
+  async function Tracing () {
+    const data = await fetch('/api/tracking', { method: 'GET' })
+    if (data.ok) {
+      const result = await data.json()
+      setCallClicks(result.Call)
+      setWhatsappClicks(result.Whatsapp)
+    }
+  }
 
   // Verify Login
   const checkAdmin = async () => {
@@ -150,17 +164,13 @@ export default function Dashboard () {
               <div className='flex justify-between items-center'>
                 <div>
                   <p className='text-gray-500'>Total Leads</p>
-
                   <h2 className='text-4xl font-bold mt-2 text-sky-600'>
                     {leads.length}
                   </h2>
                 </div>
-
                 <div className='w-16 h-16 rounded-full bg-sky-100 flex justify-center items-center'>
                   <PeopleAltIcon
-                    style={{
-                      fontSize: '35px'
-                    }}
+                    style={{ fontSize: '35px' }}
                     className='text-sky-600'
                   />
                 </div>
@@ -171,7 +181,6 @@ export default function Dashboard () {
             <div className='bg-white rounded-[30px] shadow-md border border-slate-200 p-5 mb-6'>
               <div className='relative'>
                 <SearchIcon className='absolute top-4 left-4 text-gray-400' />
-
                 <input
                   type='text'
                   placeholder='Search by name, email or phone...'
@@ -183,65 +192,77 @@ export default function Dashboard () {
             </div>
           </div>
 
-          {/* TABLE */}
-          <div className='bg-white rounded-[30px] shadow-lg overflow-hidden border border-slate-200'>
-            <div className='overflow-x-auto'>
-              <table className='w-full'>
-                <thead className='bg-sky-600 text-white'>
-                  <tr>
-                    <th className='p-4 text-left'>Date/Time</th>
-                    <th className='p-4 text-left'>Name</th>
-                    <th className='p-4 text-left'>Email</th>
-                    <th className='p-4 text-left'>Mobile</th>
-                    <th className='p-4 text-left'>Message</th>
-                    <th className='p-4 text-center'>Action</th>
-                  </tr>
-                </thead>
+          {/* TOGGLE BUTTON */}
+          <div className='flex justify-end mb-5'>
+            <button
+              onClick={() => setView(view === 'leads' ? 'analytics' : 'leads')}
+              className='bg-sky-600 hover:bg-sky-700 text-white font-medium rounded-2xl px-6 py-3 shadow-md transition'
+            >
+              {view === 'leads' ? 'View Click Analytics' : 'View Leads'}
+            </button>
+          </div>
 
-                <tbody className='text-sm'>
-                  {filteredLeads.length > 0 ? (
-                    filteredLeads.map((lead, index) => (
-                      <tr
-                        key={lead._id}
-                        className='border-b hover:bg-slate-50 transition'
-                      >
-                        <td className='p-4 font-medium text-xs'>
-                          {new Date(lead.createdAt).toLocaleString('en-IN', {
-                            timeZone: 'Asia/Kolkata'
-                          })}
-                        </td>
-                        <td className='p-4 font-medium'>{lead.name}</td>
-
-                        <td className='p-4'>{lead.email}</td>
-
-                        <td className='p-4'>{lead.mobile}</td>
-
-                        <td className='p-4 max-w-sm'>{lead.message}</td>
-
-                        <td className='p-4 text-center'>
-                          <button
-                            onClick={() => deleteLead(lead._id)}
-                            className='bg-red-100 hover:bg-red-500 hover:text-white transition p-3 rounded-xl'
-                          >
-                            <DeleteIcon />
-                          </button>
+          {/* CONDITIONAL CONTENT */}
+          {view === 'leads' ? (
+            <div className='bg-white rounded-[30px] shadow-lg overflow-hidden border border-slate-200'>
+              <div className='overflow-x-auto'>
+                <table className='w-full'>
+                  <thead className='bg-sky-600 text-white'>
+                    <tr>
+                      <th className='p-4 text-left'>Date/Time</th>
+                      <th className='p-4 text-left'>Name</th>
+                      <th className='p-4 text-left'>Email</th>
+                      <th className='p-4 text-left'>Mobile</th>
+                      <th className='p-4 text-left'>Message</th>
+                      <th className='p-4 text-center'>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody className='text-sm'>
+                    {filteredLeads.length > 0 ? (
+                      filteredLeads.map(lead => (
+                        <tr
+                          key={lead._id}
+                          className='border-b hover:bg-slate-50 transition'
+                        >
+                          <td className='p-4 font-medium text-xs'>
+                            {new Date(lead.createdAt).toLocaleString('en-IN', {
+                              timeZone: 'Asia/Kolkata'
+                            })}
+                          </td>
+                          <td className='p-4 font-medium'>{lead.name}</td>
+                          <td className='p-4'>{lead.email}</td>
+                          <td className='p-4'>{lead.mobile}</td>
+                          <td className='p-4 max-w-sm'>{lead.message}</td>
+                          <td className='p-4 text-center'>
+                            <button
+                              onClick={() => deleteLead(lead._id)}
+                              className='bg-red-100 hover:bg-red-500 hover:text-white transition p-3 rounded-xl'
+                            >
+                              <DeleteIcon />
+                            </button>
+                          </td>
+                        </tr>
+                      ))
+                    ) : (
+                      <tr>
+                        <td
+                          colSpan='6'
+                          className='text-center py-10 text-gray-500'
+                        >
+                          No Leads Found
                         </td>
                       </tr>
-                    ))
-                  ) : (
-                    <tr>
-                      <td
-                        colSpan='5'
-                        className='text-center py-10 text-gray-500'
-                      >
-                        No Leads Found
-                      </td>
-                    </tr>
-                  )}
-                </tbody>
-              </table>
+                    )}
+                  </tbody>
+                </table>
+              </div>
             </div>
-          </div>
+          ) : (
+            <TrackingAnalytics
+              callClicks={callClicks}
+              whatsappClicks={whatsappClicks}
+            />
+          )}
         </div>
       </div>
       <Footer />

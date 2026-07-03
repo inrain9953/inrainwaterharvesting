@@ -8,6 +8,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn'
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 import EmailIcon from '@mui/icons-material/Email'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
+import { Call } from '../Tracking/Call'
 import dynamic from 'next/dynamic'
 const Clients = dynamic(() => import('../Clients/Clients'), {
   ssr: false
@@ -136,6 +137,7 @@ export default function Footer () {
                 {/* Phone */}
                 <div className='space-y-1'>
                   <a
+                    onClick={Call}
                     href='tel:+919953070003'
                     className='flex items-center gap-3 text-sm hover:text-sky-400 transition'
                   >
@@ -144,6 +146,7 @@ export default function Footer () {
                   </a>
 
                   <a
+                    onClick={Call}
                     href='tel:+919910220794'
                     className='flex items-center gap-3 text-sm hover:text-sky-400 transition'
                   >

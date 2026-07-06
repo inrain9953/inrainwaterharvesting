@@ -35,7 +35,7 @@ const Quote = ({ toggleContactForm }) => {
               <a
                 onClick={Call}
                 className='text-[12px] font-semibold cursor-pointer hover:text-sky-700'
-                href='tel:011-35823511'
+                href='tel:+919953070003'
               >
                 +91-9953070003
               </a>

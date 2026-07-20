@@ -10,6 +10,7 @@ import Footer from '@/components/Footer/Footer'
 import StaticMetatag from '@/components/Schema/StaticMetatag'
 import StaticSchema from '@/components/Schema/StaticSchema'
 import { Call } from '@/components/Tracking/Call'
+import WarningIcon from '@mui/icons-material/Warning'
 
 const contact = () => {
   const data = {
@@ -172,6 +173,17 @@ const contact = () => {
             {/* RIGHT SIDE FORM */}
             <div className='sticky top-36'>
               <div className='p-3 md:p-5'>
+                <div className='md:max-w-9/12 mx-auto shadow-xl text-center text-sm mb-5 text-red-500 bg-sky-100 p-3 rounded-2xl'>
+                  <div>
+                    <WarningIcon fontSize='large' />
+                    <p className=''>
+                      Our operations are dedicated exclusively to Commercial and
+                      Industrial Projects.
+                      <br /> We do not undertake Residential or Domestic
+                      Projects.
+                    </p>
+                  </div>
+                </div>
                 <ContactForm />
               </div>
             </div>

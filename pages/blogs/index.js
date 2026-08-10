@@ -130,7 +130,7 @@ export const BlogsPage = () => {
 
                   <Link href='/blogs/top-10-rainwater-harvesting-companies-in-india'>
                     <h3 className='text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-blue-600 transition-colors duration-300'>
-                      Top 10 Rainwater Harvesting Companies in India
+                      #1 in the Top 10 Rainwater Harvesting Companies in India
                     </h3>
                   </Link>
 

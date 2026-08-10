@@ -117,7 +117,13 @@ const Navbar = () => {
         <div className='block md:hidden'>
           <div className='flex items-center justify-between ml-3 mr-3'>
             <Link href={'/'} className='flex items-center justify-center h-18'>
-              <Image src='/logo.png' alt='logo' width={80} height={80} />
+              <Image
+                priority
+                src='/logo.png'
+                alt='logo'
+                width={80}
+                height={80}
+              />
             </Link>
             <div>
               <input id='checkbox' type='checkbox' onClick={openSidebar} />

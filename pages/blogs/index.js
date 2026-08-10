@@ -98,6 +98,69 @@ export const BlogsPage = () => {
                   </Link>
                 </div>
               </article>
+
+              {/* Blog 2 Card */}
+              <article className='group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2'>
+                {/* Image */}
+                <div className='relative overflow-hidden'>
+                  <Link href='/blogs/top-10-rainwater-harvesting-companies-in-india'>
+                    <Image
+                      width={600}
+                      height={400}
+                      src='/top-10-rainwater-harvesting-companies.jpeg'
+                      alt='Top 10 Rainwater Harvesting Companies in India'
+                      className='w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110'
+                    />
+                  </Link>
+
+                  <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent'></div>
+
+                  <span className='absolute top-4 left-4 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full'>
+                    Water Management
+                  </span>
+                </div>
+
+                {/* Content */}
+                <div className='p-6'>
+                  <div className='flex items-center gap-3 text-xs text-gray-500 mb-4'>
+                    <span>📅 August 2025</span>
+                    <span>•</span>
+                    <span>15 Min Read</span>
+                  </div>
+
+                  <Link href='/blogs/top-10-rainwater-harvesting-companies-in-india'>
+                    <h3 className='text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-blue-600 transition-colors duration-300'>
+                      Top 10 Rainwater Harvesting Companies in India
+                    </h3>
+                  </Link>
+
+                  <p className='text-gray-600 leading-relaxed text-sm line-clamp-3 mb-3'>
+                    Here is our list of the Top 10 Rainwater Harvesting
+                    Companies in India, with a particular focus on working in
+                    rainwater management and related solutions.
+                  </p>
+
+                  <Link
+                    href='/blogs/top-10-rainwater-harvesting-companies-in-india'
+                    className='inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors'
+                  >
+                    Read Full Article
+                    <svg
+                      className='w-4 h-4 transition-transform group-hover:translate-x-1'
+                      fill='none'
+                      stroke='currentColor'
+                      strokeWidth='2'
+                      viewBox='0 0 24 24'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        d='M9 5l7 7-7 7'
+                      />
+                    </svg>
+                  </Link>
+                </div>
+              </article>
             </div>
           </div>
         </div>

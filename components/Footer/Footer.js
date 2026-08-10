@@ -19,10 +19,10 @@ import PopUp from '../PopUp/Popup'
 export default function Footer () {
   const quickLinks = [
     { name: 'Home', href: '/' },
-    { name: 'About Us', href: '/about-us' },
+    { name: 'About Us', href: '/about' },
     { name: 'Products', href: '/products' },
-    { name: 'Contact Us', href: '/contact-us' },
-    { name: 'BLogs', href: '/blogs' },
+    { name: 'Contact Us', href: '/contact' },
+    { name: 'Blogs', href: '/blogs' },
     { name: 'Business Network', href: '/business-network' }
   ]
 

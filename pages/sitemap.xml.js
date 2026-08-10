@@ -28,6 +28,7 @@ function generateSiteMap () {
     '/water-harvesting-system',
     '/rainwater-harvesting-pit',
     '/blogs/how-modular-rainwater-harvesting-is-revolutionizing-industrial-water-management',
+    '/blogs/top-10-rainwater-harvesting-companies-in-india',
   ]
 
   // Static pages

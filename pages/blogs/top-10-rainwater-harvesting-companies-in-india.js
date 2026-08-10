@@ -350,7 +350,7 @@ export default function Top10RainwaterHarvestingCompanies () {
                   today,{' '}
                   <Link
                     target='_blank'
-                    href='https://www.inrainconstruction.com/modular-rainwater-harvesting'
+                    href='https://www.inrainconstruction.com/'
                     className='text-blue-600 font-semibold hover:text-blue-700'
                   >
                     Modular Rainwater Harvesting Systems

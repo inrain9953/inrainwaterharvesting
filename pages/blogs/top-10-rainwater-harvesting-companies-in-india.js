@@ -285,7 +285,7 @@ export default function Top10RainwaterHarvestingCompanies () {
         </section>
 
         {/* Content Section */}
-        <div className='max-w-7xl mx-auto px-4 md:px-8 py-12'>
+        <div className='max-w-7xl mx-auto md:px-8 py-12'>
           <div className='grid lg:grid-cols-4 gap-12'>
             {/* Table of Contents */}
             <aside className='hidden lg:block'>
@@ -333,7 +333,7 @@ export default function Top10RainwaterHarvestingCompanies () {
             </aside>
 
             {/* Main Content */}
-            <article className='lg:col-span-3 bg-white rounded-2xl shadow-lg p-6 md:p-12'>
+            <article className='lg:col-span-3 bg-white rounded-2xl shadow-lg p-1 md:p-12'>
               <div className='prose prose-lg max-w-none'>
                 {/* Introduction */}
                 <p className='text-base text-gray-600 leading-relaxed border-l-4 border-blue-600 pl-5 italic'>
@@ -390,7 +390,7 @@ export default function Top10RainwaterHarvestingCompanies () {
                   Top 10 Rainwater Harvesting Companies
                 </h2>
 
-                <div className='mt-6 space-y-6'>
+                <div className='mt-6 space-y-6 p-2'>
                   {topCompanies.map(company => (
                     <div
                       key={company.rank}
@@ -443,11 +443,11 @@ export default function Top10RainwaterHarvestingCompanies () {
                 </div>
 
                 {/* Benefits of InRain's Modular System (original numbered list) */}
-                <h3 className='mt-10 text-2xl font-bold text-gray-900'>
+                <h3 className='mt-10 p-1 text-2xl font-bold text-gray-900'>
                   Benefits of InRain's Modular Rainwater Harvesting System
                 </h3>
 
-                <div className='mt-6 space-y-6'>
+                <div className='mt-6 space-y-6 p-2'>
                   <div>
                     <h4 className='font-semibold text-lg'>
                       1. Efficient Use of Underground Space
@@ -549,24 +549,24 @@ export default function Top10RainwaterHarvestingCompanies () {
                 {/* A Complete Approach */}
                 <h3
                   id='complete-approach'
-                  className='mt-10 text-2xl font-bold text-gray-900'
+                  className='mt-10 text-2xl p-2 font-bold text-gray-900'
                 >
                   A Complete Approach to Rainwater Management
                 </h3>
 
-                <p className='mt-3'>
+                <p className='m-2'>
                   A modular system should not be viewed as only an underground
                   structure. Effective rainwater harvesting requires proper
                   planning of the entire water flow—from the catchment area and
                   rainwater pipes to filtration, collection, storage, and
                   recharge.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   InRain Construction focuses on this complete approach to
                   develop solutions according to individual project
                   requirements.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   For organizations looking for a{' '}
                   <Link
                     target='_blank'
@@ -582,33 +582,33 @@ export default function Top10RainwaterHarvestingCompanies () {
                 {/* Why Popular */}
                 <h2
                   id='why-popular'
-                  className='mt-14 text-3xl font-bold text-gray-900'
+                  className='mt-14 text-3xl p-2 font-bold text-gray-900'
                 >
                   Why Are Modular Rainwater Harvesting Systems Becoming Popular?
                 </h2>
 
-                <p className='mt-3'>
+                <p className='m-2'>
                   Traditional rainwater harvesting structures often rely on
                   concrete tanks, recharge pits, or conventional underground
                   structures.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   Although these methods can be effective in suitable
                   situations, modern construction projects increasingly require
                   solutions that are space-efficient, flexible, faster to
                   install, and easier to integrate with existing infrastructure.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   This is where modular rainwater harvesting systems can provide
                   significant advantages.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   A modular system consists of interconnected underground
                   modules that create a large void beneath the ground. Depending
                   on the design, rainwater can either be temporarily stored or
                   gradually released into the surrounding ground for recharge.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   The system can be customized according to the project's
                   requirements.
                 </p>
@@ -616,12 +616,12 @@ export default function Top10RainwaterHarvestingCompanies () {
                 {/* Key Features */}
                 <h2
                   id='features'
-                  className='mt-14 text-3xl font-bold text-gray-900'
+                  className='mt-14 p-2 text-3xl font-bold text-gray-900'
                 >
                   Key Features of Modular Rainwater Harvesting Systems
                 </h2>
 
-                <div className='grid md:grid-cols-2 gap-6 my-8'>
+                <div className='grid m-2 md:grid-cols-2 gap-6 my-8'>
                   {keyFeatures.map(feature => (
                     <div
                       key={feature}
@@ -635,12 +635,12 @@ export default function Top10RainwaterHarvestingCompanies () {
                 {/* Key Benefits */}
                 <h2
                   id='benefits'
-                  className='mt-14 text-3xl font-bold text-gray-900'
+                  className='mt-14 p-2 text-3xl font-bold text-gray-900'
                 >
                   Key Benefits of Modular Rainwater Harvesting
                 </h2>
 
-                <div className='mt-6 space-y-6'>
+                <div className='mt-6 m-2 space-y-6'>
                   {keyBenefitsList.map(benefit => (
                     <div key={benefit.title}>
                       <h4 className='font-semibold text-lg text-gray-900'>
@@ -654,13 +654,13 @@ export default function Top10RainwaterHarvestingCompanies () {
                 {/* Comparison Table */}
                 <h2
                   id='comparison'
-                  className='mt-14 text-3xl font-bold text-gray-900'
+                  className='mt-14 p-2 text-3xl font-bold text-gray-900'
                 >
                   Modular Rainwater Harvesting vs. Conventional Rainwater
                   Harvesting
                 </h2>
 
-                <div className='overflow-x-auto my-8 border rounded-xl'>
+                <div className='overflow-x-auto my-8  border rounded-xl'>
                   <table className='w-full text-sm text-left border-collapse'>
                     <thead>
                       <tr className='bg-blue-600 text-white'>
@@ -699,7 +699,7 @@ export default function Top10RainwaterHarvestingCompanies () {
                 {/* Where Used */}
                 <h2
                   id='where-used'
-                  className='mt-14 text-3xl font-bold text-gray-900'
+                  className='mt-14 p-2 text-3xl font-bold text-gray-900'
                 >
                   Where Can Modular Rainwater Harvesting Systems Be Used?
                 </h2>
@@ -709,7 +709,7 @@ export default function Top10RainwaterHarvestingCompanies () {
                   properties and infrastructure.
                 </p>
 
-                <div className='bg-green-50 border border-green-200 rounded-xl p-8 my-8'>
+                <div className='bg-green-50 m-2 border border-green-200 rounded-xl p-8 my-8'>
                   <div className='grid md:grid-cols-2 gap-6'>
                     {whereUsed.map(item => (
                       <div key={item.title}>
@@ -725,22 +725,22 @@ export default function Top10RainwaterHarvestingCompanies () {
                 {/* Filtration */}
                 <h2
                   id='filtration'
-                  className='mt-14 text-3xl font-bold text-gray-900'
+                  className='mt-14 p-2 text-3xl font-bold text-gray-900'
                 >
                   Why Proper Filtration Matters
                 </h2>
 
-                <p className='mt-3'>
+                <p className='m-2'>
                   Installing underground modules alone is not enough to create
                   an effective rainwater harvesting system.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   Rainwater should first pass through an appropriately designed
                   filtration arrangement.
                 </p>
-                <p className='mt-3'>Rooftop and surface runoff can contain:</p>
+                <p className='m-2'>Rooftop and surface runoff can contain:</p>
 
-                <div className='bg-red-50 border border-red-200 rounded-xl p-6 my-8'>
+                <div className='bg-red-50 border m-2 border-red-200 rounded-xl p-6 my-8'>
                   <ul className='grid md:grid-cols-2 gap-3'>
                     <li>✓ Dust</li>
                     <li>✓ Leaves</li>
@@ -768,25 +768,25 @@ export default function Top10RainwaterHarvestingCompanies () {
                 {/* InRain's Approach */}
                 <h2
                   id='approach'
-                  className='mt-14 text-3xl font-bold text-gray-900'
+                  className='mt-14 p-2 text-3xl font-bold text-gray-900'
                 >
                   How InRain Construction Approaches Modular Rainwater
                   Harvesting
                 </h2>
 
-                <p className='mt-3'>
+                <p className='m-2'>
                   At InRain Construction, the objective is not simply to install
                   modules underground.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   The system should work as part of a complete rainwater
                   management strategy.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   A typical project involves understanding:
                 </p>
 
-                <div className='bg-blue-50 rounded-xl p-6 border border-blue-100 my-8'>
+                <div className='bg-blue-50 m-2 rounded-xl p-6 border border-blue-100 my-8'>
                   <ol className='space-y-4'>
                     {approachSteps.map((step, i) => (
                       <li key={step.title} className='flex gap-4 items-start'>
@@ -801,7 +801,7 @@ export default function Top10RainwaterHarvestingCompanies () {
                   </ol>
                 </div>
 
-                <p className='mt-3'>
+                <p className='m-2'>
                   This project-specific approach is important because every
                   location is different.
                 </p>
@@ -809,31 +809,31 @@ export default function Top10RainwaterHarvestingCompanies () {
                 {/* Why Choose InRain */}
                 <h2
                   id='why-choose'
-                  className='mt-14 text-3xl font-bold text-gray-900'
+                  className='mt-14 p-2 text-3xl font-bold text-gray-900'
                 >
                   Why Choose InRain Construction for a Modular Rainwater
                   Harvesting System?
                 </h2>
 
-                <p className='mt-3'>
+                <p className='m-2'>
                   When selecting a rainwater harvesting company, the lowest
                   initial cost should not be the only consideration.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   The quality of design, materials, filtration, installation,
                   site assessment, and long-term performance can have a
                   significant impact on the effectiveness of the system.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   InRain Construction focuses on providing practical rainwater
                   harvesting solutions based on project requirements.
                 </p>
 
-                <h4 className='mt-6 font-semibold text-lg text-gray-900'>
+                <h4 className='mt-6 p-2 font-semibold text-lg text-gray-900'>
                   Some key reasons to consider InRain Construction include:
                 </h4>
 
-                <div className='grid md:grid-cols-2 gap-6 my-8'>
+                <div className='grid md:grid-cols-2 m-2 gap-6 my-8'>
                   {whyChoose.map(item => (
                     <div
                       key={item.title}
@@ -850,30 +850,30 @@ export default function Top10RainwaterHarvestingCompanies () {
                 {/* Conclusion */}
                 <h2
                   id='conclusion'
-                  className='mt-14 text-3xl font-bold text-gray-900'
+                  className='mt-14 p-2 text-3xl font-bold text-gray-900'
                 >
                   Final Thoughts
                 </h2>
 
-                <p className='mt-3'>
+                <p className='m-2'>
                   Rainwater harvesting is no longer simply an environmental
                   initiative. With increasing water demand and pressure on
                   groundwater resources, it is becoming an important part of
                   modern infrastructure planning.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   The development of{' '}
                   <strong>Modular Rainwater Harvesting Systems</strong> has made
                   it possible to create flexible underground water management
                   structures that can be adapted to different project
                   requirements.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   The companies mentioned in this list represent different areas
                   of the rainwater harvesting, water management, filtration,
                   environmental technology, and consultancy ecosystem.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   However, if your primary requirement is a{' '}
                   <strong>Modular Rainwater Harvesting System</strong>, it is
                   important to select a company with relevant technical
@@ -881,14 +881,14 @@ export default function Top10RainwaterHarvestingCompanies () {
                   solutions, and the ability to customize the system according
                   to site conditions.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   <strong>InRain Construction Private Limited</strong> is a
                   strong option for organizations looking to implement modern
                   modular rainwater harvesting solutions across residential,
                   commercial, industrial, institutional, and infrastructure
                   projects.
                 </p>
-                <p className='mt-3'>
+                <p className='m-2'>
                   With the right design and installation, rainwater that would
                   otherwise become runoff can become a valuable resource for{' '}
                   <strong>
@@ -898,7 +898,7 @@ export default function Top10RainwaterHarvestingCompanies () {
                   .
                 </p>
 
-                <div className='bg-blue-50 border border-blue-200 rounded-xl p-8 my-8 text-center'>
+                <div className='bg-blue-50 border m-2 border-blue-200 rounded-xl p-8 my-8 text-center'>
                   <h4 className='font-semibold text-xl text-gray-900'>
                     Looking for a Modular Rainwater Harvesting System?
                   </h4>

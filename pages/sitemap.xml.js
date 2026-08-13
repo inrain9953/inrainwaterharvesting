@@ -26,9 +26,13 @@ function generateSiteMap () {
     '/rainwater-harvesting-for-flood-mitigation',
     '/prefabricated-rainwater-harvesting',
     '/water-harvesting-system',
+    '/water-harvesting-system-in-india',
     '/rainwater-harvesting-pit',
+    '/rainwater-harvesting-recharge-pit',
+    '/industrial-rainwater-harvesting',
+    '/commercial-rainwater-harvesting',
     '/blogs/how-modular-rainwater-harvesting-is-revolutionizing-industrial-water-management',
-    '/blogs/top-10-rainwater-harvesting-companies-in-india',
+    '/blogs/top-10-rainwater-harvesting-companies-in-india'
   ]
 
   // Static pages

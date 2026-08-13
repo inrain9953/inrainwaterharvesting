@@ -354,6 +354,26 @@ export const serviceData = [
     title: 'Rainwater Harvesting Pit',
     link: '/rainwater-harvesting-pit',
     img: '/rainwater-harvesting-pit.jpg'
+  },
+  {
+    title: 'Water Harvesting System in India',
+    link: '/water-harvesting-system-in-india',
+    img: '/new-technology-of-rainwater-harvesting.jpg'
+  },
+  {
+    title: 'Industrial Rainwater Harvesting',
+    link: '/industrial-rainwater-harvesting',
+    img: '/rainwater-harvesting-pit.jpg'
+  },
+  {
+    title: 'Commercial Rainwater Harvesting',
+    link: '/commercial-rainwater-harvesting',
+    img: '/rainwater-harvesting-solution-for-industries.jpg'
+  },
+  {
+    title: 'Rainwater Harvesting Recharge Pit',
+    link: '/rainwater-harvesting-recharge-pit',
+    img: '/projects/18.jpeg'
   }
 ]
 

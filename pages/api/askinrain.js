@@ -1,13 +1,11 @@
-import { ChatGroq } from "@langchain/groq";
+import { ChatGroq } from '@langchain/groq'
 
-export default async function handler(req, res) {
+export default async function handler (req, res) {
   try {
-    const { question } = req.body;
+    const { question } = req.body
 
     if (!question) {
-      return res
-        .status(400)
-        .json({ error: "Please provide a 'question' key." });
+      return res.status(400).json({ error: "Please provide a 'question' key." })
     }
 
     const systemPrompt = `
@@ -58,8 +56,8 @@ export default async function handler(req, res) {
     Our Impact and Achievements:
     Since our inception, InRain Construction Pvt. Ltd. has successfully executed 4000+ projects across various sectors in India. Our portfolio is a testament to our expertise, reliability, and unwavering commitment to water conservation.
     
-    Trusted by Industry Leaders
-    Our innovative solutions have attracted a host of prestigious clients who rely on our technology to meet their water management needs. Among our esteemed clientele are some of India’s most renowned organizations, including: TATA, PEPSICO, HONDA, SMART CITY KARIMNAGAR, DELHI DEVELOPMENT AUTHORITY (DDA), PRADHANMANTRI SANGRAHALAYA, NHAI(National Highways Authority of India), INTERNATIONAL ARRIVALS, NDMC(New Delhi Municipal Council), HINDUSTAN UNILEVER, CPWD(Central Public Works Department), PWD(Public Works Department), LARSEN & TOUBRO, MARATHON ELECTRIC, MITTAL CONSTRUCTION, FUJITA, BROOKFIELD PROPERTIES, DENSO, SUPREME PIPES, AHRESTY, V3 and many more.
+    Trusted by Industry Leaders:
+    Among our esteemed clientele are some of India’s most renowned organizations, including: TATA, HONDA, Radisson Blu, DLF, Delhi Development Authority, NHAI(National Highways Authority of India), INTERNATIONAL ARRIVALS, NDMC(New Delhi Municipal Council), HINDUSTAN UNILEVER, CPWD(Central Public Works Department), PWD(Public Works Department), LARSEN & TOUBRO, MARATHON ELECTRIC, MITTAL CONSTRUCTION, FUJITA, BROOKFIELD PROPERTIES, DENSO, SUPREME PIPES, AHRESTY, V3 and many more.
     
     Case Studies and Success Stories:
     Our installations have significantly reduced the dependency on conventional water sources, improved groundwater recharge, and mitigated urban flooding in several metropolitan areas. For instance, our rooftop rainwater harvesting systems have been instrumental in transforming unused spaces into vital water reservoirs, while our modular systems have provided industries with reliable, sustainable water supplies—demonstrating tangible economic and environmental benefits.
@@ -95,24 +93,24 @@ export default async function handler(req, res) {
     Put this context in every query response:- "Thank you for your interest in InRain Construction Pvt. Ltd. Please contact sales@inrainwaterharvesting.com or +91-9910220794 for further details."
           
           Only reply to: "${question}" based on the context. Do not act like external data is being provided.
-        `;
+        `
 
     const llm = new ChatGroq({
-      model: "llama-3.3-70b-versatile",
-      temperature: 0.5,
-      maxTokens: 500,
-    });
+      model: 'openai/gpt-oss-120b',
+      temperature: 0.4,
+      maxTokens: 700
+    })
 
     const messages = [
-      { role: "system", content: systemPrompt },
-      { role: "user", content: question },
-    ];
+      { role: 'system', content: systemPrompt },
+      { role: 'user', content: question }
+    ]
 
-    const response = await llm.invoke(messages);
+    const response = await llm.invoke(messages)
 
-    res.status(200).json({ answer: response.content });
+    res.status(200).json({ answer: response.content })
   } catch (error) {
-    console.error("Error on server side:", error);
-    res.status(500).json({ error: "Internal Server Error" });
+    console.error('Error on server side:', error)
+    res.status(500).json({ error: 'Internal Server Error' })
   }
 }

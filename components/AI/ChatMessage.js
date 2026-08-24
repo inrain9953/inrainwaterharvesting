@@ -1,13 +1,31 @@
 import React, { memo } from 'react'
 
-function ChatMessage ({ message = {}, isBot = false }) {
+function ChatMessage({ message = {}, isBot = false }) {
   const bubbleStyles = isBot
     ? 'bg-blue-100 text-black rounded-bl-sm'
     : 'bg-green-100 text-black rounded-br-sm'
 
+  const renderMessage = (text = '') => {
+    const parts = text.split(/(\*\*.*?\*\*)/g)
+
+    return parts.map((part, index) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        return (
+          <strong key={index}>
+            {part.slice(2, -2)}
+          </strong>
+        )
+      }
+
+      return part
+    })
+  }
+
   return (
     <div
-      className={`flex px-3 py-2 ${isBot ? 'justify-start' : 'justify-end'}`}
+      className={`flex px-3 py-2 ${
+        isBot ? 'justify-start' : 'justify-end'
+      }`}
     >
       <div
         className={`
@@ -18,7 +36,7 @@ function ChatMessage ({ message = {}, isBot = false }) {
         `}
       >
         <p className='text-xs leading-relaxed'>
-          {message?.text || ''}
+          {renderMessage(message?.text || '')}
         </p>
       </div>
     </div>

@@ -45,7 +45,7 @@ export default function Footer () {
     },
     {
       icon: <LinkedInIcon />,
-      href: 'https://www.linkedin.com/company/35590476/admin/dashboard/'
+      href: 'https://www.linkedin.com/company/inrainconstruction/'
     }
   ]
 

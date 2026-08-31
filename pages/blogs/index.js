@@ -166,7 +166,7 @@ export const BlogsPage = () => {
               <article className='group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2'>
                 {/* Image */}
                 <div className='relative overflow-hidden'>
-                  <Link href='/blogs/top-10-rainwater-harvesting-companies-in-india'>
+                  <Link href='/blogs/water-logging-issue-in-gurgaon'>
                     <Image
                       width={600}
                       height={400}
@@ -191,7 +191,7 @@ export const BlogsPage = () => {
                     <span>12 Min Read</span>
                   </div>
 
-                  <Link href='/blogs/top-10-rainwater-harvesting-companies-in-india'>
+                  <Link href='/blogs/water-logging-issue-in-gurgaon'>
                     <h3 className='text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-blue-600 transition-colors duration-300'>
                       Gurugram's Waterlogging Crisis: Rainwater Harvesting
                       Solutions

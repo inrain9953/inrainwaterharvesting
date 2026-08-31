@@ -296,7 +296,21 @@ const WaterloggingCrisis = () => {
               <p>
                 InRain Construction specializes in{' '}
                 <strong>
-                  Rainwater Harvesting Systems and Modular Rainwater Harvesting
+                  <Link
+                    target='_blank'
+                    className='underline'
+                    href='https://www.inrainwaterharvesting.com/'
+                  >
+                    Rainwater Harvesting Systems
+                  </Link>{' '}
+                  and{' '}
+                  <Link
+                    target='_blank'
+                    className='underline'
+                    href='https://www.inrainwaterharvesting.com/modular-rainwater-harvesting-system'
+                  >
+                    Modular Rainwater Harvesting
+                  </Link>{' '}
                   Solutions
                 </strong>{' '}
                 designed for residential, commercial, industrial and

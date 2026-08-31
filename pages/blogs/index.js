@@ -58,7 +58,7 @@ export const BlogsPage = () => {
                 {/* Content */}
                 <div className='p-6'>
                   <div className='flex items-center gap-3 text-xs text-gray-500 mb-4'>
-                    <span>📅 June 2025</span>
+                    <span>📅 June 2026</span>
                     <span>•</span>
                     <span>5 Min Read</span>
                   </div>
@@ -123,9 +123,9 @@ export const BlogsPage = () => {
                 {/* Content */}
                 <div className='p-6'>
                   <div className='flex items-center gap-3 text-xs text-gray-500 mb-4'>
-                    <span>📅 August 2025</span>
+                    <span>📅 August 2026</span>
                     <span>•</span>
-                    <span>15 Min Read</span>
+                    <span>10 Min Read</span>
                   </div>
 
                   <Link href='/blogs/top-10-rainwater-harvesting-companies-in-india'>
@@ -142,6 +142,71 @@ export const BlogsPage = () => {
 
                   <Link
                     href='/blogs/top-10-rainwater-harvesting-companies-in-india'
+                    className='inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors'
+                  >
+                    Read Full Article
+                    <svg
+                      className='w-4 h-4 transition-transform group-hover:translate-x-1'
+                      fill='none'
+                      stroke='currentColor'
+                      strokeWidth='2'
+                      viewBox='0 0 24 24'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        d='M9 5l7 7-7 7'
+                      />
+                    </svg>
+                  </Link>
+                </div>
+              </article>
+
+              {/* Blog 3 Card */}
+              <article className='group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2'>
+                {/* Image */}
+                <div className='relative overflow-hidden'>
+                  <Link href='/blogs/top-10-rainwater-harvesting-companies-in-india'>
+                    <Image
+                      width={600}
+                      height={400}
+                      src='/water-logging.jpg'
+                      alt='Water logging in Gurgaon'
+                      className='w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110'
+                    />
+                  </Link>
+
+                  <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent'></div>
+
+                  <span className='absolute top-4 left-4 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full'>
+                    Water Management
+                  </span>
+                </div>
+
+                {/* Content */}
+                <div className='p-6'>
+                  <div className='flex items-center gap-3 text-xs text-gray-500 mb-4'>
+                    <span>📅 August 2026</span>
+                    <span>•</span>
+                    <span>12 Min Read</span>
+                  </div>
+
+                  <Link href='/blogs/top-10-rainwater-harvesting-companies-in-india'>
+                    <h3 className='text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-blue-600 transition-colors duration-300'>
+                      Gurugram's Waterlogging Crisis: Rainwater Harvesting
+                      Solutions
+                    </h3>
+                  </Link>
+
+                  <p className='text-gray-600 leading-relaxed text-sm line-clamp-3 mb-3'>
+                    Every monsoon, Gurugram faces a problem that has become
+                    increasingly familiar to its residents, businesses and
+                    commuters: roads filled with water, long traffic jams,
+                    stranded vehicles and disrupted daily life.
+                  </p>
+
+                  <Link
+                    href='/blogs/water-logging-issue-in-gurgaon'
                     className='inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors'
                   >
                     Read Full Article

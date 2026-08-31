@@ -32,7 +32,8 @@ function generateSiteMap () {
     '/industrial-rainwater-harvesting',
     '/commercial-rainwater-harvesting',
     '/blogs/how-modular-rainwater-harvesting-is-revolutionizing-industrial-water-management',
-    '/blogs/top-10-rainwater-harvesting-companies-in-india'
+    '/blogs/top-10-rainwater-harvesting-companies-in-india',
+    '/blogs/water-logging-issue-in-gurgaon'
   ]
 
   // Static pages

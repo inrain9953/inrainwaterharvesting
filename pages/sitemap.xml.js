@@ -1,6 +1,13 @@
 import { CityData } from '@/components/constant'
 
 const BASE_URL = 'https://www.inrainwaterharvesting.com'
+const weekTemp = new Date()
+weekTemp.setDate(weekTemp.getDate() - 7)
+const week = weekTemp.toISOString()
+
+const dailyTemp = new Date()
+dailyTemp.setDate(dailyTemp.getDate() - 1)
+const daily = dailyTemp.toISOString()
 
 function generateSiteMap () {
   const staticPages = [
@@ -42,9 +49,9 @@ function generateSiteMap () {
       page => `
       <url>
         <loc>${BASE_URL}${page}</loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
+        <lastmod>${week}</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.80</priority>
       </url>
     `
     )
@@ -57,9 +64,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/rainwater-harvesting-system/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -71,9 +78,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/rainwater-harvesting-tank/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -85,9 +92,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/modular-rainwater-harvesting-system/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -99,9 +106,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/rooftop-rainwater-harvesting/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -113,9 +120,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/polymer-type-rainwater-harvesting-system/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -127,9 +134,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/storm-water-management-company/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -141,9 +148,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/new-technology-of-rainwater-harvesting/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -155,9 +162,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/ground-water-recharge-system/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -169,9 +176,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/modular-rainwater-harvesting-tanks-supplier/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -183,9 +190,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/new-generation-of-rainwater-harvesting/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -197,9 +204,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/rainwater-harvesting-solution-for-industries/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -211,9 +218,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/rainwater-harvesting-suppliers/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -225,9 +232,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/rainwater-harvesting-for-flood-mitigation/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -239,9 +246,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/prefabricated-rainwater-harvesting/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -253,9 +260,9 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/water-harvesting-system/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
@@ -267,16 +274,20 @@ function generateSiteMap () {
         <loc>
           ${BASE_URL}/rainwater-harvesting-pit/${city.slug}
         </loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
       </url>
     `
   ).join('')
 
   return `<?xml version="1.0" encoding="UTF-8"?>
   <urlset
-    xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+    xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" 
+    xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
   >
     ${staticUrls}
     ${RainwaterHarvestingSystemLocation}

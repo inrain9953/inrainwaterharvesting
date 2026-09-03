@@ -32,7 +32,7 @@ const DynamicSchema = ({ city, slug, heading, subheading, page }) => {
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.6',
-      ratingCount: '1943'
+      ratingCount: '2183'
     }
   }
 

@@ -40,7 +40,7 @@ const LocalSchema = () => {
         },
         aggregateRating: {
           "@type": "AggregateRating",
-          ratingValue: "4.5",
+          ratingValue: "4.6",
           ratingCount: "2183",
         },
       })}

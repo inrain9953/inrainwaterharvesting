@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/Footer'
 import Link from 'next/link'
+import StaticMetatag from '@/components/Schema/StaticMetatag'
+import StaticSchema from '@/components/Schema/StaticSchema'
 
 /* ---------------------------------------------------------------------- */
 /* small inline icons (no icon library)                                   */
@@ -484,8 +486,30 @@ const QUESTIONS = [
 export default function RainwaterHarvestingDelhiNCR () {
   const [openService, setOpenService] = useState(0)
 
+  const data = {
+    title:
+      'Rainwater Harvesting Service Provider in Delhi NCR | InRain Construction',
+    desc: 'InRain Construction provides reliable rainwater harvesting solutions across Delhi NCR, including groundwater recharge, modular systems, filtration and stormwater management.',
+    keyword:
+      'Rainwater harvesting company in Delhi NCR, Rainwater harvesting services Delhi, Rainwater harvesting in Gurgaon, Rainwater harvesting in Noida, rainwater harvesting system, rooftop rainwater harvesting, rainwater collection system, rainwater filtration system, groundwater recharge system, modular rainwater harvesting, commercial water management, water conservation, rainwater harvesting India',
+    canonical:
+      'https://www.inrainwaterharvesting.com/rainwater-harvesting-service-provider-in-delhi-ncr',
+    ogTitle:
+      'Rainwater Harvesting Service Provider in Delhi NCR | InRain Construction',
+    ogDescription:
+      'InRain Construction provides reliable rainwater harvesting solutions across Delhi NCR, including groundwater recharge, modular systems, filtration and stormwater management.',
+    ogUrl:
+      'https://www.inrainwaterharvesting.com/rainwater-harvesting-service-provider-in-delhi-ncr',
+    twittertitle:
+      'Rainwater Harvesting Service Provider in Delhi NCR | InRain Construction',
+    twitterdescription:
+      'InRain Construction provides reliable rainwater harvesting solutions across Delhi NCR, including groundwater recharge, modular systems, filtration and stormwater management.'
+  }
+
   return (
     <>
+      <StaticMetatag data={data} />
+      <StaticSchema />
       <Navbar />
       <div className='bg-white text-slate-700 font-sans'>
         {/* ============================= HERO ============================= */}

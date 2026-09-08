@@ -68,7 +68,7 @@ const Ground_Water_Recharge_System = () => {
                 {/* LEFT CONTENT */}
                 <div className='space-y-3 text-gray-600 text-base md:text-md leading-7 text-justify'>
                   <p>
-                    A groundwater recharge system is an effective method used to
+                    A ground water recharge system is an effective method used to
                     replenish underground water levels by allowing rainwater or
                     surface water to percolate into the soil. It plays a crucial
                     role in maintaining the balance of the water cycle,

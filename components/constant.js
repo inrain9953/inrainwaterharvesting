@@ -346,6 +346,11 @@ export const serviceData = [
     img: '/prefabricated-rainwater-harvesting.jpg'
   },
   {
+    title: 'Rainwater Harvesting Service Provider in Delhi (NCR)',
+    link: '/rainwater-harvesting-service-provider-in-delhi-ncr',
+    img: '/rainwater-harvesting-service-provider-in-delhi-ncr.jpg'
+  },
+  {
     title: 'Water Harvesting System',
     link: '/water-harvesting-system',
     img: '/water-harvesting-system.jpg'

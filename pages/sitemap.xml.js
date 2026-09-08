@@ -36,6 +36,7 @@ function generateSiteMap () {
     '/water-harvesting-system-in-india',
     '/rainwater-harvesting-pit',
     '/rainwater-harvesting-recharge-pit',
+    '/rainwater-harvesting-service-provider-in-delhi-ncr',
     '/industrial-rainwater-harvesting',
     '/commercial-rainwater-harvesting',
     '/blogs/how-modular-rainwater-harvesting-is-revolutionizing-industrial-water-management',

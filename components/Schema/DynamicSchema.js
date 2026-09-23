@@ -6,7 +6,7 @@ const DynamicSchema = ({ city, slug, heading, subheading, page }) => {
     '@type': 'Organization',
 
     name: 'GeoTech Ecosystem',
-    alternateName: 'GeoTech Ecosystem - Rainwater Harvesting System',
+    alternateName: 'GeoTech Ecosystem - A Unit of InRain Construction Pvt. Ltd.',
     description: `Professional ${heading} in ${city.city}. GeoTech Ecosystem provides ${subheading}, groundwater recharge systems, rainwater filtration, flood mitigation, storm water management and sustainable water conservation solutions in ${city.city}.`,
     url: `https://inrainwaterharvesting.com/${page}/${slug}`,
     logo: {

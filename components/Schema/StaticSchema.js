@@ -13,7 +13,7 @@ const LocalSchema = () => {
         '@type': 'Organization',
         name: 'GeoTech Ecosystem',
         description:
-          'GeoTech Ecosystem, a unit of InRain Construction Pvt. Ltd., provides rainwater harvesting, groundwater recharge, stormwater management and water conservation solutions in India.',
+          'GeoTech Ecosystem - A Unit of InRain Construction Pvt. Ltd., provides rainwater harvesting, groundwater recharge, stormwater management and water conservation solutions in India.',
         url: 'https://www.inrainwaterharvesting.com/',
         logo: {
           '@type': 'ImageObject',
@@ -24,7 +24,7 @@ const LocalSchema = () => {
 
         address: {
           '@type': 'PostalAddress',
-          streetAddress: 'Plot No 06, khasra No-431, 1st floor,Chattarpur',
+          streetAddress: 'Plot No 06, khasra No-431, Chattarpur',
           addressLocality: 'New Delhi',
           postalCode: '110074',
           addressCountry: 'IN'

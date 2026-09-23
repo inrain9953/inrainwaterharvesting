@@ -40,7 +40,7 @@ const StaticMetatag = ({ data }) => {
       <link
         rel='icon'
         type='image/png'
-        sizes='32x32'
+        sizes='96x96'
         href='/favicon-96x96.png'
       />
       <link

@@ -138,11 +138,11 @@ const Water_Harvesting_System = () => {
                       </h2>
 
                       <p className='leading-7 text-slate-100 text-[16px] md:text-md'>
-                        InRain Constructions Pvt. Ltd. is the best rainwater
-                        harvesting supplier, providing top-quality products and
-                        services. With extensive experience and expertise, we
-                        offer customized solutions, durable tanks, efficient
-                        filters, and reliable pumps. Trust InRain for all your
+                        GeoTech Ecosystem is the best rainwater harvesting
+                        supplier, providing top-quality products and services.
+                        With extensive experience and expertise, we offer
+                        customized solutions, durable tanks, efficient filters,
+                        and reliable pumps. Trust GeoTech Ecosystem for all your
                         rainwater harvesting needs.
                       </p>
                     </div>

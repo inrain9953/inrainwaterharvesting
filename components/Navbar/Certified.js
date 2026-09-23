@@ -8,8 +8,8 @@ const Certified = () => {
       <Link href={'/'}>
         <Image
           loading='eager'
-          src='/logo.png'
-          alt='logo'
+          src='/logo.svg'
+          alt='GeoTech Ecosystem Logo'
           width={75}
           height={75}
         />

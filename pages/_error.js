@@ -47,7 +47,7 @@ export default function Error () {
 
                 {/* Title */}
                 <h1 className='text-3xl md:text-4xl font-extrabold text-gray-900 mt-3 leading-tight'>
-                  InRain® Construction <br />
+                  GeoTech Ecosystem <br />
                   Private Limited
                 </h1>
 
@@ -61,7 +61,7 @@ export default function Error () {
                 </p>
 
                 <p className='text-gray-600 leading-7 mt-3'>
-                  At <strong>InRain® Construction Pvt. Ltd.</strong>, we are all
+                  At <strong>GeoTech Ecosystem</strong>, we are all
                   about building sustainable solutions, but unfortunately, we
                   couldn't build the page you're looking for.
                 </p>

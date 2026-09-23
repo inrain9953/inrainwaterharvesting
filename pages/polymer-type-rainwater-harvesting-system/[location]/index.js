@@ -15,29 +15,16 @@ export default function PolymerTypeRainwaterHarvestingSystemLocationPage ({
   const subheading = 'Modular Rainwater Harvesting System'
   const page = 'polymer-type-rainwater-harvesting-system'
   const data = {
-    title:
-      `${heading} in ${city.city}` +
-      ' ' +
-      '|' +
-      ' ' +
-      'InRain Construction Pvt. Ltd.',
+    title: `${heading} in ${city.city}` + ' ' + '|' + ' ' + 'GeoTech Ecosystem',
     desc: `Get the best ${heading} in ${city.city}. We have high-quality ${heading} for your requirement. Our ${heading} Service Provider in ${city.city} will help you & easy to install. Contact now`,
     keyword: `${heading} in ${city.city}, ${subheading} in ${city.city}, Rainwater Harvesting Tank in ${city.city}, Polymer Type Rainwater Harvesting System in ${city.city}, Storm water Management in ${city.city}`,
     canonical: `https://www.inrainwaterharvesting.com/${page}/${slug}`,
     ogTitle:
-      `${heading} in ${city.city}` +
-      ' ' +
-      '|' +
-      ' ' +
-      'InRain Construction Pvt. Ltd.',
+      `${heading} in ${city.city}` + ' ' + '|' + ' ' + 'GeoTech Ecosystem',
     ogDescription: `Get the best ${heading} in ${city.city}. We have high-quilt ${heading} for your need & requirement. Our ${heading} Service Provider in ${city.city} will help you & easy to install. Contact now`,
     ogUrl: `https://www.inrainwaterharvesting.com/${page}/${slug}`,
     twittertitle:
-      `${heading} in ${city.city}` +
-      ' ' +
-      '|' +
-      ' ' +
-      'InRain Construction Pvt. Ltd.',
+      `${heading} in ${city.city}` + ' ' + '|' + ' ' + 'GeoTech Ecosystem',
     twitterdescription: `Get the best ${heading} in ${city.city}. We have high-quilt ${heading} for your need & requirement. Our ${heading} Service Provider in ${city.city} will help you & easy to install. Contact now`
   }
   return (
@@ -185,11 +172,11 @@ export default function PolymerTypeRainwaterHarvestingSystemLocationPage ({
                       </h2>
 
                       <p className='leading-7 text-slate-100 text-[16px] md:text-md'>
-                        InRain Constructions Pvt. Ltd. is the best {heading} in{' '}
-                        {city.city}, providing top-quality products and
-                        services. With extensive experience and expertise, we
-                        offer customized solutions, durable tanks, efficient
-                        filters, and reliable pumps. Trust InRain for all your
+                        GeoTech Ecosystem is the best {heading} in {city.city},
+                        providing top-quality products and services. With
+                        extensive experience and expertise, we offer customized
+                        solutions, durable tanks, efficient filters, and
+                        reliable pumps. Trust GeoTech Ecosystem for all your
                         rainwater harvesting needs.
                       </p>
                     </div>

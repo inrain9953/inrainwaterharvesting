@@ -183,13 +183,13 @@ const RainwaterHarvestingSolutionForIndustries = () => {
                     </ul>
 
                     <p className='text-gray-700 text-[15px] mt-5 md:text-md leading-7 text-justify'>
-                      We at InRain Constructions Pvt. Ltd. provide rainwater
-                      harvesting solutions for industries, promoting water
-                      conservation, cost savings, and sustainable management
-                      practices. These solutions include rooftop harvesting,
-                      surface runoff collection, stormwater management, water
-                      recycling, and education initiatives. Regular monitoring
-                      and collaboration with our experts can help industries
+                      We at GeoTech Ecosystem provide rainwater harvesting
+                      solutions for industries, promoting water conservation,
+                      cost savings, and sustainable management practices. These
+                      solutions include rooftop harvesting, surface runoff
+                      collection, stormwater management, water recycling, and
+                      education initiatives. Regular monitoring and
+                      collaboration with our experts can help industries
                       optimize rainwater harvesting systems for maximum
                       effectiveness, contributing to water conservation efforts
                       and promoting a greener, more sustainable future.
@@ -305,11 +305,11 @@ const RainwaterHarvestingSolutionForIndustries = () => {
                     </h2>
 
                     <p className='leading-7 text-slate-100 text-[16px] md:text-md'>
-                      InRain Constructions Pvt. Ltd. is the best Rainwater
-                      Harvesting Solution for Industries, providing top-quality
-                      products and services. With extensive experience and
-                      expertise, we offer customized solutions, durable tanks,
-                      efficient filters, and reliable pumps. Trust InRain for
+                      GeoTech Ecosystem is the best Rainwater Harvesting
+                      Solution for Industries, providing top-quality products
+                      and services. With extensive experience and expertise, we
+                      offer customized solutions, durable tanks, efficient
+                      filters, and reliable pumps. Trust GeoTech Ecosystem for
                       all your rainwater harvesting needs.
                     </p>
                   </div>

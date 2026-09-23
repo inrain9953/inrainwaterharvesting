@@ -46,10 +46,10 @@ const ChatWindow = memo(
                 priority
               />
               <div>
-                <h3 className='font-semibold text-sm'>InRain Assistant</h3>
+                <h3 className='font-semibold text-sm'>GeoTech Assistant</h3>
                 <span className='text-xs text-gray-500'>
                   <TypeAnimation
-                    sequence={['Hi! Ask InRain', 3000]}
+                    sequence={['Hi! Ask GeoTech', 3000]}
                     repeat={Infinity}
                   />
                 </span>
@@ -82,7 +82,7 @@ const ChatWindow = memo(
               type='text'
               value={input}
               onChange={e => setInput(e.target.value)}
-              placeholder='Ask me anything about InRain...'
+              placeholder='Ask me anything about GeoTech...'
               disabled={isLoading}
               className='
                 w-full rounded-xl border border-gray-300
@@ -183,7 +183,7 @@ const PopUp = () => {
         {/* AI Button */}
         <div className={childClasses('delay-[120ms]')}>
           <span className='rounded-xl bg-sky-500 px-2 py-1 text-xs text-white whitespace-nowrap'>
-            Ask InRain
+            Ask GeoTech
           </span>
           <Image
             src='/ai-bot.webp'

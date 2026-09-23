@@ -93,7 +93,7 @@ const Hero6 = () => {
 
             <div className="space-y-4 text-gray-600 text-base md:text-md leading-7 text-justify">
               <p>
-                At InRain Construction, we have successfully executed over 4000+
+                At GeoTech Ecosystem, we have successfully executed over 4000+
                 rainwater harvesting units for prestigious clients such as
                 Hindustan Unilever Limited (HUL), PepsiCo, Sobha Developers,
                 Central Public Works Department (CPWD), Public Works Department
@@ -107,7 +107,7 @@ const Hero6 = () => {
               </p>
 
               <p>
-                Experienced Team: At InRain Construction, we take pride in our
+                Experienced Team: At GeoTech Ecosystem, we take pride in our
                 highly experienced team of professionals. With an average
                 industry experience of over 30 years, our team possesses a deep
                 understanding of sustainable construction methods and rainwater

@@ -16,7 +16,7 @@ const Hero2 = () => {
 
               <div className="space-y-3 text-gray-600 leading-7 text-base md:text-md">
                 <p>
-                  At <span className="font-semibold">InRain®</span>, We are
+                  At <span className="font-semibold">GeoTech Ecosystem</span>, We are
                   Engaged In Making
                   <span className="font-semibold">
                     {" "}
@@ -24,7 +24,7 @@ const Hero2 = () => {
                   </span>{" "}
                   Based on the technology adopted from Germany. It is indeed
                   entirely different from conventional rain water system.
-                  InRain® is Fully equipped with In house Make and Manufacturing
+                  GeoTech Ecosystem is Fully equipped with In house Make and Manufacturing
                   process, ensuring its best in class – quality. We share our
                   contribution to Nation being proud partner of “Make in India
                   Movement”

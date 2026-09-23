@@ -173,12 +173,12 @@ const RWHForFloodMitigation = () => {
                     </h2>
 
                     <p className='text-white text-[15px] md:text-md leading-7 text-justify'>
-                      InRain Constructions Pvt. Ltd., the vanguard of rainwater
-                      harvesting for flood mitigation, offers innovative
-                      solutions for sustainable flood mitigation. With expertise
-                      in building resilient communities, we revolutionize urban
-                      landscapes, preserve water resources, and pave the way
-                      towards a safer, greener future. Trust InRain for
+                      GeoTech Ecosystem, the vanguard of rainwater harvesting
+                      for flood mitigation, offers innovative solutions for
+                      sustainable flood mitigation. With expertise in building
+                      resilient communities, we revolutionize urban landscapes,
+                      preserve water resources, and pave the way towards a
+                      safer, greener future. Trust GeoTech Ecosystem for
                       exceptional rainwater harvesting solutions.
                     </p>
                   </div>
@@ -191,11 +191,11 @@ const RWHForFloodMitigation = () => {
                     </h2>
 
                     <p className='leading-7 text-slate-100 text-[16px] md:text-md'>
-                      InRain Constructions Pvt. Ltd. is the best Rainwater
-                      Harvesting Solution for Industries, providing top-quality
-                      products and services. With extensive experience and
-                      expertise, we offer customized solutions, durable tanks,
-                      efficient filters, and reliable pumps. Trust InRain for
+                      GeoTech Ecosystem is the best Rainwater Harvesting
+                      Solution for Industries, providing top-quality products
+                      and services. With extensive experience and expertise, we
+                      offer customized solutions, durable tanks, efficient
+                      filters, and reliable pumps. Trust GeoTech Ecosystem for
                       all your rainwater harvesting needs.
                     </p>
                   </div>

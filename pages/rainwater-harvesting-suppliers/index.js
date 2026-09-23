@@ -13,7 +13,7 @@ const Rainwater_Harvesting_Suppliers = () => {
       'Rainwater Harvesting Suppliers | Sustainable Water Management Solutions',
     desc: 'Looking for reliable rainwater harvesting suppliers? Discover expert solutions, high-quality tanks, filters, pumps, and customized rainwater harvesting systems for residential, commercial, and industrial water conservation needs.',
     keyword:
-      'rainwater harvesting suppliers, rainwater harvesting system supplier, rainwater harvesting company, water conservation solutions, rainwater harvesting equipment, rainwater storage tank supplier, rainwater harvesting filters, rainwater harvesting pumps, rooftop rainwater harvesting system, sustainable water management, commercial rainwater harvesting, industrial rainwater harvesting, customized rainwater harvesting solutions, water saving system, eco-friendly water conservation, groundwater recharge system, rainwater collection system, InRain Construction rainwater harvesting',
+      'rainwater harvesting suppliers, rainwater harvesting system supplier, rainwater harvesting company, water conservation solutions',
     canonical:
       'https://www.inrainwaterharvesting.com/rainwater-harvesting-suppliers',
     ogTitle:
@@ -227,11 +227,11 @@ const Rainwater_Harvesting_Suppliers = () => {
                       </h2>
 
                       <p className='leading-7 text-slate-100 text-[16px] md:text-md'>
-                        InRain Constructions Pvt. Ltd. is the best rainwater
-                        harvesting supplier, providing top-quality products and
-                        services. With extensive experience and expertise, we
-                        offer customized solutions, durable tanks, efficient
-                        filters, and reliable pumps. Trust InRain for all your
+                        GeoTech Ecosystem is the best rainwater harvesting
+                        supplier, providing top-quality products and services.
+                        With extensive experience and expertise, we offer
+                        customized solutions, durable tanks, efficient filters,
+                        and reliable pumps. Trust GeoTech Ecosystem for all your
                         rainwater harvesting needs.
                       </p>
                     </div>

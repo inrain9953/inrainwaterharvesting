@@ -5,23 +5,26 @@ const DynamicMetatag = ({ data }) => {
     <Head>
       <title>{data.title}</title>
       <meta charSet='UTF-8' />
-      <meta name='language' content='en' />
-      <meta name='author' content='InRain® Construction Pvt. Ltd.' />
+      <meta name='author' content='GeoTech Ecosystem' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0' />
       <meta name='robots' content='index, follow' />
       <meta property='og:type' content='website' />
-      <meta property='og:locale' content='en_US' />
+      <meta property='og:locale' content='en_IN' />
       <meta name='description' content={data.desc} />
       <meta name='keywords' content={data.keyword} />
-      <meta name='canonical' content={data.canonical} />
+      <meta rel='canonical' href={data.canonical} />
       <meta property='og:title' content={data.ogTitle} />
       <meta property='og:description' content={data.ogDescription} />
       <meta property='og:url' content={data.ogUrl} />
       <meta name='twitter:title' content={data.twittertitle} />
+      <meta
+        property='og:image:alt'
+        content={'GeoTech Ecosystem - Rainwater Harvesting System'}
+      />
       <meta name='twitter:description' content={data.twitterdescription} />
       <meta name='geo.region' content='IN' />
       <meta name='geo.placename' content={data.ogUrl} />
-      <meta property='og:site_name' content='InRain® Construction Pvt. Ltd.' />
+      <meta property='og:site_name' content='GeoTech Ecosystem' />
       <meta
         name='google-site-verification'
         content='PbDVyrzTtY0TXIc1bKpuhHLByOKSJEhYPGZ95GZtMyk'

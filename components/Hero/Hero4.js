@@ -38,7 +38,7 @@ const Hero4 = () => {
           {/* RIGHT CONTENT */}
           <div className="mt-10 md:mt-0">
             <span className="inline-flex items-center rounded-full bg-sky-100 text-sky-700 px-4 py-2 text-sm font-semibold mb-2">
-              InRain®
+              GeoTech Ecosystem
             </span>
 
             <h2 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-2">
@@ -62,9 +62,9 @@ const Hero4 = () => {
               </p>
 
               <p>
-                At InRain, we provide water conservation & management techniques
+                At GeoTech Ecosystem, we provide water conservation & management techniques
                 leveraging modern technology. Conservation methods and solutions
-                offered by InRain are not only environment friendly but
+                offered by GeoTech Ecosystem are not only environment friendly but
                 economical as well.
               </p>
             </div>
@@ -80,7 +80,7 @@ const Hero4 = () => {
               </h3>
 
               <p className="text-gray-600 leading-7 text-justify">
-                At InRain, we are using Modular Rainwater Harvesting System in
+                At GeoTech Ecosystem, we are using Modular Rainwater Harvesting System in
                 Delhi. This advanced German technology helps us to reduce costs
                 and improves the longevity of the rainwater harvesting system.
                 It helps in overcoming the major challenge of space-saving,
@@ -107,7 +107,7 @@ const Hero4 = () => {
               </h3>
 
               <p className="text-gray-600 leading-7 text-justify">
-                InRain firmly believes that the future of urban planning and
+                GeoTech Ecosystem firmly believes that the future of urban planning and
                 development is through the practice of water conservation and
                 management. We are fortunate Modular Rainwater Harvesting System
                 Service Provider to be blessed with the ability to contribute to
@@ -124,7 +124,7 @@ const Hero4 = () => {
               </h3>
 
               <p className="text-gray-600 leading-7 text-justify">
-                At InRain, we help organizations, housing societies and
+                At GeoTech Ecosystem, we help organizations, housing societies and
                 individuals to integrate water conservation and management into
                 their development plans. We aim to provide sustainability in
                 water conservation practices.

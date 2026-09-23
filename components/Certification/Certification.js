@@ -8,7 +8,7 @@ const Certification = () => {
         {/* Header */}
         <div className="text-center mb-10">
           <span className="inline-flex items-center rounded-full bg-sky-100 text-sky-700 px-4 py-2 text-sm font-semibold mb-2">
-            InRain® Certifications
+            GeoTech Ecosystem Certifications
           </span>
 
           <h3 className="text-2xl md:text-4xl font-bold text-gray-900">

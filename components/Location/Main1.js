@@ -22,7 +22,7 @@ const Main1 = ({ heading, location, img }) => {
             {/* LEFT CONTENT */}
             <div>
               <span className='inline-flex items-center rounded-full bg-sky-100 text-sky-700 px-4 py-2 text-sm font-semibold mb-5'>
-                InRain® Construction Pvt. Ltd. (ICPL)
+                GeoTech Ecosystem
               </span>
 
               <h1 className='text-2xl md:text-4xl font-bold leading-tight text-gray-900 mb-3'>
@@ -30,11 +30,12 @@ const Main1 = ({ heading, location, img }) => {
               </h1>
 
               <p className='text-gray-600 leading-7 text-justify text-base'>
-                <bold className='font-semibold'>
-                  InRain Construction Private Limited
-                </bold>{' '}
-                is a leading{' '}
-                <Link href={'/'} className='font-semibold text-sky-700 hover:text-green-600'>
+                <bold className='font-semibold'>GeoTech Ecosystem</bold> is a
+                leading{' '}
+                <Link
+                  href={'/'}
+                  className='font-semibold text-sky-700 hover:text-green-600'
+                >
                   {heading} in {location}
                 </Link>{' '}
                 specializing in advanced rainwater harvesting solutions. With a
@@ -49,7 +50,7 @@ const Main1 = ({ heading, location, img }) => {
               </p>
 
               <p className='text-gray-600 leading-7 text-justify text-base mt-3'>
-                At InRain Construction, we offer{' '}
+                At GeoTech Ecosystem, we offer{' '}
                 <Link
                   href='/modular-rainwater-harvesting-system'
                   className='text-sky-600 hover:underline font-semibold'
@@ -147,7 +148,7 @@ const Main1 = ({ heading, location, img }) => {
                     </span>
 
                     <h4 className='font-bold text-gray-900 text-lg'>
-                      InRain® Construction Pvt. Ltd. (ICPL)
+                      GeoTech Ecosystem
                     </h4>
                   </div>
                 </div>

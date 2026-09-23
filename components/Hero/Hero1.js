@@ -10,7 +10,7 @@ const Hero1 = () => {
           priority
           className='w-full h-full object-cover'
           src='/banner1.jpg'
-          alt='hero1'
+          alt='GeoTech Ecosystem - Rainwater Harvesting System in Delhi'
           width={1300}
           height={500}
         />
@@ -23,18 +23,17 @@ const Hero1 = () => {
             {/* LEFT CONTENT */}
             <div>
               <span className='inline-flex items-center rounded-full bg-sky-100 text-sky-700 px-4 py-2 text-sm font-semibold mb-5'>
-                InRain® Construction Pvt. Ltd. (ICPL)
+                GeoTech Ecosystem - A Unit of InRain® Construction Pvt. Ltd.
               </span>
 
               <h1 className='text-3xl md:text-4xl font-bold leading-tight text-gray-900 mb-3'>
-                Modular Rainwater Harvesting System in Delhi
+                Rainwater Harvesting System in Delhi
               </h1>
 
               <p className='text-gray-600 leading-7 text-justify text-base'>
-                InRain Construction Private Limited is a leading Rainwater
-                Harvesting System in Delhi specializing in advanced rainwater
-                harvesting solutions. With a strong track record of success, we
-                have executed over{' '}
+                GeoTech Ecosystem is a leading Rainwater Harvesting System in
+                Delhi specializing in advanced rainwater harvesting solutions.
+                With a strong track record of success, we have executed over{' '}
                 <span className='font-semibold text-sky-700'>
                   4000+ Rainwater Harvesting (RWH) Units
                 </span>{' '}
@@ -45,7 +44,7 @@ const Hero1 = () => {
               </p>
 
               <p className='text-gray-600 leading-7 text-justify text-base mt-3'>
-                At InRain Construction, we offer Modular Rainwater Harvesting
+                At GeoTech Ecosystem, we offer Modular Rainwater Harvesting
                 System Service Provider that help our clients optimize water
                 resources and promote environmental conservation. A Rainwater
                 Harvesting System collects rooftop rainwater, stores it safely,
@@ -141,7 +140,7 @@ const Hero1 = () => {
                     </span>
 
                     <h4 className='font-bold text-gray-900 text-lg'>
-                      InRain® Construction Pvt. Ltd. (ICPL)
+                      GeoTech Ecosystem
                     </h4>
                   </div>
                 </div>

@@ -12,20 +12,20 @@ import LocationCityIcon from '@mui/icons-material/LocationCity'
 const Business_Network = () => {
   const data = {
     title:
-      'Business Network | PAN India Rainwater Harvesting Solutions by InRain Construction',
-    desc: 'Explore InRain Construction Pvt. Ltd.’s PAN India business network delivering rainwater harvesting, groundwater recharge, modular storage tanks, and sustainable water conservation solutions with 1000+ completed projects across residential, commercial, industrial, and government sectors.',
+      'Business Network | PAN India Rainwater Harvesting Solutions by GeoTech Ecosystem',
+    desc: 'Explore GeoTech Ecosystem’s PAN India business network delivering rainwater harvesting, groundwater recharge, modular storage tanks, and sustainable water conservation solutions with 1000+ completed projects across residential, commercial, industrial, and government sectors.',
     keyword:
-      'business network rainwater harvesting, PAN India rainwater harvesting, rainwater harvesting company India, groundwater recharge solutions, modular rainwater harvesting system, rainwater harvesting projects India, water conservation solutions, rooftop rainwater harvesting, sustainable water management, industrial rainwater harvesting, commercial rainwater harvesting, residential rainwater harvesting, government rainwater harvesting projects, rainwater harvesting contractor India, modular storage tank supplier, groundwater recharge system India, water management company, InRain Construction Pvt Ltd',
+      'PAN India rainwater harvesting, rainwater harvesting company India, rainwater harvesting projects India, modular storage tank supplier, groundwater recharge system India, water management company',
     canonical: 'https://www.inrainwaterharvesting.com/business-network',
     ogTitle:
-      'Business Network | PAN India Rainwater Harvesting Solutions by InRain Construction',
+      'Business Network | PAN India Rainwater Harvesting Solutions by GeoTech Ecosystem',
     ogDescription:
-      'Explore InRain Construction Pvt. Ltd.’s PAN India business network delivering rainwater harvesting, groundwater recharge, modular storage tanks, and sustainable water conservation solutions with 1000+ completed projects across residential, commercial, industrial, and government sectors.',
+      'Explore GeoTech Ecosystem’s PAN India business network delivering rainwater harvesting, groundwater recharge, modular storage tanks, and sustainable water conservation solutions with 1000+ completed projects across residential, commercial, industrial, and government sectors.',
     ogUrl: 'https://www.inrainwaterharvesting.com/business-network',
     twittertitle:
-      'Business Network | PAN India Rainwater Harvesting Solutions by InRain Construction',
+      'Business Network | PAN India Rainwater Harvesting Solutions by GeoTech Ecosystem',
     twitterdescription:
-      'Explore InRain Construction Pvt. Ltd.’s PAN India business network delivering rainwater harvesting, groundwater recharge, modular storage tanks, and sustainable water conservation solutions with 1000+ completed projects across residential, commercial, industrial, and government sectors.'
+      'Explore GeoTech Ecosystem’s PAN India business network delivering rainwater harvesting, groundwater recharge, modular storage tanks, and sustainable water conservation solutions with 1000+ completed projects across residential, commercial, industrial, and government sectors.'
   }
   return (
     <>
@@ -75,7 +75,7 @@ const Business_Network = () => {
 
                 <div className='space-y-3 text-gray-700 leading-7 text-justify'>
                   <p>
-                    At InRain Construction Pvt. Ltd., we have established a
+                    At GeoTech Ecosystem, we have established a
                     strong business network across PAN India, delivering
                     innovative and sustainable rainwater harvesting and
                     groundwater recharge solutions for residential, commercial,
@@ -179,7 +179,7 @@ const Business_Network = () => {
 
                 <div className='space-y-3 leading-7 text-white/90 text-justify'>
                   <p>
-                    At InRain Construction Pvt. Ltd., our mission is to create a
+                    At GeoTech Ecosystem, our mission is to create a
                     water-secure future through innovative and efficient
                     rainwater harvesting solutions. Our nationwide presence and
                     successfully completed projects reflect our dedication to
@@ -203,7 +203,7 @@ const Business_Network = () => {
             </div>
 
             {/* RIGHT SIDEBAR */}
-            <div className='lg:sticky lg:top-34 h-fit'>
+            <div className='lg:sticky lg:top-38 h-fit'>
               <div className='overflow-hidden rounded-[36px] shadow-2xl border border-slate-200'>
                 <Image
                   src='/rainwater-harvesting-tank.jpg'

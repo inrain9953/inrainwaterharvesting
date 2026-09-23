@@ -13,7 +13,7 @@ const NewGenerationOfRainwaterHarvesting = () => {
       'New Generation of Rainwater Harvesting | Smart & Sustainable Water Solutions',
     desc: 'Discover the new generation of rainwater harvesting systems with smart, sustainable, and efficient water conservation solutions. Reduce water bills, support groundwater recharge, and adopt eco-friendly rainwater harvesting for homes, businesses, and communities.',
     keyword:
-      'new generation of rainwater harvesting, advanced rainwater harvesting system, smart rainwater harvesting, sustainable water management, rainwater harvesting system supplier, modern rainwater harvesting technology, eco-friendly water conservation, groundwater recharge system, rooftop rainwater harvesting, rainwater collection system, modular rainwater harvesting system, water saving solutions, commercial rainwater harvesting, industrial rainwater harvesting, residential rainwater harvesting, stormwater management system, rainwater harvesting company in Delhi, InRain Construction rainwater harvesting',
+      'new generation of rainwater harvesting, advanced rainwater harvesting system, smart rainwater harvesting, sustainable water management, rainwater harvesting system supplier',
     canonical:
       'https://www.inrainwaterharvesting.com/new-generation-of-rainwater-harvesting',
     ogTitle:
@@ -72,18 +72,18 @@ const NewGenerationOfRainwaterHarvesting = () => {
                   <div className='bg-white border border-slate-200 rounded-[32px] p-6 md:p-10 shadow-lg'>
                     <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
                       Are you concerned about water scarcity and want to impact
-                      the environment positively? Look no further than InRain
-                      Constructions Pvt. Ltd., your trusted partner in
-                      sustainable water management solutions. Based in Delhi, we
-                      are committed to revolutionizing rainwater harvesting
-                      techniques and providing innovative solutions for homes,
-                      businesses, and communities.
+                      the environment positively? Look no further than GeoTech
+                      Ecosystem, your trusted partner in sustainable water
+                      management solutions. Based in Delhi, we are committed to
+                      revolutionizing rainwater harvesting techniques and
+                      providing innovative solutions for homes, businesses, and
+                      communities.
                     </p>
                     <p className='text-gray-700 text-[15px] md:text-md leading-7 text-justify'>
-                      At InRain Constructions Pvt. Ltd., we believe in
-                      harnessing the power of nature to preserve and replenish
-                      our water resources. With our cutting-edge technologies
-                      and expertise, we offer comprehensive{' '}
+                      At GeoTech Ecosystem, we believe in harnessing the power
+                      of nature to preserve and replenish our water resources.
+                      With our cutting-edge technologies and expertise, we offer
+                      comprehensive{' '}
                       <Link
                         href={'/rainwater-harvesting-system'}
                         className='font-semibold text-green-500 hover:text-sky-500'
@@ -202,12 +202,12 @@ const NewGenerationOfRainwaterHarvesting = () => {
                     </h2>
 
                     <p className='leading-7 text-slate-100 text-[16px] md:text-md'>
-                      InRain Constructions Pvt. Ltd. is the best New Generation
-                      of Rainwater Harvesting System supplier, providing
-                      top-quality products and services. With extensive
-                      experience and expertise, we offer customized solutions,
-                      durable tanks, efficient filters, and reliable pumps.
-                      Trust InRain for all your rainwater harvesting needs.
+                      GeoTech Ecosystem is the best New Generation of Rainwater
+                      Harvesting System supplier, providing top-quality products
+                      and services. With extensive experience and expertise, we
+                      offer customized solutions, durable tanks, efficient
+                      filters, and reliable pumps. Trust GeoTech Ecosystem for
+                      all your rainwater harvesting needs.
                     </p>
                   </div>
                 </div>

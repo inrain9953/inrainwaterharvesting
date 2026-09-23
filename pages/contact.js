@@ -13,18 +13,18 @@ import { Call } from '@/components/Tracking/Call'
 
 const contact = () => {
   const data = {
-    title: 'Contact Us | InRain Construction Pvt. Ltd.',
-    desc: 'Contact us for a reliable Rainwater Harvesting System in India. InRain Construction Private Limited provide efficient solutions for sustainable water management. Contact Us.',
+    title: 'Contact Us | GeoTech Ecosystem',
+    desc: 'Contact us for a reliable Rainwater Harvesting System in India. GeoTech Ecosystem provide efficient solutions for sustainable water management. Contact Us.',
     keyword:
       'Contact Us, Contact us for Rainwater Harvesting System in India, Modular Rainwater Harvesting System Service Provider, Rainwater Harvesting System in Delhi, Polymer Type Rainwater Harvesting System in Delhi, Storm water Management in Delhi',
     canonical: 'https://www.inrainwaterharvesting.com/contact',
-    ogTitle: 'Contact Us | InRain Construction Pvt. Ltd.',
+    ogTitle: 'Contact Us | GeoTech Ecosystem',
     ogDescription:
-      'Contact us for a reliable Rainwater Harvesting System in India? InRain Construction Private Limited provide efficient solutions for sustainable water management. Contact Us.',
+      'Contact us for a reliable Rainwater Harvesting System in India? GeoTech Ecosystem provide efficient solutions for sustainable water management. Contact Us.',
     ogUrl: 'https://www.inrainwaterharvesting.com/contact',
-    twittertitle: 'Contact Us | InRain Construction Pvt. Ltd.',
+    twittertitle: 'Contact Us | GeoTech Ecosystem',
     twitterdescription:
-      'Contact Us for a reliable Rainwater Harvesting System in India? InRain Construction Private Limited provide efficient solutions for sustainable water management. Contact Us.'
+      'Contact Us for a reliable Rainwater Harvesting System in India? GeoTech Ecosystem provide efficient solutions for sustainable water management. Contact Us.'
   }
   return (
     <>
@@ -49,7 +49,7 @@ const contact = () => {
           {/* Hero Content */}
           <div className='absolute inset-0 flex flex-col justify-center items-center text-center px-4'>
             <span className='bg-sky-500 text-white px-5 py-2 rounded-full text-xs md:text-base font-semibold shadow-lg'>
-              InRain® Construction Pvt. Ltd.
+              GeoTech Ecosystem
             </span>
 
             <h1 className='text-3xl md:text-5xl font-bold text-white mt-1 drop-shadow-xl'>
@@ -75,12 +75,11 @@ const contact = () => {
 
                 <p className='text-slate-600 mt-2 leading-7 text-md'>
                   If you are seeking advanced rainwater harvesting solutions,
-                  look no further than InRain Construction Private Limited. Our
-                  experienced team, in-house manufacturing capabilities, and
-                  proven track record make us the ideal partner for your
-                  rainwater harvesting needs. Contact us today to discuss your
-                  requirements and embark on a sustainable water management
-                  journey.
+                  look no further than GeoTech Ecosystem. Our experienced team,
+                  in-house manufacturing capabilities, and proven track record
+                  make us the ideal partner for your rainwater harvesting needs.
+                  Contact us today to discuss your requirements and embark on a
+                  sustainable water management journey.
                 </p>
               </div>
 
@@ -134,8 +133,7 @@ const contact = () => {
                       href='https://www.google.com/maps/place/InRain+Construction+Private+Limited+-+Rainwater+Harvesting+System+%26+Modular+Rainwater+Harvesting+System+in+Delhi/@28.4825431,77.1882093,21z/data=!4m6!3m5!1s0x390d1fba2e998a7f:0x85a5a7f6bfc4915d!8m2!3d28.4825683!4d77.188446!16s%2Fg%2F11n039z1_z?entry=tts&g_ep=EgoyMDI0MDcwOS4wKgBIAVAD'
                       className='text-slate-600 hover:text-sky-600 transition leading-7 mt-2 block'
                     >
-                      Plot No 06, KH431, 1st floor, Main Road
-                      Chattarpur-Satbari, Satbari, New Delhi 110074
+                      Plot No 06, KH431, Chattarpur, New Delhi 110074
                     </a>
                   </div>
                 </div>

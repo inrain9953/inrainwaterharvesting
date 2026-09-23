@@ -9,7 +9,7 @@ const Hero5 = () => {
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-10">
           <span className="inline-flex items-center rounded-full bg-sky-100 text-sky-700 px-4 py-2 text-sm font-semibold mb-2">
-            InRain® Products
+            GeoTech Ecosystem Products
           </span>
 
           <h3 className="text-2xl md:text-4xl font-bold text-gray-900 mb-3">
@@ -17,10 +17,10 @@ const Hero5 = () => {
           </h3>
 
           <p className="text-gray-600 text-base md:text-md   leading-7">
-            InRain is a renowned provider of cutting-edge water conservation s
+            GeoTech Ecosystem is a renowned provider of cutting-edge water conservation s
             that aim to address the global water scarcity crisis. With a
             commitment to environmental sustainability and economic efficiency,
-            InRain offers a range of innovative solutions to help individuals,
+            GeoTech Ecosystem offers a range of innovative solutions to help individuals,
             communities, and businesses optimize their water usage and
             contribute to a more sustainable future.
           </p>

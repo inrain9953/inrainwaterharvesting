@@ -5,21 +5,15 @@ const DynamicSchema = ({ city, slug, heading, subheading, page }) => {
     '@context': 'https://schema.org',
     '@type': 'Organization',
 
-    name: 'InRain® Construction Pvt. Ltd.',
-    alternateName: 'InRain® Construction Pvt. Ltd.',
-
-    description: `Professional ${heading} in ${city.city}. InRain Construction provides ${subheading}, groundwater recharge systems, rainwater filtration, flood mitigation, storm water management and sustainable water conservation solutions in ${city.city}.`,
-
+    name: 'GeoTech Ecosystem',
+    alternateName: 'GeoTech Ecosystem - Rainwater Harvesting System',
+    description: `Professional ${heading} in ${city.city}. GeoTech Ecosystem provides ${subheading}, groundwater recharge systems, rainwater filtration, flood mitigation, storm water management and sustainable water conservation solutions in ${city.city}.`,
     url: `https://inrainwaterharvesting.com/${page}/${slug}`,
-
-    logo: 'https://inrainwaterharvesting.com/logo.png',
-
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: city.city,
-      addressRegion: 'India',
-      postalCode: city.postal_code
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.inrainwaterharvesting.com/logo.svg'
     },
+    image: 'https://www.inrainwaterharvesting.com/logo.png',
 
     contactPoint: [
       {
@@ -29,10 +23,40 @@ const DynamicSchema = ({ city, slug, heading, subheading, page }) => {
         contactType: 'customer enquiry'
       }
     ],
+
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: city.city,
+      postalCode: city.postal_code,
+      addressRegion: 'IN'
+    },
+
+    areaServed: {
+      '@type': 'Country',
+      name: 'India'
+    },
+
+    parentOrganization: {
+      '@type': 'Organization',
+      name: 'InRain Construction Pvt. Ltd.',
+      url: 'https://www.inrainconstruction.com/'
+    },
+
+    sameAs: [
+      'https://www.facebook.com/inrainconstructionofficial',
+      'https://x.com/InrainC',
+      'https://www.instagram.com/inrainconstruction/',
+      'https://in.pinterest.com/inrainc0212/'
+    ],
+
+    brand: {
+      '@type': 'Brand',
+      name: 'GeoTech Ecosystem'
+    },
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.6',
-      ratingCount: '2183'
+      ratingCount: '2197'
     }
   }
 

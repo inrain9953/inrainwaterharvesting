@@ -9,6 +9,7 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 import EmailIcon from '@mui/icons-material/Email'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
 import { Call } from '../Tracking/Call'
+import Image from 'next/image'
 import dynamic from 'next/dynamic'
 const Clients = dynamic(() => import('../Clients/Clients'), {
   ssr: false
@@ -59,19 +60,54 @@ export default function Footer () {
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5'>
             {/* Social Links */}
             <div>
-              <h3 className='text-3xl font-bold mb-5'>Social Links</h3>
-
-              <div className='flex gap-3 flex-wrap'>
-                {socialLinks.map((item, index) => (
-                  <Link
-                    target='_blank'
-                    key={index}
-                    href={item.href}
-                    className='w-10 h-10 rounded-full bg-sky-200 text-black flex items-center justify-center text-lg hover:scale-110 hover:bg-white transition duration-300'
-                  >
-                    {item.icon}
+              <div>
+                <div className='flex items-center gap-3'>
+                  <Link href={'/'} className='flex items-center justify-start'>
+                    <Image
+                      priority
+                      src='/logo.svg'
+                      alt='GeoTech Ecosystem Logo'
+                      width={80}
+                      height={80}
+                    />
                   </Link>
-                ))}
+                  <div>
+                    <p className='text-lg font-bold text-blue-950'>
+                      GeoTech Ecosystem
+                    </p>
+                    <span className='text-xs text-gray-100'>
+                      BUILDING VALUE WITH VISION
+                    </span>
+                  </div>
+                </div>
+                <hr className='border-gray-100 my-2 mx-1' />
+                <div>
+                  <span className='text-[12px] font-semibold'>
+                    A Unit of{' '}
+                    <Link
+                      href={'https://www.inrainconstruction.com/'}
+                      target='_blank'
+                      className='text-sky-200 hover:text-sky-500'
+                    >
+                      InRain Construction Pvt. Ltd.
+                    </Link>
+                  </span>
+                </div>
+              </div>
+              <div className='md:mt-10 mt-5'>
+                <h3 className='text-3xl font-bold mb-5'>Social Links</h3>
+                <div className='flex gap-3 flex-wrap'>
+                  {socialLinks.map((item, index) => (
+                    <Link
+                      target='_blank'
+                      key={index}
+                      href={item.href}
+                      className='w-10 h-10 rounded-full bg-sky-200 text-black flex items-center justify-center text-lg hover:scale-110 hover:bg-white transition duration-300'
+                    >
+                      {item.icon}
+                    </Link>
+                  ))}
+                </div>
               </div>
             </div>
 
@@ -127,8 +163,7 @@ export default function Footer () {
                       href='https://maps.app.goo.gl/QSZoYkgd8GufagvC6'
                     >
                       <p className='font-medium text-base text-white hover:text-sky-200'>
-                        Plot No 06, KH431, 1st floor, Main Road
-                        Chattarpur-Satbari, Satbari, New delhi 110074
+                        Plot No 06, KH431, Chattarpur, New delhi 110074
                       </p>
                     </a>
                   </div>
@@ -182,7 +217,8 @@ export default function Footer () {
         <div className='bg-green-900 border-t border-white/20'>
           <div className='max-w-7xl mx-auto px-6 py-2 text-center'>
             <span className='text-xs'>
-              © 2026 InRain Construction Pvt Ltd. All Rights Reserved.
+              © 2026 GeoTech Ecosystem - A Unit of InRain Construction Pvt Ltd.
+              All Rights Reserved.
             </span>
           </div>
         </div>

@@ -22,7 +22,7 @@ export default function RainwaterHarvestingPage ({ city, slug }) {
       ' ' +
       '|' +
       ' ' +
-      'InRain Construction Pvt. Ltd.',
+      'GeoTech Ecosystem',
     desc: `Get the best ${heading} in ${city.city}. We have high-quality ${heading} for your requirement. Our ${heading} Service Provider in ${city.city} will help you & easy to install. Contact now`,
     keyword: `${heading} in ${city.city}, ${subheading} in ${city.city}, Rainwater Harvesting Tank in ${city.city}, Polymer Type Rainwater Harvesting System in ${city.city}, Storm water Management in ${city.city}`,
     canonical: `https://www.inrainwaterharvesting.com/${page}/${slug}`,
@@ -31,7 +31,7 @@ export default function RainwaterHarvestingPage ({ city, slug }) {
       ' ' +
       '|' +
       ' ' +
-      'InRain Construction Pvt. Ltd.',
+      'GeoTech Ecosystem',
     ogDescription: `Get the best ${heading} in ${city.city}. We have high-quilt ${heading} for your need & requirement. Our ${heading} Service Provider in ${city.city} will help you & easy to install. Contact now`,
     ogUrl: `https://www.inrainwaterharvesting.com/${page}/${slug}`,
     twittertitle:
@@ -39,7 +39,7 @@ export default function RainwaterHarvestingPage ({ city, slug }) {
       ' ' +
       '|' +
       ' ' +
-      'InRain Construction Pvt. Ltd.',
+      'GeoTech Ecosystem',
     twitterdescription: `Get the best ${heading} in ${city.city}. We have high-quilt ${heading} for your need & requirement. Our ${heading} Service Provider in ${city.city} will help you & easy to install. Contact now`
   }
   return (

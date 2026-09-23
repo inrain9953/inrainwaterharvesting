@@ -13,7 +13,7 @@ const Hero3 = () => {
             <div>
               {/* Badge */}
               <span className='inline-flex items-center rounded-full bg-sky-100 text-sky-700 px-4 py-2 text-sm font-semibold mb-5'>
-                InRain®
+                GeoTech Ecosystem
               </span>
 
               {/* Heading */}

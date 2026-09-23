@@ -119,8 +119,8 @@ const Navbar = () => {
             <Link href={'/'} className='flex items-center justify-center h-18'>
               <Image
                 priority
-                src='/logo.png'
-                alt='logo'
+                src='/logo.svg'
+                alt='GeoTech Ecosystem Logo'
                 width={80}
                 height={80}
               />

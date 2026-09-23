@@ -488,22 +488,22 @@ export default function RainwaterHarvestingDelhiNCR () {
 
   const data = {
     title:
-      'Rainwater Harvesting Service Provider in Delhi NCR | InRain Construction',
-    desc: 'InRain Construction provides reliable rainwater harvesting solutions across Delhi NCR, including groundwater recharge, modular systems, filtration and stormwater management.',
+      'Rainwater Harvesting Service Provider in Delhi NCR | GeoTech Ecosystem',
+    desc: 'GeoTech Ecosystem provides reliable rainwater harvesting solutions across Delhi NCR, including groundwater recharge, modular systems, filtration and stormwater management.',
     keyword:
       'Rainwater harvesting company in Delhi NCR, Rainwater harvesting services Delhi, Rainwater harvesting in Gurgaon, Rainwater harvesting in Noida, rainwater harvesting system, rooftop rainwater harvesting, rainwater collection system, rainwater filtration system, groundwater recharge system, modular rainwater harvesting, commercial water management, water conservation, rainwater harvesting India',
     canonical:
       'https://www.inrainwaterharvesting.com/rainwater-harvesting-service-provider-in-delhi-ncr',
     ogTitle:
-      'Rainwater Harvesting Service Provider in Delhi NCR | InRain Construction',
+      'Rainwater Harvesting Service Provider in Delhi NCR | GeoTech Ecosystem',
     ogDescription:
-      'InRain Construction provides reliable rainwater harvesting solutions across Delhi NCR, including groundwater recharge, modular systems, filtration and stormwater management.',
+      'GeoTech Ecosystem provides reliable rainwater harvesting solutions across Delhi NCR, including groundwater recharge, modular systems, filtration and stormwater management.',
     ogUrl:
       'https://www.inrainwaterharvesting.com/rainwater-harvesting-service-provider-in-delhi-ncr',
     twittertitle:
-      'Rainwater Harvesting Service Provider in Delhi NCR | InRain Construction',
+      'Rainwater Harvesting Service Provider in Delhi NCR | GeoTech Ecosystem',
     twitterdescription:
-      'InRain Construction provides reliable rainwater harvesting solutions across Delhi NCR, including groundwater recharge, modular systems, filtration and stormwater management.'
+      'GeoTech Ecosystem provides reliable rainwater harvesting solutions across Delhi NCR, including groundwater recharge, modular systems, filtration and stormwater management.'
   }
 
   return (
@@ -518,7 +518,7 @@ export default function RainwaterHarvestingDelhiNCR () {
             src='/service11.jpg'
             width={1200}
             height={400}
-            alt="InRain Construction Pvt Ltd (ICPL) rainwater harvesting banner: illustration of a rooftop collecting rain into a storage tank, with the message 'Rainwater Harvesting — Do You Harvest Rainwater? If Not, Start Today!'"
+            alt="GeoTech Ecosystem rainwater harvesting banner: illustration of a rooftop collecting rain into a storage tank, with the message 'Rainwater Harvesting — Do You Harvest Rainwater? If Not, Start Today!'"
             className='w-full h-68 block'
           />
           <div className='max-w-6xl mx-auto px-6 py-10'>
@@ -547,7 +547,7 @@ export default function RainwaterHarvestingDelhiNCR () {
             </p>
             <p className='text-blue-100/80 max-w-2xl mb-3'>
               <strong className='text-white font-semibold'>
-                InRain Construction
+                GeoTech Ecosystem
               </strong>{' '}
               provides customized rainwater harvesting solutions for
               residential, commercial, industrial, institutional and
@@ -653,7 +653,7 @@ export default function RainwaterHarvestingDelhiNCR () {
               Our Rainwater Harvesting Services
             </h2>
             <p className='text-slate-600 max-w-2xl mb-10'>
-              At InRain Construction, we provide end-to-end rainwater harvesting
+              At GeoTech Ecosystem, we provide end-to-end rainwater harvesting
               solutions based on the requirements of each project.
             </p>
 
@@ -766,10 +766,10 @@ export default function RainwaterHarvestingDelhiNCR () {
         {/* ============================ WHY CHOOSE US ============================ */}
         <section className='max-w-6xl mx-auto px-6 py-10'>
           <p className='text-sky-600 text-sm font-semibold uppercase tracking-widest mb-3'>
-            The InRain Difference
+            The GeoTech Ecosystem Difference
           </p>
           <h2 className='text-2xl md:text-3xl font-bold text-blue-950 mb-2'>
-            Why Choose InRain Construction?
+            Why Choose GeoTech Ecosystem?
           </h2>
           <p className='text-slate-600 max-w-2xl mb-10'>
             Choosing the right{' '}
@@ -777,7 +777,7 @@ export default function RainwaterHarvestingDelhiNCR () {
               rainwater harvesting service
             </a>{' '}
             provider is important because the performance of a system depends
-            heavily on its design. At InRain Construction, we focus on
+            heavily on its design. At GeoTech Ecosystem, we focus on
             developing solutions around the actual requirements of each project.
           </p>
 
@@ -900,7 +900,7 @@ export default function RainwaterHarvestingDelhiNCR () {
               and improving a project's overall water-management strategy.
             </p>
             <p className='text-blue-100/75 max-w-2xl mb-3'>
-              At InRain Construction, we combine practical design with modern
+              At GeoTech Ecosystem, we combine practical design with modern
               rainwater harvesting solutions to help residential, commercial,
               industrial and institutional projects manage water more
               responsibly.
@@ -914,7 +914,7 @@ export default function RainwaterHarvestingDelhiNCR () {
             </p>
             <p className='text-white font-medium mb-6'>
               Looking for a Rainwater Harvesting Service Provider in Delhi-NCR?
-              Talk to InRain Construction about your project requirements.
+              Talk to GeoTech Ecosystem about your project requirements.
             </p>
             <div className='flex flex-wrap gap-3'>
               <Link

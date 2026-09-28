@@ -149,17 +149,16 @@ const contact = () => {
 
                     <div className='flex flex-col mt-2 gap-1'>
                       <a
-                        href='mailto:inrainconstruction@gmail.com'
-                        className='text-slate-600 hover:text-sky-600 transition break-all'
-                      >
-                        inrainconstruction@gmail.com
-                      </a>
-
-                      <a
                         href='mailto:sales@inrainwaterharvesting.com'
                         className='text-slate-600 hover:text-sky-600 transition break-all'
                       >
                         sales@inrainwaterharvesting.com
+                      </a>
+                      <a
+                        href='mailto:geotechecosystem@gmail.com'
+                        className='text-slate-600 hover:text-sky-600 transition break-all'
+                      >
+                        geotechecosystem@gmail.com
                       </a>
                     </div>
                   </div>

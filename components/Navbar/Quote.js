@@ -14,9 +14,9 @@ const Quote = ({ toggleContactForm }) => {
             </div>
             <a
               className='text-[12px] font-semibold cursor-pointer hover:text-sky-700'
-              href='mailto:sales@inrainwaterharvesting.com'
+              href='mailto:geotechecosystem@gmail.com'
             >
-              sales@inrainwaterharvesting.com
+              geotechecosystem@gmail.com
             </a>
           </div>
           <div className='flex items-center'>

@@ -14,21 +14,18 @@ import GoogleNavbar from '@/components/GoogleAdNavbar/GoogleNavbar'
 
 const ICPL = () => {
   const data = {
-    title:
-      'Rainwater Harvesting System in India | InRain Construction Pvt. Ltd.',
-    desc: 'Looking for a reliable Rainwater Harvesting System in India? InRain Construction Private Limited provide efficient solutions for sustainable water management and Modular Rainwater Harvesting System in India.',
+    title: 'Rainwater Harvesting System in India | GeoTech Ecosystem',
+    desc: 'Looking for a reliable Rainwater Harvesting System in India? GeoTech Ecosystem provide efficient solutions for sustainable water management and Modular Rainwater Harvesting System in India.',
     keyword:
       'Rainwater Harvesting System in India, Modular Rainwater Harvesting System, Polymer Type Rainwater Harvesting System in India, Storm water Management in India, Rainwater Harvesting Service Provider in India, Rainwater Harvesting Company in India',
     canonical: 'https://www.inrainwaterharvesting.com/icpl',
-    ogTitle:
-      'Rainwater Harvesting System in India | InRain Construction Pvt. Ltd.',
+    ogTitle: 'Rainwater Harvesting System in India | GeoTech Ecosystem',
     ogDescription:
-      'Looking for a reliable Rainwater Harvesting System in India? InRain Construction Private Limited provide efficient solutions for sustainable water management and Modular Rainwater Harvesting System in India',
+      'Looking for a reliable Rainwater Harvesting System in India? GeoTech Ecosystem provide efficient solutions for sustainable water management and Modular Rainwater Harvesting System in India',
     ogUrl: 'https://www.inrainwaterharvesting.com/icpl',
-    twittertitle:
-      'Rainwater Harvesting System in India | InRain Construction Pvt. Ltd.',
+    twittertitle: 'Rainwater Harvesting System in India | GeoTech Ecosystem',
     twitterdescription:
-      'Looking for a reliable Rainwater Harvesting System in India? InRain Construction Private Limited provide efficient solutions for sustainable water management and Modular Rainwater Harvesting System in India'
+      'Looking for a reliable Rainwater Harvesting System in India? GeoTech Ecosystem provide efficient solutions for sustainable water management and Modular Rainwater Harvesting System in India'
   }
   return (
     <>
@@ -68,7 +65,7 @@ const ICPL = () => {
               {/* LEFT CONTENT */}
               <div>
                 <span className='inline-flex items-center rounded-full bg-sky-100 text-sky-700 px-4 py-2 text-sm font-semibold mb-5'>
-                  InRain® Construction Pvt. Ltd. (ICPL)
+                  GeoTech Ecosystem
                 </span>
 
                 <h1 className='text-3xl md:text-5xl font-bold leading-tight text-gray-900 mb-3'>
@@ -76,10 +73,9 @@ const ICPL = () => {
                 </h1>
 
                 <p className='text-gray-600 leading-7 text-justify text-base'>
-                  InRain Construction Private Limited is a leading Rainwater
-                  Harvesting System in India specializing in advanced rainwater
-                  harvesting solutions. With a strong track record of success,
-                  we have executed over{' '}
+                  GeoTech Ecosystem is a leading Rainwater Harvesting System in
+                  India specializing in advanced rainwater harvesting solutions.
+                  With a strong track record of success, we have executed over{' '}
                   <span className='font-semibold text-sky-700'>
                     4000+ Rainwater Harvesting (RWH) Units
                   </span>{' '}
@@ -90,7 +86,7 @@ const ICPL = () => {
                 </p>
 
                 <p className='text-gray-600 leading-7 text-justify text-base mt-3'>
-                  At InRain Construction, we offer Modular Rainwater Harvesting
+                  At GeoTech Ecosystem, we offer Modular Rainwater Harvesting
                   System Service Provider that help our clients optimize water
                   resources and promote environmental conservation. A Rainwater
                   Harvesting System collects rooftop rainwater, stores it
@@ -138,7 +134,7 @@ const ICPL = () => {
                       </span>
 
                       <h4 className='font-bold text-gray-900 text-lg'>
-                        InRain® Construction Pvt. Ltd. (ICPL)
+                        GeoTech Ecosystem
                       </h4>
                     </div>
                   </div>
@@ -186,15 +182,15 @@ const ICPL = () => {
 
                 <div className='space-y-3 text-gray-600 leading-7 text-base md:text-md'>
                   <p>
-                    At <span className='font-semibold'>InRain®</span>, We are
-                    Engaged In Making
+                    At <span className='font-semibold'>GeoTech Ecosystem</span>,
+                    We are Engaged In Making
                     <span className='font-semibold'>
                       {' '}
                       Rainwater Harvesting (RWH) Pits in India
                     </span>{' '}
                     Based on the technology adopted from Germany. It is indeed
                     entirely different from conventional rain water system.
-                    InRain® is Fully equipped with In house Make and
+                    GeoTech Ecosystem is Fully equipped with In house Make and
                     Manufacturing process, ensuring its best in class – quality.
                     We share our contribution to Nation being proud partner of
                     “Make in India Movement”
@@ -291,7 +287,7 @@ const ICPL = () => {
               <div>
                 {/* Badge */}
                 <span className='inline-flex items-center rounded-full bg-sky-100 text-sky-700 px-4 py-2 text-sm font-semibold mb-5'>
-                  InRain®
+                  GeoTech Ecosystem
                 </span>
 
                 {/* Heading */}
@@ -427,7 +423,7 @@ const ICPL = () => {
             {/* RIGHT CONTENT */}
             <div className='mt-10 md:mt-0'>
               <span className='inline-flex items-center rounded-full bg-sky-100 text-sky-700 px-4 py-2 text-sm font-semibold mb-2'>
-                InRain®
+                GeoTech Ecosystem
               </span>
 
               <h2 className='text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-2'>
@@ -452,10 +448,11 @@ const ICPL = () => {
                 </p>
 
                 <p>
-                  At InRain, we provide water conservation & management
-                  techniques leveraging modern technology. Conservation methods
-                  and solutions offered by InRain are not only environment
-                  friendly but economical as well.
+                  At GeoTech Ecosystem, we provide water conservation &
+                  management techniques leveraging modern technology.
+                  Conservation methods and solutions offered by GeoTech
+                  Ecosystem are not only environment friendly but economical as
+                  well.
                 </p>
               </div>
             </div>
@@ -470,12 +467,12 @@ const ICPL = () => {
                 </h3>
 
                 <p className='text-gray-600 leading-7 text-justify'>
-                  At InRain, we are using Modular Rainwater Harvesting System in
-                  India. This advanced German technology helps us to reduce
-                  costs and improves the longevity of the rainwater harvesting
-                  system. It helps in overcoming the major challenge of
-                  space-saving, which is a prime concern in urban planning and
-                  development.
+                  At GeoTech Ecosystem, we are using Modular Rainwater
+                  Harvesting System in India. This advanced German technology
+                  helps us to reduce costs and improves the longevity of the
+                  rainwater harvesting system. It helps in overcoming the major
+                  challenge of space-saving, which is a prime concern in urban
+                  planning and development.
                 </p>
               </div>
 
@@ -498,14 +495,15 @@ const ICPL = () => {
                 </h3>
 
                 <p className='text-gray-600 leading-7 text-justify'>
-                  InRain firmly believes that the future of urban planning and
-                  development is through the practice of water conservation and
-                  management. We are fortunate Modular Rainwater Harvesting
-                  System Service Provider to be blessed with the ability to
-                  contribute to save the environment movement, while we help
-                  others to incorporate water conservation methods and practices
-                  in life. And we are also a proud partner in the make in India
-                  movement as we manufacture all our parts in India.
+                  GeoTech Ecosystem firmly believes that the future of urban
+                  planning and development is through the practice of water
+                  conservation and management. We are fortunate Modular
+                  Rainwater Harvesting System Service Provider to be blessed
+                  with the ability to contribute to save the environment
+                  movement, while we help others to incorporate water
+                  conservation methods and practices in life. And we are also a
+                  proud partner in the make in India movement as we manufacture
+                  all our parts in India.
                 </p>
               </div>
 
@@ -515,8 +513,8 @@ const ICPL = () => {
                 </h3>
 
                 <p className='text-gray-600 leading-7 text-justify'>
-                  At InRain, we help organizations, housing societies and
-                  individuals to integrate water conservation and management
+                  At GeoTech Ecosystem, we help organizations, housing societies
+                  and individuals to integrate water conservation and management
                   into their development plans. We aim to provide sustainability
                   in water conservation practices.
                 </p>
@@ -562,7 +560,7 @@ const ICPL = () => {
           {/* Header */}
           <div className='max-w-3xl mx-auto text-center mb-10'>
             <span className='inline-flex items-center rounded-full bg-sky-100 text-sky-700 px-4 py-2 text-sm font-semibold mb-2'>
-              InRain® Products
+              GeoTech Ecosystem Products
             </span>
 
             <h3 className='text-2xl md:text-4xl font-bold text-gray-900 mb-3'>
@@ -570,12 +568,13 @@ const ICPL = () => {
             </h3>
 
             <p className='text-gray-600 text-base md:text-md   leading-7'>
-              InRain is a renowned provider of cutting-edge water conservation s
-              that aim to address the global water scarcity crisis. With a
-              commitment to environmental sustainability and economic
-              efficiency, InRain offers a range of innovative solutions to help
-              individuals, communities, and businesses optimize their water
-              usage and contribute to a more sustainable future.
+              GeoTech Ecosystem is a renowned provider of cutting-edge water
+              conservation solutions that aim to address the global water
+              scarcity crisis. With a commitment to environmental sustainability
+              and economic efficiency, GeoTech Ecosystem offers a range of
+              innovative solutions to help individuals, communities, and
+              businesses optimize their water usage and contribute to a more
+              sustainable future.
             </p>
           </div>
 
@@ -737,21 +736,21 @@ const ICPL = () => {
 
               <div className='space-y-4 text-gray-600 text-base md:text-md leading-7 text-justify'>
                 <p>
-                  At InRain Construction, we have successfully executed over
-                  4000+ rainwater harvesting units for prestigious clients such
-                  as Hindustan Unilever Limited (HUL), PepsiCo, Sobha
-                  Developers, Central Public Works Department (CPWD), Public
-                  Works Department (PWD), Smart Cities, and the residences of
-                  Supreme Court Judges, among others. These projects have
-                  enabled us to gain unparalleled expertise in rainwater
-                  harvesting, making us a frontrunner in the industry. A Water
-                  Harvesting System in India helps collect and store rainwater,
-                  conserving resources, reducing dependency on groundwater, and
-                  supporting sustainable water management.
+                  At GeoTech Ecosystem, we have successfully executed over 4000+
+                  rainwater harvesting units for prestigious clients such as
+                  Hindustan Unilever Limited (HUL), PepsiCo, Sobha Developers,
+                  Central Public Works Department (CPWD), Public Works
+                  Department (PWD), Smart Cities, and the residences of Supreme
+                  Court Judges, among others. These projects have enabled us to
+                  gain unparalleled expertise in rainwater harvesting, making us
+                  a frontrunner in the industry. A Water Harvesting System in
+                  India helps collect and store rainwater, conserving resources,
+                  reducing dependency on groundwater, and supporting sustainable
+                  water management.
                 </p>
 
                 <p>
-                  Experienced Team: At InRain Construction, we take pride in our
+                  Experienced Team: At GeoTech Ecosystem, we take pride in our
                   highly experienced team of professionals. With an average
                   industry experience of over 30 years, our team possesses a
                   deep understanding of sustainable construction methods and

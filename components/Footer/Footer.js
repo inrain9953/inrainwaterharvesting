@@ -193,19 +193,18 @@ export default function Footer () {
                 {/* Email */}
                 <div className='space-y-1'>
                   <a
-                    href='mailto:inrainconstruction@gmail.com'
-                    className='flex items-center gap-1 text-sm hover:text-sky-200 transition break-all'
-                  >
-                    <EmailIcon />
-                    inrainconstruction@gmail.com
-                  </a>
-
-                  <a
                     href='mailto:sales@inrainwaterharvesting.com'
                     className='flex items-center gap-1 text-sm hover:text-sky-200 transition break-all'
                   >
                     <EmailIcon />
                     sales@inrainwaterharvesting.com
+                  </a>
+                  <a
+                    href='mailto:geotechecosystem@gmail.com'
+                    className='flex items-center gap-1 text-sm hover:text-sky-200 transition break-all'
+                  >
+                    <EmailIcon />
+                    geotechecosystem@gmail.com
                   </a>
                 </div>
               </div>

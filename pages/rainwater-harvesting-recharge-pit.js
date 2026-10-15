@@ -39,23 +39,23 @@ const RainwaterHarvestingRechargePit = () => {
           <div className='absolute -left-32 top-20 h-72 w-72 rounded-full bg-sky-200/40 blur-3xl' />
           <div className='absolute -right-32 bottom-0 h-80 w-80 rounded-full bg-cyan-200/40 blur-3xl' />
 
-          <div className='relative mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20'>
+          <div className='relative mx-auto max-w-7xl px-6 py-10 lg:px-8'>
             <div className='grid items-center gap-12 lg:grid-cols-2'>
               {/* Hero Content */}
               <div>
                 <span className='inline-flex rounded-full border border-sky-200 bg-sky-100 px-4 py-2 text-sm font-semibold text-sky-700'>
-                  Rainwater Harvesting Recharge Pit
+                  GeoTech Ecosystem
                 </span>
 
                 <h1 className='mt-6 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-5xl'>
                   Rainwater Harvesting Recharge Pit
                 </h1>
 
-                <p className='mt-5 text-xl font-semibold text-sky-700'>
+                <p className='mt-5 font-semibold text-sky-700'>
                   An Effective Solution for Groundwater Recharge
                 </p>
 
-                <p className='mt-6 text-base leading-8 text-slate-600 sm:text-lg'>
+                <p className='mt-6 text-base leading-8 text-slate-600'>
                   Rainwater is a valuable natural resource, but a significant
                   amount of rainfall is often lost as surface runoff. In urban
                   and developed areas, concrete roofs, paved surfaces, roads,
@@ -63,10 +63,10 @@ const RainwaterHarvestingRechargePit = () => {
                   of rainwater into the ground.
                 </p>
 
-                <p className='mt-5 text-base leading-8 text-slate-600 sm:text-lg'>
+                <p className='mt-5 text-base leading-8 text-slate-600'>
                   A{' '}
                   <Link
-                    href='/'
+                    href='https://www.inrainwaterharvesting.com/'
                     target='_blank'
                     className='text-sky-500 hover:text-green-500 font-semibold'
                   >
@@ -79,7 +79,7 @@ const RainwaterHarvestingRechargePit = () => {
                   runoff and support groundwater recharge.
                 </p>
 
-                <p className='mt-5 text-base leading-8 text-slate-600 sm:text-lg'>
+                <p className='mt-5 text-base leading-8 text-slate-600'>
                   Recharge pits can be used for residential buildings,
                   commercial properties, institutions, industrial facilities,
                   schools, warehouses, and other suitable sites. The size and
@@ -116,20 +116,20 @@ const RainwaterHarvestingRechargePit = () => {
               What is a Rainwater Harvesting Recharge Pit?
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               A rainwater harvesting recharge pit is a specially constructed pit
               that receives collected rainwater and allows it to gradually
               infiltrate into the surrounding ground.
             </p>
 
-            <p className='mt-5 text-lg leading-8 text-slate-600'>
+            <p className='mt-5 text-base leading-8 text-slate-600'>
               The pit is generally filled with suitable layers of materials such
               as gravel, coarse sand, and other appropriate filter media. These
               layers help reduce the entry of suspended particles while allowing
               water to pass into the surrounding soil.
             </p>
 
-            <p className='mt-6 text-lg font-semibold text-slate-900'>
+            <p className='mt-6 text-base font-semibold text-slate-900'>
               Rainwater may reach the recharge pit through:
             </p>
 
@@ -152,7 +152,7 @@ const RainwaterHarvestingRechargePit = () => {
               ))}
             </ul>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               The exact structure and filtration arrangement should be selected
               according to the site's conditions and water quality requirements.
             </p>
@@ -169,7 +169,7 @@ const RainwaterHarvestingRechargePit = () => {
                 How Does a Recharge Pit Work?
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 A typical rainwater harvesting recharge pit works through a
                 straightforward process.
               </p>
@@ -183,7 +183,7 @@ const RainwaterHarvestingRechargePit = () => {
                     1. Rainwater Collection
                   </h3>
 
-                  <p className='mt-3 text-lg leading-8 text-slate-600'>
+                  <p className='mt-3 text-base leading-8 text-slate-600'>
                     Rainwater is collected from a suitable catchment area, such
                     as a rooftop, terrace, paved area, or other approved
                     surface.
@@ -198,7 +198,7 @@ const RainwaterHarvestingRechargePit = () => {
                     2. Conveyance
                   </h3>
 
-                  <p className='mt-3 text-lg leading-8 text-slate-600'>
+                  <p className='mt-3 text-base leading-8 text-slate-600'>
                     Gutters, pipes, and drainage channels carry the collected
                     water toward a filtration arrangement and eventually to the
                     recharge pit.
@@ -213,7 +213,7 @@ const RainwaterHarvestingRechargePit = () => {
                     3. Filtration
                   </h3>
 
-                  <p className='mt-3 text-lg leading-8 text-slate-600'>
+                  <p className='mt-3 text-base leading-8 text-slate-600'>
                     Before entering the pit, collected water should generally
                     pass through an appropriate filtration or screening
                     arrangement. This helps remove leaves, debris, silt, and
@@ -229,7 +229,7 @@ const RainwaterHarvestingRechargePit = () => {
                     4. Water Entry into the Pit
                   </h3>
 
-                  <p className='mt-3 text-lg leading-8 text-slate-600'>
+                  <p className='mt-3 text-base leading-8 text-slate-600'>
                     Filtered rainwater enters the recharge pit and accumulates
                     within the permeable material placed inside the structure.
                   </p>
@@ -237,13 +237,13 @@ const RainwaterHarvestingRechargePit = () => {
 
                 {/* Step 5 */}
                 <div className='relative pl-8'>
-                  <span className='absolute -left-[1px] top-0 flex h-5 w-5 rounded-full bg-sky-600 ring-8 ring-slate-50' />
+                  <span className='absolute -left-[11px] top-0 flex h-5 w-5 rounded-full bg-sky-600 ring-8 ring-slate-50' />
 
                   <h3 className='text-xl font-bold text-slate-900'>
                     5. Groundwater Recharge
                   </h3>
 
-                  <p className='mt-3 text-lg leading-8 text-slate-600'>
+                  <p className='mt-3 text-base leading-8 text-slate-600'>
                     The collected water gradually moves through the surrounding
                     soil and suitable geological layers. This process can
                     contribute to groundwater recharge where site conditions are
@@ -264,7 +264,7 @@ const RainwaterHarvestingRechargePit = () => {
               Components of a Rainwater Recharge Pit
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               The exact components vary according to the design, but a typical
               system may include:
             </p>
@@ -294,7 +294,7 @@ const RainwaterHarvestingRechargePit = () => {
               ))}
             </div>
 
-            <p className='mt-7 text-lg leading-8 text-slate-600'>
+            <p className='mt-7 text-base leading-8 text-slate-600'>
               The materials and dimensions should be selected according to the
               expected flow, soil characteristics, and project requirements.
             </p>
@@ -426,7 +426,7 @@ const RainwaterHarvestingRechargePit = () => {
               Applications of Recharge Pits
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               Rainwater harvesting recharge pits can be used in various
               locations, including:
             </p>
@@ -459,7 +459,7 @@ const RainwaterHarvestingRechargePit = () => {
               ))}
             </div>
 
-            <p className='mt-7 text-lg leading-8 text-slate-600'>
+            <p className='mt-7 text-base leading-8 text-slate-600'>
               The system should always be designed according to the
               characteristics and requirements of the specific site.
             </p>
@@ -476,7 +476,7 @@ const RainwaterHarvestingRechargePit = () => {
                 Factors to Consider Before Installing a Recharge Pit
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 A recharge pit should not be installed solely based on the
                 available space. Proper site evaluation is important for
                 determining whether groundwater recharge is suitable.
@@ -578,7 +578,7 @@ const RainwaterHarvestingRechargePit = () => {
               Maintenance of a Recharge Pit
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               Regular maintenance is necessary to prevent clogging and maintain
               infiltration performance.
             </p>
@@ -611,7 +611,7 @@ const RainwaterHarvestingRechargePit = () => {
               ))}
             </div>
 
-            <p className='mt-7 text-lg leading-8 text-slate-600'>
+            <p className='mt-7 text-base leading-8 text-slate-600'>
               The maintenance frequency depends on rainfall, catchment
               conditions, surrounding environment, and the amount of sediment
               entering the system.
@@ -629,7 +629,7 @@ const RainwaterHarvestingRechargePit = () => {
                 Recharge Pit vs. Rainwater Storage
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 A recharge pit and a rainwater storage system serve different
                 primary purposes.
               </p>
@@ -641,7 +641,7 @@ const RainwaterHarvestingRechargePit = () => {
                     💧
                   </div>
 
-                  <p className='mt-5 text-lg leading-8 text-slate-600'>
+                  <p className='mt-5 text-base leading-8 text-slate-600'>
                     A <strong>storage system</strong> collects rainwater and
                     keeps it available for later use, such as gardening,
                     cleaning, flushing, or other suitable applications.
@@ -654,7 +654,7 @@ const RainwaterHarvestingRechargePit = () => {
                     ↓
                   </div>
 
-                  <p className='mt-5 text-lg leading-8 text-slate-600'>
+                  <p className='mt-5 text-base leading-8 text-slate-600'>
                     A <strong>recharge pit</strong> is primarily designed to
                     allow suitable collected rainwater to infiltrate into the
                     ground and support groundwater recharge.
@@ -663,7 +663,7 @@ const RainwaterHarvestingRechargePit = () => {
               </div>
 
               <div className='mt-6 rounded-2xl border border-sky-100 bg-white p-6 shadow-sm'>
-                <p className='text-lg leading-8 text-slate-600'>
+                <p className='text-base leading-8 text-slate-600'>
                   In some projects, both approaches can be combined. Rainwater
                   can be stored for reuse while excess water is directed toward
                   an appropriate recharge structure.
@@ -686,7 +686,7 @@ const RainwaterHarvestingRechargePit = () => {
                 A Sustainable Approach to Groundwater Conservation
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-300'>
+              <p className='mt-6 text-base leading-8 text-slate-300'>
                 A{' '}
                 <strong className='text-white'>
                   Rainwater Harvesting Recharge Pit
@@ -699,13 +699,13 @@ const RainwaterHarvestingRechargePit = () => {
                 better use of seasonal rainfall.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-300'>
+              <p className='mt-5 text-base leading-8 text-slate-300'>
                 However, the effectiveness of a recharge pit depends heavily on
                 proper design, suitable soil and geological conditions, adequate
                 filtration, and regular maintenance.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-300'>
+              <p className='mt-5 text-base leading-8 text-slate-300'>
                 For residential, commercial, institutional, or industrial
                 projects, a site-specific assessment can help determine the
                 appropriate pit size, filtration arrangement, location, and
@@ -714,7 +714,7 @@ const RainwaterHarvestingRechargePit = () => {
 
               {/* Final Statement */}
               <div className='mt-10 rounded-3xl border border-white/10 bg-white/10 p-7 backdrop-blur-sm'>
-                <p className='text-xl font-semibold leading-9 text-white sm:text-2xl'>
+                <p className='text-lg font-semibold leading-9 text-white'>
                   Capture rainwater, recharge the ground, and make every drop
                   contribute to a more sustainable water future.
                 </p>

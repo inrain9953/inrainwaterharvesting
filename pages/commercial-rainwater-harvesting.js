@@ -34,23 +34,23 @@ const CommercialRainwaterHarvesting = () => {
       <main className='bg-white text-slate-700'>
         {/* Hero Section */}
         <section className='overflow-hidden bg-gradient-to-br from-sky-50 via-white to-cyan-50'>
-          <div className='mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20'>
+          <div className='mx-auto max-w-7xl px-6 py-10 lg:px-8'>
             <div className='grid items-center gap-12 lg:grid-cols-2'>
               {/* Content */}
               <div>
                 <span className='inline-flex rounded-full bg-sky-100 px-4 py-2 text-sm font-semibold text-sky-700'>
-                  Commercial Rainwater Harvesting
+                  GeoTech Ecosystem
                 </span>
 
                 <h1 className='mt-5 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-5xl'>
                   Commercial Rainwater Harvesting
                 </h1>
 
-                <p className='mt-5 text-xl font-semibold text-sky-700'>
+                <p className='mt-5 text-md font-semibold text-sky-700'>
                   Smart Water Management for Commercial Properties
                 </p>
 
-                <p className='mt-6 text-base leading-8 text-slate-600 sm:text-lg'>
+                <p className='mt-6 text-base leading-8 text-slate-600'>
                   Water is an essential resource for every commercial property.
                   Offices, shopping complexes, hotels, hospitals, educational
                   institutions, warehouses, residential societies, and other
@@ -58,12 +58,12 @@ const CommercialRainwaterHarvesting = () => {
                   landscaping, cooling, and other activities.
                 </p>
 
-                <p className='mt-5 text-base leading-8 text-slate-600 sm:text-lg'>
+                <p className='mt-5 text-base leading-8 text-slate-600'>
                   As water demand increases and conventional water sources
                   become more stressed, commercial properties need practical
                   ways to conserve and manage water.{' '}
                   <Link
-                    href='/'
+                    href='https://www.inrainwaterharvesting.com/'
                     target='_blank'
                     className='text-sky-500 hover:text-green-500 font-semibold'
                   >
@@ -74,7 +74,7 @@ const CommercialRainwaterHarvesting = () => {
                   productive use.
                 </p>
 
-                <p className='mt-5 text-base leading-8 text-slate-600 sm:text-lg'>
+                <p className='mt-5 text-base leading-8 text-slate-600'>
                   Instead of allowing rainwater to flow away through
                   conventional drainage systems, a rainwater harvesting system
                   can collect, filter, store, reuse, or recharge the collected
@@ -109,13 +109,13 @@ const CommercialRainwaterHarvesting = () => {
               What is Commercial Rainwater Harvesting?
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               Commercial rainwater harvesting is the process of collecting
               rainwater from commercial buildings and other developed areas and
               managing it for storage, reuse, or groundwater recharge.
             </p>
 
-            <p className='mt-5 text-lg leading-8 text-slate-600'>
+            <p className='mt-5 text-base leading-8 text-slate-600'>
               Large commercial properties generally have substantial roof and
               paved areas. These surfaces can collect considerable amounts of
               rainwater during the monsoon season.
@@ -148,7 +148,7 @@ const CommercialRainwaterHarvesting = () => {
               ))}
             </ul>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               The components can be selected and configured according to the
               requirements of the property.
             </p>
@@ -163,7 +163,7 @@ const CommercialRainwaterHarvesting = () => {
                 Why is Rainwater Harvesting Important for Commercial Properties?
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 Commercial properties consume water throughout the year, while
                 rainfall is generally concentrated during specific periods.
                 Rainwater harvesting helps bridge this gap by capturing water
@@ -276,7 +276,7 @@ const CommercialRainwaterHarvesting = () => {
                   1. Rainwater Collection
                 </h3>
 
-                <p className='mt-3 text-lg leading-8 text-slate-600'>
+                <p className='mt-3 text-base leading-8 text-slate-600'>
                   Rainwater is collected from rooftops, terraces, sheds, parking
                   areas, and other suitable catchment surfaces. Gutters,
                   channels, and pipes transport the collected water toward the
@@ -292,7 +292,7 @@ const CommercialRainwaterHarvesting = () => {
                   2. First-Flush Diversion
                 </h3>
 
-                <p className='mt-3 text-lg leading-8 text-slate-600'>
+                <p className='mt-3 text-base leading-8 text-slate-600'>
                   The first rainfall after a dry period may wash accumulated
                   dust, dirt, leaves, and other materials from the catchment
                   surface. A first-flush arrangement can divert this initial
@@ -308,13 +308,13 @@ const CommercialRainwaterHarvesting = () => {
                   3. Filtration
                 </h3>
 
-                <p className='mt-3 text-lg leading-8 text-slate-600'>
+                <p className='mt-3 text-base leading-8 text-slate-600'>
                   The collected water passes through an appropriate filtration
                   system to remove suspended particles and other physical
                   impurities.
                 </p>
 
-                <p className='mt-4 text-lg leading-8 text-slate-600'>
+                <p className='mt-4 text-base leading-8 text-slate-600'>
                   The type and capacity of the filter should be selected
                   according to the catchment area, expected runoff, and intended
                   use of the water.
@@ -329,7 +329,7 @@ const CommercialRainwaterHarvesting = () => {
                   4. Storage or Groundwater Recharge
                 </h3>
 
-                <p className='mt-3 text-lg leading-8 text-slate-600'>
+                <p className='mt-3 text-base leading-8 text-slate-600'>
                   After filtration, the water can be stored in tanks or
                   underground storage structures for future use. Where
                   conditions are suitable, the water can instead be directed
@@ -343,7 +343,7 @@ const CommercialRainwaterHarvesting = () => {
 
                 <h3 className='text-xl font-bold text-slate-900'>5. Reuse</h3>
 
-                <p className='mt-3 text-lg leading-8 text-slate-600'>
+                <p className='mt-3 text-base leading-8 text-slate-600'>
                   Stored rainwater can be used for suitable non-potable
                   applications such as:
                 </p>
@@ -367,7 +367,7 @@ const CommercialRainwaterHarvesting = () => {
                   ))}
                 </ul>
 
-                <p className='mt-5 text-lg leading-8 text-slate-600'>
+                <p className='mt-5 text-base leading-8 text-slate-600'>
                   For drinking water or other applications requiring higher
                   water quality, appropriate treatment and water-quality testing
                   are necessary.
@@ -385,7 +385,7 @@ const CommercialRainwaterHarvesting = () => {
                 Applications of Commercial Rainwater Harvesting
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 Commercial rainwater harvesting systems can be installed in a
                 wide range of properties, including:
               </p>
@@ -419,7 +419,7 @@ const CommercialRainwaterHarvesting = () => {
                 ))}
               </div>
 
-              <p className='mt-7 text-lg leading-8 text-slate-600'>
+              <p className='mt-7 text-base leading-8 text-slate-600'>
                 The system can be designed for both new construction projects
                 and existing properties, subject to site conditions and
                 available infrastructure.
@@ -436,14 +436,14 @@ const CommercialRainwaterHarvesting = () => {
                 Modular Rainwater Harvesting for Commercial Properties
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 Commercial properties often have limited open space because of
                 parking areas, landscaping, buildings, roads, and other
                 infrastructure. Underground modular rainwater harvesting systems
                 can help address this challenge.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-600'>
+              <p className='mt-5 text-base leading-8 text-slate-600'>
                 Modular systems use engineered underground modules to provide
                 storage and/or infiltration capacity while making efficient use
                 of available underground space.
@@ -489,7 +489,7 @@ const CommercialRainwaterHarvesting = () => {
                 Factors to Consider Before Installation
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 A commercial rainwater harvesting system should be designed
                 specifically for the property rather than using a standard
                 arrangement for every site.
@@ -527,7 +527,7 @@ const CommercialRainwaterHarvesting = () => {
                 ))}
               </div>
 
-              <p className='mt-7 text-lg leading-8 text-slate-600'>
+              <p className='mt-7 text-base leading-8 text-slate-600'>
                 A detailed site assessment can help identify the most suitable
                 collection, filtration, storage, and recharge solution.
               </p>
@@ -542,7 +542,7 @@ const CommercialRainwaterHarvesting = () => {
               Maintenance of Commercial Rainwater Harvesting Systems
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               Regular maintenance helps keep the system efficient and reliable.
             </p>
 
@@ -572,7 +572,7 @@ const CommercialRainwaterHarvesting = () => {
               ))}
             </div>
 
-            <p className='mt-7 text-lg leading-8 text-slate-600'>
+            <p className='mt-7 text-base leading-8 text-slate-600'>
               Pre-monsoon inspection and cleaning are particularly useful for
               ensuring that the system is ready to handle rainfall efficiently.
             </p>
@@ -587,7 +587,7 @@ const CommercialRainwaterHarvesting = () => {
                 A Sustainable Water Solution for Commercial Buildings
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-300'>
+              <p className='mt-6 text-base leading-8 text-slate-300'>
                 Commercial rainwater harvesting is a practical way to make
                 better use of naturally available rainwater. By capturing runoff
                 from large rooftops and other suitable surfaces, commercial
@@ -595,14 +595,14 @@ const CommercialRainwaterHarvesting = () => {
                 and reduce their dependence on external water sources.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-300'>
+              <p className='mt-5 text-base leading-8 text-slate-300'>
                 From simple rooftop collection systems to advanced filtration,
                 underground storage, groundwater recharge, and modular
                 harvesting solutions, the system can be customized according to
                 the property's requirements.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-300'>
+              <p className='mt-5 text-base leading-8 text-slate-300'>
                 A properly designed and maintained{' '}
                 <strong className='text-white'>
                   Commercial Rainwater Harvesting System
@@ -622,7 +622,7 @@ const CommercialRainwaterHarvesting = () => {
                 Build a Smarter Water Management System
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-sky-50'>
+              <p className='mt-6 text-base leading-8 text-sky-50'>
                 Every commercial property has different requirements based on
                 its location, catchment area, rainfall, water consumption, soil
                 conditions, and available space. A site-specific assessment
@@ -630,7 +630,7 @@ const CommercialRainwaterHarvesting = () => {
                 conditions.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-sky-50'>
+              <p className='mt-5 text-base leading-8 text-sky-50'>
                 By combining{' '}
                 <strong className='text-white'>
                   rainwater collection, filtration, storage, reuse, and

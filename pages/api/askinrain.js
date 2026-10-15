@@ -19,7 +19,7 @@ export default async function handler (req, res) {
     
     Our websites - "www.inrainwaterharvesting.com", "www.inrainconstruction.com", "www.inrainconstruction.in".
     
-    Calculation of Pit Area(in cubic meter) = (Rooftop area(in square meter)) * 0.0208)
+    Calculation of Pit Area(in cubic meter) = (Rooftop area(in square meter) * 0.0208)
     Calculation of Rooftop area(in square meter) = Length*breadth(in meter)
     
     What We Do:

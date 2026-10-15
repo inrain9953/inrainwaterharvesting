@@ -34,23 +34,23 @@ const IndustrialRainwaterHarvesting = () => {
       <main className='bg-white text-slate-700'>
         {/* Hero Section */}
         <section className='overflow-hidden bg-gradient-to-br from-sky-50 via-white to-cyan-50'>
-          <div className='mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20'>
+          <div className='mx-auto max-w-7xl px-6 py-10 lg:px-8'>
             <div className='grid items-center gap-12 lg:grid-cols-2'>
               {/* Hero Content */}
               <div>
                 <span className='inline-flex rounded-full bg-sky-100 px-4 py-2 text-sm font-semibold text-sky-700'>
-                  Industrial Rainwater Harvesting
+                  GeoTech Ecosystem
                 </span>
 
                 <h1 className='mt-5 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-5xl'>
                   Industrial Rainwater Harvesting
                 </h1>
 
-                <p className='mt-5 text-xl font-semibold text-sky-700'>
+                <p className='mt-5 text-base font-semibold text-sky-700'>
                   Sustainable Water Management for Industrial Facilities
                 </p>
 
-                <p className='mt-6 text-base leading-8 text-slate-600 sm:text-lg'>
+                <p className='mt-6 text-base leading-8 text-slate-600'>
                   Industries require a reliable supply of water for
                   manufacturing, cleaning, cooling, landscaping, sanitation, and
                   other operational activities. As water demand continues to
@@ -58,10 +58,10 @@ const IndustrialRainwaterHarvesting = () => {
                   need practical ways to conserve and manage water efficiently.
                 </p>
 
-                <p className='mt-5 text-base leading-8 text-slate-600 sm:text-lg'>
+                <p className='mt-5 text-base leading-8 text-slate-600'>
                   <Link
                     className='font-semibold text-sky-500 hover:text-green-500'
-                    href={'/'}
+                    href={'https://www.inrainwaterharvesting.com/'}
                     target='_blank'
                   >
                     Industrial Rainwater Harvesting
@@ -75,7 +75,7 @@ const IndustrialRainwaterHarvesting = () => {
                   toward groundwater recharge.
                 </p>
 
-                <p className='mt-5 text-base leading-8 text-slate-600 sm:text-lg'>
+                <p className='mt-5 text-base leading-8 text-slate-600'>
                   A properly designed industrial rainwater harvesting system can
                   help reduce dependence on external water sources, improve
                   water management, and support long-term environmental
@@ -108,13 +108,13 @@ const IndustrialRainwaterHarvesting = () => {
               What is Industrial Rainwater Harvesting?
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               Industrial rainwater harvesting is the process of collecting
               rainwater from large industrial catchment areas such as factory
               rooftops, warehouses, sheds, parking areas, and paved surfaces.
             </p>
 
-            <p className='mt-5 text-lg leading-8 text-slate-600'>
+            <p className='mt-5 text-base leading-8 text-slate-600'>
               The collected rainwater is passed through suitable filtration and
               treatment arrangements before being stored or used for groundwater
               recharge. Depending on the quality of the harvested water and its
@@ -147,7 +147,7 @@ const IndustrialRainwaterHarvesting = () => {
               ))}
             </ul>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               The system can be designed according to the size, layout, water
               demand, rainfall pattern, and site conditions of the industrial
               facility.
@@ -163,20 +163,20 @@ const IndustrialRainwaterHarvesting = () => {
                 Why Do Industries Need Rainwater Harvesting?
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 Large industrial properties often have extensive rooftops and
                 paved areas. During the monsoon, these surfaces can generate
                 significant quantities of rainwater.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-600'>
+              <p className='mt-5 text-base leading-8 text-slate-600'>
                 Without proper management, much of this water may leave the
                 premises as surface runoff. At the same time, the facility may
                 continue depending on groundwater, municipal water, tankers, or
                 other external sources.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-600'>
+              <p className='mt-5 text-base leading-8 text-slate-600'>
                 Industrial rainwater harvesting helps address this gap by making
                 productive use of rainwater available on the site.
               </p>
@@ -266,7 +266,7 @@ const IndustrialRainwaterHarvesting = () => {
               How Does an Industrial Rainwater Harvesting System Work?
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               An industrial rainwater harvesting system generally follows a
               series of stages.
             </p>
@@ -280,7 +280,7 @@ const IndustrialRainwaterHarvesting = () => {
                   1. Collection
                 </h3>
 
-                <p className='mt-3 text-lg leading-8 text-slate-600'>
+                <p className='mt-3 text-base leading-8 text-slate-600'>
                   Rainwater is collected from suitable surfaces such as factory
                   roofs, warehouse roofs, sheds, and other approved catchment
                   areas. Drainage channels and pipes transfer the collected
@@ -296,7 +296,7 @@ const IndustrialRainwaterHarvesting = () => {
                   2. First-Flush Diversion
                 </h3>
 
-                <p className='mt-3 text-lg leading-8 text-slate-600'>
+                <p className='mt-3 text-base leading-8 text-slate-600'>
                   The first rainfall after a dry period may carry dust, leaves,
                   dirt, and other materials accumulated on the catchment
                   surface. A first-flush arrangement can divert this initial
@@ -312,14 +312,14 @@ const IndustrialRainwaterHarvesting = () => {
                   3. Filtration
                 </h3>
 
-                <p className='mt-3 text-lg leading-8 text-slate-600'>
+                <p className='mt-3 text-base leading-8 text-slate-600'>
                   The collected water passes through an appropriate filtration
                   system. Filters can remove suspended particles and other
                   physical impurities before the water enters storage or
                   recharge structures.
                 </p>
 
-                <p className='mt-4 text-lg leading-8 text-slate-600'>
+                <p className='mt-4 text-base leading-8 text-slate-600'>
                   The filtration arrangement should be selected according to the
                   catchment conditions and intended use of the water.
                 </p>
@@ -333,7 +333,7 @@ const IndustrialRainwaterHarvesting = () => {
                   4. Storage or Recharge
                 </h3>
 
-                <p className='mt-3 text-lg leading-8 text-slate-600'>
+                <p className='mt-3 text-base leading-8 text-slate-600'>
                   After filtration, rainwater can be stored in tanks or
                   underground systems for later use. Alternatively, where
                   geological and site conditions permit, it can be directed into
@@ -343,17 +343,17 @@ const IndustrialRainwaterHarvesting = () => {
 
               {/* Step 5 */}
               <div className='relative pl-8'>
-                <span className='absolute -left-[1px] top-0 flex h-5 w-5 rounded-full bg-sky-600 ring-8 ring-white' />
+                <span className='absolute -left-[11px] top-0 flex h-5 w-5 rounded-full bg-sky-600 ring-8 ring-white' />
 
                 <h3 className='text-xl font-bold text-slate-900'>5. Reuse</h3>
 
-                <p className='mt-3 text-lg leading-8 text-slate-600'>
+                <p className='mt-3 text-base leading-8 text-slate-600'>
                   Stored rainwater can be used for suitable applications such as
                   landscaping, gardening, cleaning, toilet flushing, vehicle
                   washing, and other utility requirements.
                 </p>
 
-                <p className='mt-4 text-lg leading-8 text-slate-600'>
+                <p className='mt-4 text-base leading-8 text-slate-600'>
                   If rainwater is intended for potable or process applications,
                   appropriate treatment and water-quality testing should be
                   carried out according to the required standards.
@@ -371,7 +371,7 @@ const IndustrialRainwaterHarvesting = () => {
                 Applications of Industrial Rainwater Harvesting
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 Industrial rainwater harvesting can be used across many types of
                 facilities, including:
               </p>
@@ -403,7 +403,7 @@ const IndustrialRainwaterHarvesting = () => {
                 ))}
               </div>
 
-              <p className='mt-7 text-lg leading-8 text-slate-600'>
+              <p className='mt-7 text-base leading-8 text-slate-600'>
                 The exact application of harvested rainwater depends on the
                 water quality, treatment system, and operational requirements of
                 the facility.
@@ -420,7 +420,7 @@ const IndustrialRainwaterHarvesting = () => {
                 Modular Industrial Rainwater Harvesting Systems
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 Large industrial sites may have limited open space or
                 challenging soil and infrastructure conditions. In such
                 situations,{' '}
@@ -428,7 +428,7 @@ const IndustrialRainwaterHarvesting = () => {
                 provide an efficient underground solution.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-600'>
+              <p className='mt-5 text-base leading-8 text-slate-600'>
                 Modular systems use specially designed underground structures to
                 create storage or infiltration capacity beneath areas such as
                 parking spaces, driveways, landscaped zones, and other suitable
@@ -463,7 +463,7 @@ const IndustrialRainwaterHarvesting = () => {
           </div>
 
           <div className='mx-auto mt-8 max-w-5xl'>
-            <p className='text-lg leading-8 text-slate-600'>
+            <p className='text-base leading-8 text-slate-600'>
               The appropriate system should be selected after evaluating the
               site's structural, hydraulic, geological, and operational
               requirements.
@@ -479,7 +479,7 @@ const IndustrialRainwaterHarvesting = () => {
                 Factors to Consider Before Installation
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 An industrial rainwater harvesting system should be designed
                 according to the specific characteristics of the site.
               </p>
@@ -516,7 +516,7 @@ const IndustrialRainwaterHarvesting = () => {
                 ))}
               </div>
 
-              <p className='mt-7 text-lg leading-8 text-slate-600'>
+              <p className='mt-7 text-base leading-8 text-slate-600'>
                 A proper site assessment helps determine the appropriate
                 collection, filtration, storage, and recharge arrangement.
               </p>
@@ -531,7 +531,7 @@ const IndustrialRainwaterHarvesting = () => {
               Maintenance of Industrial Rainwater Harvesting Systems
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               Regular maintenance is important for maintaining system
               performance.
             </p>
@@ -562,7 +562,7 @@ const IndustrialRainwaterHarvesting = () => {
               ))}
             </div>
 
-            <p className='mt-7 text-lg leading-8 text-slate-600'>
+            <p className='mt-7 text-base leading-8 text-slate-600'>
               Routine inspection is particularly important before and during the
               monsoon season.
             </p>
@@ -577,7 +577,7 @@ const IndustrialRainwaterHarvesting = () => {
                 A Practical Step Toward Sustainable Industrial Water Management
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-300'>
+              <p className='mt-6 text-base leading-8 text-slate-300'>
                 Industrial rainwater harvesting provides industries with a
                 practical method of conserving rainwater and improving overall
                 water management. By collecting rainwater from large available
@@ -585,14 +585,14 @@ const IndustrialRainwaterHarvesting = () => {
                 resource while reducing unnecessary runoff.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-300'>
+              <p className='mt-5 text-base leading-8 text-slate-300'>
                 From conventional rooftop harvesting and groundwater recharge to
                 advanced filtration and modular underground systems, the
                 solution can be customized according to the facility's
                 requirements.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-300'>
+              <p className='mt-5 text-base leading-8 text-slate-300'>
                 With proper planning, quality components, suitable filtration,
                 and regular maintenance,{' '}
                 <strong className='text-white'>
@@ -614,14 +614,14 @@ const IndustrialRainwaterHarvesting = () => {
                 Plan Your Industrial Rainwater Harvesting System
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-sky-50'>
+              <p className='mt-6 text-base leading-8 text-sky-50'>
                 Every industrial site has different rainfall conditions,
                 catchment areas, water requirements, and ground conditions. A
                 site-specific assessment is therefore essential for developing
                 an efficient solution.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-sky-50'>
+              <p className='mt-5 text-base leading-8 text-sky-50'>
                 A professionally designed system can combine{' '}
                 <strong className='text-white'>
                   rainwater collection, filtration, storage, groundwater
@@ -631,7 +631,7 @@ const IndustrialRainwaterHarvesting = () => {
               </p>
 
               <div className='mt-8 rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-sm'>
-                <p className='text-lg font-semibold leading-8 text-white'>
+                <p className='text-base font-semibold leading-8 text-white'>
                   Capture rainwater today, manage it efficiently, and turn every
                   rainfall event into a valuable water resource for your
                   industrial facility.

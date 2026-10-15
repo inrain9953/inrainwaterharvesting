@@ -34,19 +34,19 @@ const WaterHarvestingSystem = () => {
       <main className='bg-white text-slate-700'>
         {/* Hero Section */}
         <section className='relative overflow-hidden bg-gradient-to-br from-sky-50 via-white to-cyan-50'>
-          <div className='mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20'>
+          <div className='mx-auto max-w-7xl px-6 py-10 lg:px-8'>
             <div className='grid items-center gap-12 lg:grid-cols-2'>
               {/* Content */}
               <div>
                 <span className='mb-5 inline-flex rounded-full bg-sky-100 px-4 py-2 text-sm font-semibold text-sky-700'>
-                  Water Harvesting System in India
+                  GeoTech Ecosystem
                 </span>
 
                 <h1 className='text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-5xl'>
                   Water Harvesting System in India
                 </h1>
 
-                <p className='mt-6 text-base leading-8 text-slate-600 sm:text-lg'>
+                <p className='mt-6 text-base leading-8 text-slate-600'>
                   Water is one of the most valuable natural resources, and India
                   faces growing pressure on its water resources due to
                   population growth, urbanization, industrial development,
@@ -55,11 +55,11 @@ const WaterHarvestingSystem = () => {
                   regular concern, especially during the summer months.
                 </p>
 
-                <p className='mt-5 text-base leading-8 text-slate-600 sm:text-lg'>
+                <p className='mt-5 text-base leading-8 text-slate-600'>
                   A{' '}
                   <Link
                     target='_blank'
-                    href='/'
+                    href='https://www.inrainwaterharvesting.com/'
                     className='font-semibold text-green-500 hover:text-sky-500'
                   >
                     Water Harvesting System in India
@@ -98,7 +98,7 @@ const WaterHarvestingSystem = () => {
               What is a Water Harvesting System?
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               A water harvesting system is a planned method of collecting and
               managing rainwater from suitable surfaces such as rooftops,
               terraces, paved areas, open spaces, and other catchment areas.
@@ -127,7 +127,7 @@ const WaterHarvestingSystem = () => {
               ))}
             </ul>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               The design of a system depends on factors such as rainfall,
               catchment area, soil conditions, available space, water demand,
               and the purpose for which the harvested water will be used.
@@ -143,7 +143,7 @@ const WaterHarvestingSystem = () => {
                 Why is Water Harvesting Important in India?
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 India receives a significant amount of rainfall, but rainfall is
                 not evenly distributed throughout the country or throughout the
                 year. A large quantity of rainwater can be lost as surface
@@ -151,7 +151,7 @@ const WaterHarvestingSystem = () => {
                 water scarcity during dry periods.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-600'>
+              <p className='mt-5 text-base leading-8 text-slate-600'>
                 Water harvesting helps address this imbalance by capturing
                 rainwater when it is available and managing it for future use.
               </p>
@@ -225,7 +225,7 @@ const WaterHarvestingSystem = () => {
               How Does a Water Harvesting System Work?
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               A typical rainwater harvesting system follows a simple process:
             </p>
 
@@ -290,7 +290,7 @@ const WaterHarvestingSystem = () => {
               </div>
 
               <div className='relative pl-7'>
-                <span className='absolute -left-[1px] top-0 flex h-5 w-5 items-center justify-center rounded-full bg-sky-600 ring-8 ring-white' />
+                <span className='absolute -left-[11px] top-0 flex h-5 w-5 items-center justify-center rounded-full bg-sky-600 ring-8 ring-white' />
 
                 <h3 className='text-xl font-bold text-slate-900'>5. Reuse</h3>
 
@@ -313,7 +313,7 @@ const WaterHarvestingSystem = () => {
               Applications of Water Harvesting Systems
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               Water harvesting can be implemented across a wide range of
               locations, including:
             </p>
@@ -344,7 +344,7 @@ const WaterHarvestingSystem = () => {
               ))}
             </div>
 
-            <p className='mt-7 text-lg leading-8 text-slate-600'>
+            <p className='mt-7 text-base leading-8 text-slate-600'>
               The system can be customized according to the site's water
               requirement, available area, rainfall pattern, soil
               characteristics, and groundwater conditions.
@@ -360,7 +360,7 @@ const WaterHarvestingSystem = () => {
                 Benefits of a Water Harvesting System
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-300'>
+              <p className='mt-6 text-base leading-8 text-slate-300'>
                 A properly planned water harvesting system offers both
                 environmental and economic benefits.
               </p>
@@ -428,21 +428,21 @@ const WaterHarvestingSystem = () => {
                 Water Harvesting for Industries
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 Industrial facilities often have large rooftops, paved areas,
                 and open spaces that can provide substantial catchment areas.
                 This makes water harvesting particularly useful for industrial
                 water management.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-600'>
+              <p className='mt-5 text-base leading-8 text-slate-600'>
                 Collected rainwater can be considered for applications such as
                 gardening, landscaping, cleaning, flushing, cooling-related
                 requirements, and other suitable non-potable uses, depending on
                 water quality and treatment requirements.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-600'>
+              <p className='mt-5 text-base leading-8 text-slate-600'>
                 For large industrial projects, a site assessment is important
                 before designing the system. Factors such as rainfall data,
                 catchment area, runoff potential, existing drainage, soil
@@ -456,13 +456,13 @@ const WaterHarvestingSystem = () => {
                 Water Harvesting for Urban Areas
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 Rapid urbanization has increased the amount of concrete and
                 paved surfaces across Indian cities. These surfaces reduce
                 natural infiltration and can increase stormwater runoff.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-600'>
+              <p className='mt-5 text-base leading-8 text-slate-600'>
                 Water harvesting systems can help cities and individual
                 properties manage rainwater more effectively. Rooftop
                 collection, recharge structures, detention systems, and modular
@@ -470,7 +470,7 @@ const WaterHarvestingSystem = () => {
                 requirements.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-slate-600'>
+              <p className='mt-5 text-base leading-8 text-slate-600'>
                 For urban projects, proper planning is especially important
                 because underground utilities, limited open space, drainage
                 networks, and existing structures can influence system design.
@@ -487,7 +487,7 @@ const WaterHarvestingSystem = () => {
                 Factors to Consider Before Installation
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-slate-600'>
+              <p className='mt-6 text-base leading-8 text-slate-600'>
                 Every site is different, so a water harvesting system should not
                 be selected only on the basis of system size or available
                 products.
@@ -521,7 +521,7 @@ const WaterHarvestingSystem = () => {
                 ))}
               </ul>
 
-              <p className='mt-7 text-lg leading-8 text-slate-600'>
+              <p className='mt-7 text-base leading-8 text-slate-600'>
                 A professional assessment can help determine the most suitable
                 combination of collection, filtration, storage, and recharge
                 components.
@@ -537,14 +537,14 @@ const WaterHarvestingSystem = () => {
               Building a Water-Secure Future with Water Harvesting
             </h2>
 
-            <p className='mt-6 text-lg leading-8 text-slate-600'>
+            <p className='mt-6 text-base leading-8 text-slate-600'>
               India's future water security depends not only on finding new
               water sources but also on managing existing resources responsibly.
               Rainwater is a valuable resource that can be captured and utilized
               instead of being lost as uncontrolled runoff.
             </p>
 
-            <p className='mt-5 text-lg leading-8 text-slate-600'>
+            <p className='mt-5 text-base leading-8 text-slate-600'>
               A well-designed <strong>Water Harvesting System in India</strong>{' '}
               can help homes, businesses, industries, institutions, and
               communities conserve water, improve rainwater management, support
@@ -552,7 +552,7 @@ const WaterHarvestingSystem = () => {
               sources.
             </p>
 
-            <p className='mt-5 text-lg leading-8 text-slate-600'>
+            <p className='mt-5 text-base leading-8 text-slate-600'>
               With the right design, quality components, and regular
               maintenance, water harvesting can become a practical part of
               modern water management rather than simply a seasonal solution.
@@ -568,7 +568,7 @@ const WaterHarvestingSystem = () => {
                 Choose the Right Water Harvesting Solution
               </h2>
 
-              <p className='mt-6 text-lg leading-8 text-sky-50'>
+              <p className='mt-6 text-base leading-8 text-sky-50'>
                 The most effective water harvesting system is one designed
                 around the actual conditions of the site. From rooftop rainwater
                 collection and filtration to groundwater recharge and modular
@@ -576,7 +576,7 @@ const WaterHarvestingSystem = () => {
                 create an efficient and sustainable solution.
               </p>
 
-              <p className='mt-5 text-lg leading-8 text-sky-50'>
+              <p className='mt-5 text-base leading-8 text-sky-50'>
                 Whether the requirement is for a residential property,
                 commercial building, industrial facility, institutional campus,
                 or large infrastructure project, proper planning and technical

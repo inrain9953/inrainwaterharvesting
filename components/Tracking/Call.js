@@ -1,4 +1,4 @@
-export async function Call () {
+export default async function Call () {
   try {
     await fetch('/api/track-call', {
       method: 'POST',

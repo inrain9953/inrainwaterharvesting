@@ -8,7 +8,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn'
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 import EmailIcon from '@mui/icons-material/Email'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
-import { Call } from '../Tracking/Call'
+import Call from '../Tracking/Call'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 const Clients = dynamic(() => import('../Clients/Clients'), {

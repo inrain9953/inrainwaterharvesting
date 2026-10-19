@@ -1,4 +1,4 @@
-export async function Whatsapp () {
+export default async function Whatsapp () {
   try {
     await fetch('/api/track-whatsapp', {
       method: 'POST',

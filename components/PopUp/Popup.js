@@ -7,8 +7,8 @@ import CloseIcon from '@mui/icons-material/Close'
 import { TypeAnimation } from 'react-type-animation'
 import ChatMessage from '../AI/ChatMessage'
 import ThreePIcon from '@mui/icons-material/ThreeP'
-import { Call } from '../Tracking/Call'
-import { Whatsapp } from '../Tracking/Whatsapp'
+import Call from '../Tracking/Call'
+import Whatsapp from '../Tracking/Whatsapp'
 
 const ChatWindow = memo(
   ({

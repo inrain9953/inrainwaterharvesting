@@ -9,7 +9,7 @@ import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/Footer'
 import StaticMetatag from '@/components/Schema/StaticMetatag'
 import StaticSchema from '@/components/Schema/StaticSchema'
-import { Call } from '@/components/Tracking/Call'
+import Call from '@/components/Tracking/Call'
 
 const contact = () => {
   const data = {

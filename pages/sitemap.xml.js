@@ -39,6 +39,7 @@ function generateSiteMap () {
     '/rainwater-harvesting-service-provider-in-delhi-ncr',
     '/industrial-rainwater-harvesting',
     '/commercial-rainwater-harvesting',
+    '/rainwater-harvesting-calculator',
     '/blogs/how-modular-rainwater-harvesting-is-revolutionizing-industrial-water-management',
     '/blogs/top-10-rainwater-harvesting-companies-in-india',
     '/blogs/water-logging-issue-in-gurgaon'

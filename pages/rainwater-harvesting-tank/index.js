@@ -27,9 +27,9 @@ const RainwaterHarvestingtank = () => {
   }
   return (
     <>
-      <Navbar />
       <StaticMetatag data={data} />
       <StaticSchema />
+      <Navbar />
       <main>
         <section className='bg-gradient-to-b from-slate-50 to-white pb-20 overflow-hidden'>
           {/* HERO IMAGE */}

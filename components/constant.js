@@ -276,6 +276,11 @@ export const clientSlider2 = [
 
 export const serviceData = [
   {
+    title: 'Rainwater Harvesting Calculator',
+    link: '/rainwater-harvesting-calculator',
+    img: '/rainwater-harvesting-system.jpg'
+  },
+  {
     title: 'Rainwater Harvesting System',
     link: '/rainwater-harvesting-system',
     img: '/rainwater-harvesting-system.jpg'

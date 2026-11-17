@@ -79,7 +79,7 @@ const Navbar = () => {
                     transition-all duration-300
                     hover:bg-sky-50 hover:text-green-600
                     ${
-                      service.danger
+                      service.title === 'Rainwater Harvesting Calculator'
                         ? 'text-red-600 animate-pulse'
                         : 'text-gray-700'
                     }

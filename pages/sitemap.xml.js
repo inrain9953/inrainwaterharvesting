@@ -283,6 +283,20 @@ function generateSiteMap () {
     `
   ).join('')
 
+  // Rainwater Harvesting Calculation Location Dynamic pages
+  const RWHCalculation = CityData.map(
+    city => `
+      <url>
+        <loc>
+          ${BASE_URL}/rainwater-harvesting-calculator/${city.slug}
+        </loc>
+        <lastmod>${daily}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
+      </url>
+    `
+  ).join('')
+
   return `<?xml version="1.0" encoding="UTF-8"?>
   <urlset
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
@@ -308,6 +322,7 @@ function generateSiteMap () {
     ${PrefabricatedRWH}
     ${WHSystem}
     ${RWHPit}
+    ${RWHCalculation}
   </urlset>`
 }
 

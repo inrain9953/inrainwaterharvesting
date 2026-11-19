@@ -12,7 +12,7 @@ const AREA = {
   sliderMax: 5000,
   sliderStep: 10
 }
-const RAIN = { min: 0.25, max: 5000, sliderMax: 2500, step: 0.25 }
+const RAIN = { min: 0.25, max: 5000, sliderMax: 250, step: 0.25 }
 const TANKER_LITRES = 10000
 const BARS = 24
 const THUMB_PX = 16
@@ -116,7 +116,7 @@ function RainMeter ({ lit }) {
 /* ---------- Main component ---------- */
 export default function RainwaterEstimator () {
   const area = useNumberField(1200, AREA.min, AREA.max)
-  const rain = useNumberField(700, RAIN.min, RAIN.max)
+  const rain = useNumberField(100, RAIN.min, RAIN.max)
 
   const litres = area.value * rain.value * COEFFICIENT
   const isIndustrial = area.value >= INDUSTRIAL_FROM
